@@ -18,6 +18,10 @@ class GameplayInstrumentation:Instrumentation() {
     private val results=mutableListOf<String>()
     override fun onCreate(arguments:Bundle?) { probeArguments=arguments;super.onCreate(arguments);start() }
     override fun onStart() {
+        if(probeArguments!!.containsKey("networkRole")) {
+            NetworkScenario(this).run(probeArguments!!)
+            return
+        }
         if(probeArguments!!.containsKey("updates")) {
             UpdatesScenario(this).run(probeArguments!!)
             return
@@ -208,12 +212,12 @@ class GameplayInstrumentation:Instrumentation() {
             check(v.highScores.champion==ScoreEntry(score,"ABC"))
             screenshot("new-champion")
         }
-        val connectionMonitor=addMonitor(ConnectionActivity::class.java.name,null,false)
-        scenario("connection prototype is reachable from TV title menu") {
+        val connectionMonitor=addMonitor(NetworkActivity::class.java.name,null,false)
+        scenario("network play is reachable from TV title menu") {
             val v=activity.gameView;v.screen="TITLE";v.menu=5
             key(KeyEvent.KEYCODE_DPAD_CENTER)
         }
-        val connectionActivity=waitForMonitorWithTimeout(connectionMonitor,10_000) as ConnectionActivity
+        val connectionActivity=waitForMonitorWithTimeout(connectionMonitor,10_000) as NetworkActivity
         removeMonitor(connectionMonitor)
         runOnMainSync { connectionActivity.finish() }
         val updatesMonitor=addMonitor(UpdatesActivity::class.java.name,null,false)

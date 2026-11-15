@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.1.0] - 2026-11-14
+
+### Added
+
+- Added actual two-TV Joust matches with host/join pairing, player readiness, host start, shared pause/resume, final scores, rematches, and coordinated session exit.
+- Added host-ordered input replication over encrypted QUIC, synchronizing both players, enemies, collisions, terrain, lives, scores, and waves through the same deterministic simulation.
+- Added remote/gamepad controls for one player per TV and shared pause on focus loss or controller disconnection.
+- Added connection heartbeats to keep idle lobbies, paused games, and results connected.
+- Added two-device gameplay instrumentation with tick-by-tick world comparison, game-over/results, rematch, and peer-exit checks.
+
+### Changed
+
+- Replaced the title-menu connection test with **TWO TV NETWORK PLAY** while retaining local one- and two-player modes.
+
 ## [2.0.0] - 2026-11-14
 
 ### Added
@@ -46,7 +60,8 @@ This is a connection-prototype prerelease. Networked Joust simulation, shared ma
 - Added source movement comparisons, deterministic simulation tests, Android TV instrumentation and OS-input recording tools.
 - Added build instructions, source provenance and documented fidelity boundaries.
 
-[Unreleased]: https://github.com/electblake/CouchJoust/compare/v2.0.0...HEAD
+[Unreleased]: https://github.com/electblake/CouchJoust/compare/v2.1.0...HEAD
+[2.1.0]: https://github.com/electblake/CouchJoust/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/electblake/CouchJoust/compare/v2.0.0-alpha.1...v2.0.0
 [2.0.0-alpha.1]: https://github.com/electblake/CouchJoust/compare/v1.0.0...v2.0.0-alpha.1
 [1.0.0]: https://github.com/electblake/CouchJoust/releases/tag/v1.0.0

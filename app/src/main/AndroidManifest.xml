@@ -6,6 +6,7 @@
     <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
     <uses-feature android:name="android.hardware.gamepad" android:required="false" />
     <application android:label="Couch Joust" android:theme="@android:style/Theme.Material.NoActionBar" android:banner="@drawable/banner" android:icon="@drawable/icon" android:allowBackup="false" android:supportsRtl="true">
+        <activity android:name=".NetworkActivity" android:screenOrientation="landscape" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" android:exported="false" />
         <activity android:name=".UpdatesActivity" android:screenOrientation="landscape" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" android:exported="false" />
         <provider android:name=".UpdateFileProvider" android:authorities="com.couchjoust.updates" android:exported="false" android:grantUriPermissions="true">
             <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/update_paths" />

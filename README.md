@@ -17,7 +17,7 @@ A native Kotlin recreation of Joust for Android TV. The game uses the original d
 
 After installation, use **UPDATES** on the title menu to download future versions. You can also download APKs directly from [Releases](https://github.com/electblake/CouchJoust/releases).
 
-For in-app updates and the two-TV connection prototype, install `CouchJoust-2.0.0.apk` from [the 2.0.0 release](https://github.com/electblake/CouchJoust/releases/tag/v2.0.0). It requires Android 7.1 / API 25 or newer, includes ARMv7/ARM64/x86/x86_64 native libraries, and requests Internet access. Android 17/API 37 also requests local-network permission when you choose Host or Join. Local Joust still works offline.
+For two-TV network play, install `CouchJoust-2.1.0.apk` from [the 2.1.0 release](https://github.com/electblake/CouchJoust/releases/tag/v2.1.0), or use **UPDATES** in version 2.0.0. It requires Android 7.1 / API 25 or newer, includes ARMv7/ARM64/x86/x86_64 native libraries, and requests Internet access. Android 17/API 37 also requests local-network permission when you choose Host or Join. Local Joust still works offline.
 
 ### In-app updates
 
@@ -44,18 +44,20 @@ Holding center does not repeatedly flap. A remote must report direction and cent
 
 Free play is enabled initially. Settings provide sound, screen size for overscan, and a credit mode. In credit mode, selecting a game with insufficient credits adds one credit. High scores and settings persist locally. Losing focus or disconnecting an assigned device pauses play.
 
-## Two-TV connection prototype
+## Two-TV network play
 
-This prerelease tests pairing and transport; **it does not synchronize Joust gameplay between TVs**.
+Version 2.1.0 supports a shared two-player Joust match across two TVs, with one player controlling each TV. **TWO PLAYERS** remains the local, same-TV mode.
 
-1. Install the same prerelease on both TVs and select **TWO TV CONNECTION TEST** on each title menu.
-2. Select **Host** on one TV. Enter its `number-word-word` code on the other TV and select **Join**. The code field supports the TV keyboard and backspace.
-3. When connected, use the D-pad to move the yellow marker and Center/Enter/A to increment the flap counter. The blue marker and remote flap counter come from the other TV.
-4. Inspect the selected direct/relay path, RTT, stream echo time, and sent/received datagram counts. Back leaves the test; the peer sees that the session ended. Launch the test again to pair a new session.
+1. Install the same version on both TVs and select **TWO TV NETWORK PLAY**.
+2. Select **Host match** on player 1's TV. Enter its `number-word-word` code on player 2's TV and select **Join match**.
+3. Both players select **Ready**. The host selects **Start match** once both are ready.
+4. Use left/right to move and Center/Enter/A to flap. Both TVs show both players and the same enemies, terrain, collisions, lives, scores, and wave progression.
+5. Back/Start pauses both TVs. Select **Resume match** to continue or **Leave / return** to end the session. Losing focus or disconnecting the active controller pauses the match; leaving the app ends the session for both players.
+6. The shared results show both final scores. Both players choose **Ready for rematch**, then the host selects **Start rematch**. Network match scores are displayed in the session; local initials/high-score entry remains part of local play.
 
-Magic Wormhole 1.0.1 delivers an encrypted invitation through its public rendezvous service. The invitation carries an iroh endpoint ticket and a fresh 256-bit admission secret. An AES-GCM proof inside the encrypted QUIC stream authenticates the guest. Each endpoint admits one guest; the invitation is not saved. iroh Android 1.2.0 carries ongoing traffic using direct/relay networking, with 20-byte marker/control datagrams at approximately 60 Hz and a separate reliable stream for echo and orderly leave. No account, IP entry, or port forwarding is required.
+Magic Wormhole delivers the encrypted invitation and a fresh admission secret. iroh carries the game over an encrypted, reliable QUIC stream using direct or relayed connectivity. No account, IP entry, or port forwarding is required. The host orders both players' inputs into simulation ticks; both TVs execute the same deterministic game from the same starting state. Reliable input transitions preserve flap press/release edges. A twelve-tick acknowledgement window bounds how far the host can run ahead. Network latency delays the guest's input and display; slower links can reduce the simulation rate. There is no prediction or rollback.
 
-The app ends the test when it leaves the foreground. Unexpected pairing or transport failures propagate without application retries, recovery, or alternate transports. Physical-TV and separate-household testing remain unverified; see [VALIDATION.md](VALIDATION.md) for emulator evidence and Android compatibility findings.
+Unexpected pairing or transport failures propagate without application retries, recovery, reconnection, or host migration. Physical-TV and separate-household testing remain unverified; see [VALIDATION.md](VALIDATION.md) for two-process game-state comparison and Android compatibility evidence.
 
 ## Game content
 

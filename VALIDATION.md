@@ -1,5 +1,19 @@
 # Verification and fidelity
 
+## 2.1.0 two-TV network play
+
+- The signed release (build 6) ran as two independent Android processes on Android TV API 36 x86_64 and API 25 x86, using real public Wormhole rendezvous and iroh transport. No mocked network or substituted pairing provider was used.
+- The final build produced identical game-state snapshots for **9,394 shared ticks across two matches**. Comparisons include actor positions/velocities/collision state, RNG state, player scores/lives/reserves/chains, terrain collision-map hashes, lava/bridge state, transporter occupancy, wave count, and game-over timing. Both players' direction and flap inputs were observed on both simulations.
+- Both TVs reached game over at tick **9,261**, showing P1 **2,250** and P2 **1,000**, then completed readiness/start for a fresh rematch with reset scores and wave 1. Guest departure ended the host's session through the leave handshake.
+- A shared pause lasted over **32 seconds**, exceeding the transport's idle interval; the heartbeat kept the session connected and both TVs resumed. The test accelerated the host pump to 1 ms only after the first 600 gameplay ticks to reach natural game over sooner; it did not inject kills, scores, or game-over flags.
+- Before the heartbeat addition, swapped host/guest roles also passed on the same two device images, comparing **3,104 shared ticks** with both-player input and terrain checks. The earlier initial run compared **5,035 shared ticks**. Final-build evidence is separate from the reversed-role evidence.
+- **29 JVM tests passed**, including 15,000 ticks replayed with different delivery batches, semantic update ordering, and the existing game simulation tests (including all 90 waves and final-ten-wave progression). Android lint reported **zero errors and 30 warnings**. Release signature and 16 KB ZIP alignment verification passed.
+- All **17 local gameplay/menu instrumentation scenarios passed on each device** against the final signed release, including reaching the new network menu and the existing Updates menu.
+
+Run `tools/network_smoke.py --adb PATH --host SERIAL --guest SERIAL --output DIRECTORY` with the signed release and same-key instrumentation APK installed on both devices. This exercises pairing UI, readiness, start, OS-dispatched controls, shared pause/resume, natural game over, results, rematch, and peer exit. Reports, screenshots, and compressed final-run tick records are in `verification/network-play/`. The protocol is described in [docs/network-play.md](docs/network-play.md).
+
+The two-device games exercised wave 1 and a fresh rematch. All-wave progression is covered by JVM/local instrumentation, not a two-TV playthrough of all 90 waves. Physical TVs, ARM runtime performance, separate-household routing, and adverse-network latency/loss remain unverified. Network delay affects guest input/display and can slow the simulation; no prediction, reconnect, or host migration is implemented.
+
 ## 2.0.0 release
 
 The stable release uses version `2.0.0`, Android build 5, and the existing signing key. It contains the updater implementation tested below; the final release build reran all 28 JVM tests and Android lint. Stable installations check stable GitHub releases. Build 5 also supersedes the build-4 installer test fixture.

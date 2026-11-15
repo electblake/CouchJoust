@@ -1,0 +1,6 @@
+INSTRUMENTATION_STATUS_CODE: 0
+RUN match 1 tick 3000 lives [3, 3]
+RUN match 1 tick 6000 lives [1, 1]
+RUN match 1 tick 9000 lives [0, 1]
+PASS shared results at tick 9261: Final scores — P1 2250   P2 1000
+PASS network match: pairing, readiness, controls, pause/resume, game over, rematch and peer leave
