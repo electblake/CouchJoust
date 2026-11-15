@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.0-alpha.2] - 2026-11-14
+
 ### Added
 
 - Added an Updates menu showing the installed version, checks against GitHub releases, and changelogs for newer versions.
@@ -44,6 +46,7 @@ This is a connection-prototype prerelease. Networked Joust simulation, shared ma
 - Added source movement comparisons, deterministic simulation tests, Android TV instrumentation and OS-input recording tools.
 - Added build instructions, source provenance and documented fidelity boundaries.
 
-[Unreleased]: https://github.com/electblake/CouchJoust/compare/v2.0.0-alpha.1...HEAD
+[Unreleased]: https://github.com/electblake/CouchJoust/compare/v2.0.0-alpha.2...HEAD
+[2.0.0-alpha.2]: https://github.com/electblake/CouchJoust/compare/v2.0.0-alpha.1...v2.0.0-alpha.2
 [2.0.0-alpha.1]: https://github.com/electblake/CouchJoust/compare/v1.0.0...v2.0.0-alpha.1
 [1.0.0]: https://github.com/electblake/CouchJoust/releases/tag/v1.0.0

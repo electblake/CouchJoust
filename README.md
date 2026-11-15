@@ -17,7 +17,7 @@ A native Kotlin recreation of Joust for Android TV. The game uses the original d
 
 These Downloader instructions install stable 1.0.0, which requires Android 6.0 / API 23 and has no network permissions or native libraries. You can also download it from [Releases](https://github.com/electblake/CouchJoust/releases).
 
-For the two-TV connection prototype, install `CouchJoust-2.0.0-alpha.1.apk` from [the prerelease](https://github.com/electblake/CouchJoust/releases/tag/v2.0.0-alpha.1). It requires Android 7.1 / API 25 or newer, includes ARMv7/ARM64/x86/x86_64 native libraries, and requests Internet access. Android 17/API 37 also requests local-network permission when you choose Host or Join. Local Joust still works offline.
+For in-app updates and the two-TV connection prototype, install `CouchJoust-2.0.0-alpha.2.apk` from [the prerelease](https://github.com/electblake/CouchJoust/releases/tag/v2.0.0-alpha.2). It requires Android 7.1 / API 25 or newer, includes ARMv7/ARM64/x86/x86_64 native libraries, and requests Internet access. Android 17/API 37 also requests local-network permission when you choose Host or Join. Local Joust still works offline.
 
 ### In-app updates
 
