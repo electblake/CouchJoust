@@ -6,16 +6,16 @@ A native Kotlin recreation of Joust for Android TV. The game uses the original d
 
 ### Install with Downloader by AFTVnews
 
-**Downloader code: `9369099`**
+**Downloader code: `7081442`**
 
-**Install link: [aftv.news/9369099](http://aftv.news/9369099)**
+**Install link: [aftv.news/7081442](http://aftv.news/7081442)**
 
 1. Install **[Downloader by AFTVnews](https://play.google.com/store/apps/details?id=com.esaba.downloader)** from your TV's app store and open it.
-2. Enter **`9369099`** in Downloader's URL / short-code field and select **Go**. You can also enter **`http://aftv.news/9369099`**.
+2. Enter **`7081442`** in Downloader's URL / short-code field and select **Go**. You can also enter **`http://aftv.news/7081442`**.
 3. Download the Couch Joust APK. When Android requests permission, open **Settings** and allow **Downloader** to **install unknown apps**.
 4. Return to the APK installer, select **Install**, then open **Couch Joust** from the TV launcher.
 
-These Downloader instructions install stable 1.0.0, which requires Android 6.0 / API 23 and has no network permissions or native libraries. You can also download it from [Releases](https://github.com/electblake/CouchJoust/releases).
+After installation, use **UPDATES** on the title menu to download future versions. You can also download APKs directly from [Releases](https://github.com/electblake/CouchJoust/releases).
 
 For in-app updates and the two-TV connection prototype, install `CouchJoust-2.0.0.apk` from [the 2.0.0 release](https://github.com/electblake/CouchJoust/releases/tag/v2.0.0). It requires Android 7.1 / API 25 or newer, includes ARMv7/ARM64/x86/x86_64 native libraries, and requests Internet access. Android 17/API 37 also requests local-network permission when you choose Host or Join. Local Joust still works offline.
 
