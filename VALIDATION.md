@@ -1,5 +1,17 @@
 # Verification and fidelity
 
+## In-app updater (2.0.0-alpha.2)
+
+- All 28 JVM tests passed, including semantic version precedence and stable/prerelease update selection. Android lint completed with zero errors and 26 warnings; release and instrumentation APKs built successfully.
+- All 17 gameplay/menu instrumentation scenarios passed on API 25 and Android TV API 36, including opening Updates from the title menu.
+- On both devices, updater instrumentation fetched the real public GitHub releases feed, confirmed the current-version state, checked newer-version changelog display and button enablement with controlled metadata, downloaded a real published APK, and verified the scoped content URI passed to the installer.
+- Both devices installed a locally built, same-key, higher-version APK through Android's native installer. The package advanced from build 3 to build 4, and a saved preference survived installation. This fixture was not published. On API 36 the app opened per-app install-source Settings; automation granted the permission and returned to the app before confirming the installer. API 25's global unknown-source permission was enabled in test setup.
+- The signed distributable is version `2.0.0-alpha.2`, build 3. Signature verification and 16 KB ZIP alignment checks passed. Installer success terminates the running app and its instrumentation, so the separate post-install check verifies the new package and retained data.
+
+Run the normal instrumentation suite for menu/gameplay checks, or add `-e updates check` for the live-feed/download scenario. `-e updates install` requires a same-key build-4 `2.0.0-alpha.3` fixture at the app's external-files `update-fixture.apk` path and external confirmation of Android's installer; afterward `-e updates verify-install` checks the upgrade and saved preference. Test fixtures do not alter the production feed or download URLs. Reports and installer screenshots are in `verification/updates/`.
+
+Physical Android/Fire TVs and their vendor-specific installation settings remain untested. Older installed releases need a one-time sideload of an updater-enabled build.
+
 ## 2.0.0-alpha.1 connection prototype
 
 The connection prototype was verified with the release signing certificate on Android TV API 25 (x86) and API 36 (x86_64) emulators, plus a generic AOSP API 37 x86_64 emulator configured at TV resolution. Compile and target SDK remain 37. This verifies independent Android processes using actual public rendezvous and relay services; it does not establish physical-TV, ARM runtime, direct-path or separate-household performance.

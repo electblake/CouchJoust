@@ -19,6 +19,18 @@ These Downloader instructions install stable 1.0.0, which requires Android 6.0 /
 
 For the two-TV connection prototype, install `CouchJoust-2.0.0-alpha.1.apk` from [the prerelease](https://github.com/electblake/CouchJoust/releases/tag/v2.0.0-alpha.1). It requires Android 7.1 / API 25 or newer, includes ARMv7/ARM64/x86/x86_64 native libraries, and requests Internet access. Android 17/API 37 also requests local-network permission when you choose Host or Join. Local Joust still works offline.
 
+### In-app updates
+
+Builds from `2.0.0-alpha.2` include **UPDATES** on the title menu. Install this updater-enabled APK once using your existing sideloading method; older builds cannot update themselves.
+
+1. Open **UPDATES** to see the installed version and select **Check for updates**.
+2. Read the changelogs for newer GitHub releases. **Download and install** becomes available when a newer version exists.
+3. Select it to download the APK. Allow **Couch Joust** to install unknown apps when Android asks, then confirm **Update** in Android's installer.
+
+Signed updates retain settings and scores. Stable builds check stable releases; prerelease builds also check prereleases. Checks are manual and use the public `electblake/CouchJoust` GitHub releases feed. Android still requires installation confirmation. Unexpected network or release-format failures propagate without retries under the project's fail-fast policy.
+
+Release publishers must increase Android `versionCode`, use semantic version tags (`vX.Y.Z` or `vX.Y.Z-alpha.N`), include release notes and attach exactly one `CouchJoust-VERSION.apk` signed with the existing release key. The updater orders releases by version, not publication date.
+
 ### Remote controls
 
 | Control | Action |

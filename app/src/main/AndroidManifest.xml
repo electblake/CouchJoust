@@ -1,10 +1,15 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
     <uses-permission android:name="android.permission.ACCESS_LOCAL_NETWORK" />
     <uses-feature android:name="android.software.leanback" android:required="false" />
     <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
     <uses-feature android:name="android.hardware.gamepad" android:required="false" />
     <application android:label="Couch Joust" android:theme="@android:style/Theme.Material.NoActionBar" android:banner="@drawable/banner" android:icon="@drawable/icon" android:allowBackup="false" android:supportsRtl="true">
+        <activity android:name=".UpdatesActivity" android:screenOrientation="landscape" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" android:exported="false" />
+        <provider android:name=".UpdateFileProvider" android:authorities="com.couchjoust.updates" android:exported="false" android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/update_paths" />
+        </provider>
         <activity android:name=".ConnectionActivity" android:screenOrientation="landscape" android:exported="false" />
         <activity android:name=".MainActivity" android:screenOrientation="landscape" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" android:exported="true">
             <intent-filter>

@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Added an Updates menu showing the installed version, checks against GitHub releases, and changelogs for newer versions.
+- Added APK download progress and an Android installer handoff, including per-app unknown-source installation permission on Android 8 and newer.
+- Added semantic release ordering and stable/prerelease channel selection based on the installed version.
+
 ## [2.0.0-alpha.1] - 2026-11-14
 
 ### Added

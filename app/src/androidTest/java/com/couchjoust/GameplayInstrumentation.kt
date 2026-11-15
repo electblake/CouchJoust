@@ -18,6 +18,10 @@ class GameplayInstrumentation:Instrumentation() {
     private val results=mutableListOf<String>()
     override fun onCreate(arguments:Bundle?) { probeArguments=arguments;super.onCreate(arguments);start() }
     override fun onStart() {
+        if(probeArguments!!.containsKey("updates")) {
+            UpdatesScenario(this).run(probeArguments!!)
+            return
+        }
         if(probeArguments!!.containsKey("connectionRole")) {
             ConnectionScenario(this).run(probeArguments!!)
             return
@@ -212,6 +216,18 @@ class GameplayInstrumentation:Instrumentation() {
         val connectionActivity=waitForMonitorWithTimeout(connectionMonitor,10_000) as ConnectionActivity
         removeMonitor(connectionMonitor)
         runOnMainSync { connectionActivity.finish() }
+        val updatesMonitor=addMonitor(UpdatesActivity::class.java.name,null,false)
+        scenario("updates is reachable from TV title menu") {
+            val v=activity.gameView;v.screen="TITLE";v.menu=6
+            key(KeyEvent.KEYCODE_DPAD_CENTER)
+        }
+        val updatesActivity=waitForMonitorWithTimeout(updatesMonitor,10_000) as UpdatesActivity
+        removeMonitor(updatesMonitor)
+        runOnMainSync {
+            check(!updatesActivity.downloadButton.isEnabled)
+            check(updatesActivity.checkButton.isEnabled)
+            updatesActivity.finish()
+        }
         val result=Bundle()
         result.putString("stream",results.joinToString("\n",postfix="\n${results.size} virtual-device scenarios passed\n"))
         finish(Activity.RESULT_OK,result)

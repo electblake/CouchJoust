@@ -1,0 +1,1 @@
+PASS signed self-update installed and existing app data preserved

@@ -6,8 +6,8 @@ android {
         applicationId = "com.couchjoust"
         minSdk = 25
         targetSdk = 37
-        versionCode = 2
-        versionName = "2.0.0-alpha.1"
+        versionCode = 3
+        versionName = "2.0.0-alpha.2"
         ndk { abiFilters += setOf("armeabi-v7a", "arm64-v8a", "x86", "x86_64") }
         testInstrumentationRunner = "com.couchjoust.GameplayInstrumentation"
     }
@@ -27,5 +27,6 @@ dependencies {
     implementation("net.java.dev.jna:jna:5.19.1@aar")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.11.0")
     implementation("androidx.activity:activity:1.13.0")
+    implementation("androidx.core:core:1.18.0")
     testImplementation("junit:junit:4.13.2")
 }

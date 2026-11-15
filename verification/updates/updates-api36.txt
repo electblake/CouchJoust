@@ -1,0 +1,2 @@
+PASS GitHub check, current-version state, newer changelogs, APK download and scoped installer URI
+PASS updates scenario
