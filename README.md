@@ -6,7 +6,8 @@ A native Kotlin recreation of Joust for Android TV. The game uses the original d
 
 ### Install with Downloader by AFTVnews
 
-**Downloader code: `9369099`**  
+**Downloader code: `9369099`**
+
 **Install link: [aftv.news/9369099](http://aftv.news/9369099)**
 
 1. Install **[Downloader by AFTVnews](https://play.google.com/store/apps/details?id=com.esaba.downloader)** from your TV's app store and open it.
