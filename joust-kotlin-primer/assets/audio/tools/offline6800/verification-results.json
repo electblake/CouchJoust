@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "checks": [
+    "Original 6800 CPX high-byte N/V, full-word Z, preserved C",
+    "ABA/SBA/LSR/INC arithmetic and DEX flag preservation with cycle totals",
+    "Unsigned indexed displacement; taken and untaken branches both four cycles",
+    "CLI executes one following opcode before pending IRQ; exact 12-cycle entry and stack",
+    "Command00 leaves active sound running; command3F preempts and holds last DAC; command20 restarts",
+    "Forced command00 IRQ takes zero branch; ordinary command00 is only an idle latch"
+  ],
+  "all_command_smoke_file": "smoke-results.json",
+  "scope": "Targeted behavioral checks, not exhaustive independent CPU certification",
+  "timing_limit": "IO writes timestamped at instruction completion; sub-instruction bus phases unmodeled"
+}

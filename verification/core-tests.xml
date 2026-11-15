@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.couchjoust.core.CoreTest" tests="22" skipped="0" failures="0" errors="0" timestamp="2026-11-15T00:48:14.138Z" hostname="SHOJITOWER" time="0.434">
+  <properties/>
+  <testcase name="liveSchedulerInsertionAndByteWait" classname="com.couchjoust.core.CoreTest" time="0.033"/>
+  <testcase name="deterministicLongRun" classname="com.couchjoust.core.CoreTest" time="0.156"/>
+  <testcase name="deathAwardPreventsLastLifeGameOver" classname="com.couchjoust.core.CoreTest" time="0.001"/>
+  <testcase name="eggsKeepWaveAliveAndFourthDefeatAwards" classname="com.couchjoust.core.CoreTest" time="0.0"/>
+  <testcase name="cooperationBonusIsAwardedOnceAtWaveTransition" classname="com.couchjoust.core.CoreTest" time="0.004"/>
+  <testcase name="soundPrioritiesAndNaturalTail" classname="com.couchjoust.core.CoreTest" time="0.011"/>
+  <testcase name="allWavesCompleteAndRepeatFinalTen" classname="com.couchjoust.core.CoreTest" time="0.119"/>
+  <testcase name="soundRequestsAreQueuedAndOnlyWinnerReachesAudio" classname="com.couchjoust.core.CoreTest" time="0.002"/>
+  <testcase name="pterodactylSteersWithoutSkippingMovementAndDissolves" classname="com.couchjoust.core.CoreTest" time="0.001"/>
+  <testcase name="protectedRespawnExpiresOrAcceptsHeldControl" classname="com.couchjoust.core.CoreTest" time="0.0"/>
+  <testcase name="scoreRolloverRetainsTenMillionMarkerAndCapsLives" classname="com.couchjoust.core.CoreTest" time="0.001"/>
+  <testcase name="sourceRunFlightTrace" classname="com.couchjoust.core.CoreTest" time="0.086"/>
+  <testcase name="arithmeticAndRandom" classname="com.couchjoust.core.CoreTest" time="0.0"/>
+  <testcase name="eggChainAndGladiator" classname="com.couchjoust.core.CoreTest" time="0.001"/>
+  <testcase name="controlsAndHeldFlap" classname="com.couchjoust.core.CoreTest" time="0.0"/>
+  <testcase name="sourceRunSkidTrace" classname="com.couchjoust.core.CoreTest" time="0.004"/>
+  <testcase name="sourceSilhouetteDirectionalScan" classname="com.couchjoust.core.CoreTest" time="0.0"/>
+  <testcase name="sourceRunMovementTrace" classname="com.couchjoust.core.CoreTest" time="0.004"/>
+  <testcase name="mouthBoundaries" classname="com.couchjoust.core.CoreTest" time="0.001"/>
+  <testcase name="takeoffAndCeiling" classname="com.couchjoust.core.CoreTest" time="0.001"/>
+  <testcase name="bridgeFlamesConsumeLandingAndSinkBeforePermanentFlames" classname="com.couchjoust.core.CoreTest" time="0.002"/>
+  <testcase name="waveRecordsAndDifficulty" classname="com.couchjoust.core.CoreTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

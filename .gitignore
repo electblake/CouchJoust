@@ -1,0 +1,13 @@
+.gradle/
+**/build/
+local.properties
+.idea/
+*.iml
+__pycache__/
+.tools/
+artifacts/*
+!artifacts/reference/
+artifacts/reference/*
+!artifacts/reference/player-*.csv
+*.jks
+*.keystore

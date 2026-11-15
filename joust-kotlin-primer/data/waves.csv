@@ -1,0 +1,91 @@
+entry,raw0,raw1,raw2,raw3,bounders,hunters,shadow_lords,pursuer_limit,pterodactyls,special,disabled_cliffs,hatch_type,hatch_cap,source_line
+1,30,01,00,02,3,0,0,1,0,intro,,,,2439
+2,40,01,00,04,4,0,0,1,0,team_or_survival,,,,2440
+3,60,02,00,00,6,0,0,2,0,normal,,,,2441
+4,33,01,00,06,3,3,0,1,0,gladiator,,,,2442
+5,60,01,00,08,6,0,0,1,0,egg,,bounder,6,2443
+6,33,03,00,41,3,3,0,3,0,normal,CLIF2,,,2445
+7,24,02,00,75,2,4,0,2,0,team_or_survival,CLIF1L CLIF1R CLIF2,,,2446
+8,06,01,01,7B,0,6,0,1,1,pterodactyl,CLIF1L CLIF1R CLIF2,,,2447
+9,06,02,00,F7,0,6,0,2,0,gladiator,CLIF1L CLIF1R CLIF2 CLIF4,,,2448
+10,80,03,00,08,8,0,0,3,0,egg,,bounder,8,2449
+11,35,03,00,01,3,5,0,3,0,normal,,,,2451
+12,26,02,00,85,2,6,0,2,0,team_or_survival,CLIF4,,,2452
+13,07,03,01,FB,0,7,0,3,1,pterodactyl,CLIF1L CLIF1R CLIF2 CLIF4,,,2453
+14,08,04,00,F7,0,8,0,4,0,gladiator,CLIF1L CLIF1R CLIF2 CLIF4,,,2454
+15,06,02,00,08,0,6,0,2,0,egg,,hunter,6,2455
+16,05,1F,00,00,0,5,1,15,0,normal,,,,2457
+17,05,1F,00,04,0,5,1,15,0,team_or_survival,,,,2458
+18,05,1F,02,0A,0,5,1,15,2,pterodactyl,,,,2459
+19,04,2F,00,06,0,4,2,15,0,gladiator,,,,2460
+20,06,03,00,08,0,6,0,3,0,egg,,hunter,6,2461
+21,03,3F,00,31,0,3,3,15,0,normal,CLIF1L CLIF1R,,,2463
+22,02,4F,00,35,0,2,4,15,0,team_or_survival,CLIF1L CLIF1R,,,2464
+23,02,4F,02,BB,0,2,4,15,2,pterodactyl,CLIF1L CLIF1R CLIF4,,,2465
+24,02,4F,00,B7,0,2,4,15,0,gladiator,CLIF1L CLIF1R CLIF4,,,2466
+25,06,04,00,08,0,6,0,4,0,egg,,hunter,6,2467
+26,03,5F,00,F1,0,3,5,15,0,normal,CLIF1L CLIF1R CLIF2 CLIF4,,,2469
+27,03,5F,00,F5,0,3,5,15,0,team_or_survival,CLIF1L CLIF1R CLIF2 CLIF4,,,2470
+28,02,4F,02,FB,0,2,4,15,2,pterodactyl,CLIF1L CLIF1R CLIF2 CLIF4,,,2471
+29,03,5F,00,F7,0,3,5,15,0,gladiator,CLIF1L CLIF1R CLIF2 CLIF4,,,2472
+30,06,03,00,08,0,6,0,3,0,egg,,hunter,6,2473
+31,04,4F,00,01,0,4,4,15,0,normal,,,,2475
+32,02,6F,00,05,0,2,6,15,0,team_or_survival,,,,2476
+33,02,4F,02,4B,0,2,4,15,2,pterodactyl,CLIF2,,,2477
+34,02,6F,00,47,0,2,6,15,0,gladiator,CLIF2,,,2478
+35,08,05,00,08,0,8,0,5,0,egg,,hunter,8,2479
+36,02,6F,00,81,0,2,6,15,0,normal,CLIF4,,,2481
+37,00,8F,00,85,0,0,8,15,0,team_or_survival,CLIF4,,,2482
+38,00,6F,02,CB,0,0,6,15,2,pterodactyl,CLIF2 CLIF4,,,2483
+39,00,8F,00,C7,0,0,8,15,0,gladiator,CLIF2 CLIF4,,,2484
+40,08,05,00,08,0,8,0,5,0,egg,,hunter,8,2485
+41,03,7F,00,31,0,3,7,15,0,normal,CLIF1L CLIF1R,,,2487
+42,00,AF,00,B5,0,0,10,15,0,team_or_survival,CLIF1L CLIF1R CLIF4,,,2488
+43,00,7F,03,BB,0,0,7,15,3,pterodactyl,CLIF1L CLIF1R CLIF4,,,2489
+44,00,AF,00,F7,0,0,10,15,0,gladiator,CLIF1L CLIF1R CLIF2 CLIF4,,,2490
+45,08,06,00,08,0,8,0,6,0,egg,,hunter,8,2491
+46,03,7F,00,01,0,3,7,15,0,normal,,,,2493
+47,00,AF,00,05,0,0,10,15,0,team_or_survival,,,,2494
+48,00,7F,03,0B,0,0,7,15,3,pterodactyl,,,,2495
+49,00,AF,00,87,0,0,10,15,0,gladiator,CLIF4,,,2496
+50,08,06,00,08,0,8,0,6,0,egg,,hunter,8,2497
+51,03,7F,00,31,0,3,7,15,0,normal,CLIF1L CLIF1R,,,2499
+52,00,AF,00,B5,0,0,10,15,0,team_or_survival,CLIF1L CLIF1R CLIF4,,,2500
+53,00,7F,03,BB,0,0,7,15,3,pterodactyl,CLIF1L CLIF1R CLIF4,,,2501
+54,00,AF,00,F7,0,0,10,15,0,gladiator,CLIF1L CLIF1R CLIF2 CLIF4,,,2502
+55,08,0F,00,08,0,8,0,15,0,egg,,hunter,8,2503
+56,03,7F,00,01,0,3,7,15,0,normal,,,,2505
+57,00,AF,00,05,0,0,10,15,0,team_or_survival,,,,2506
+58,00,7F,03,0B,0,0,7,15,3,pterodactyl,,,,2507
+59,00,AF,00,87,0,0,10,15,0,gladiator,CLIF4,,,2508
+60,00,63,00,08,0,0,6,3,0,egg,,shadow_lord,6,2509
+61,00,AF,00,31,0,0,10,15,0,normal,CLIF1L CLIF1R,,,2511
+62,00,AF,00,B5,0,0,10,15,0,team_or_survival,CLIF1L CLIF1R CLIF4,,,2512
+63,00,7F,03,BB,0,0,7,15,3,pterodactyl,CLIF1L CLIF1R CLIF4,,,2513
+64,00,AF,00,F7,0,0,10,15,0,gladiator,CLIF1L CLIF1R CLIF2 CLIF4,,,2514
+65,00,64,00,08,0,0,6,4,0,egg,,shadow_lord,6,2515
+66,00,AF,00,01,0,0,10,15,0,normal,,,,2517
+67,00,AF,00,05,0,0,10,15,0,team_or_survival,,,,2518
+68,00,7F,03,0B,0,0,7,15,3,pterodactyl,,,,2519
+69,00,AF,00,87,0,0,10,15,0,gladiator,CLIF4,,,2520
+70,00,65,00,08,0,0,6,5,0,egg,,shadow_lord,6,2521
+71,00,AF,00,31,0,0,10,15,0,normal,CLIF1L CLIF1R,,,2523
+72,00,AF,00,B5,0,0,10,15,0,team_or_survival,CLIF1L CLIF1R CLIF4,,,2524
+73,00,7F,03,BB,0,0,7,15,3,pterodactyl,CLIF1L CLIF1R CLIF4,,,2525
+74,00,AF,00,F7,0,0,10,15,0,gladiator,CLIF1L CLIF1R CLIF2 CLIF4,,,2526
+75,00,6F,00,08,0,0,6,15,0,egg,,shadow_lord,6,2527
+76,00,AF,00,01,0,0,10,15,0,normal,,,,2529
+77,00,AF,00,05,0,0,10,15,0,team_or_survival,,,,2530
+78,00,7F,03,0B,0,0,7,15,3,pterodactyl,,,,2531
+79,00,AF,00,87,0,0,10,15,0,gladiator,CLIF4,,,2532
+80,00,86,00,08,0,0,8,6,0,egg,,shadow_lord,8,2533
+81,00,AF,00,31,0,0,10,15,0,normal,CLIF1L CLIF1R,,,2535
+82,00,AF,00,B5,0,0,10,15,0,team_or_survival,CLIF1L CLIF1R CLIF4,,,2536
+83,00,7F,03,BB,0,0,7,15,3,pterodactyl,CLIF1L CLIF1R CLIF4,,,2537
+84,00,AF,00,F7,0,0,10,15,0,gladiator,CLIF1L CLIF1R CLIF2 CLIF4,,,2538
+85,00,8F,00,08,0,0,8,15,0,egg,,shadow_lord,8,2539
+86,00,AF,00,01,0,0,10,15,0,normal,,,,2541
+87,00,AF,00,05,0,0,10,15,0,team_or_survival,,,,2542
+88,00,7F,03,0B,0,0,7,15,3,pterodactyl,,,,2543
+89,00,AF,00,87,0,0,10,15,0,gladiator,CLIF4,,,2544
+90,00,8F,00,08,0,0,8,15,0,egg,,shadow_lord,8,2545

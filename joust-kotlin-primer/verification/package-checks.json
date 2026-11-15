@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "checks": [
+    "90 waves, 81\u201390 repeat, 28 dynamic records and 69 egg positions validated",
+    "13 ground states and 9 horizontal flight velocities validated",
+    "139 literal phrases, 30 text pages and 41 default score records present",
+    "200 sprite/terrain/font/effect PNGs match exact index grids; 43 collision profiles present",
+    "76 mono 48kHz/16bit WAVs and DAC traces validated; all captures completed, 3 control-only events retained"
+  ],
+  "scope": "Package integrity and extracted asset/data checks, not a playable-game or physical-cabinet comparison"
+}

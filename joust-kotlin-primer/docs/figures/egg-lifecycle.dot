@@ -1,0 +1,31 @@
+digraph egg {
+graph [rankdir=TB, bgcolor="white", pad="0.3", nodesep="0.32", ranksep="0.5"];
+node [shape=box, style="rounded,filled", fillcolor="#edf1f5", color="#53677b", fontname="DejaVu Sans", fontsize=12, margin="0.18,0.12"];
+edge [fontname="DejaVu Sans", fontsize=10, color="#53677b"];
+mounted [label="Mounted enemy
+Bounder → Hunter → Shadow lord"];
+fall [label="Falling egg
+Rider remains unresolved"];
+rest [label="Resting egg
+Hatch countdown"];
+rider [label="Standing rider
+Replacement bird reserved"];
+remount [label="Replacement bird arrives
+Rider remounts"];
+score [label="Player collects egg or rider
+250 / 500 / 750 / 1,000 chain", fillcolor="#fff1c6"];
+gone [label="Rider resolved
+Wave can finish when count reaches zero", fillcolor="#dcf0e5"];
+mounted -> fall [label="Defeated; budget remains"];
+fall -> rest [label="Terrain contact / bounce"];
+rest -> rider [label="Hatch time + capacity available"];
+rider -> remount [label="Bird navigation"];
+remount -> mounted [label="Same rider budget", constraint=false];
+fall -> score [label="Before first bounce: +500"];
+rest -> score [label="Collected"];
+rider -> score [label="Collected"];
+score -> gone;
+mounted -> score [label="Defeat 4
+Credited victor", constraint=false];
+fall -> gone [label="Lost to lava", constraint=false];
+}

@@ -1,0 +1,124 @@
+S:\Spaces\Gaming\CouchJoust\gradle\wrapper\gradle-wrapper.properties:3: Warning: A newer version of Gradle than 9.6.1 is available: 9.9.1 [AndroidGradlePluginVersion]
+distributionUrl=https\://services.gradle.org/distributions/gradle-9.6.1-bin.zip
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "AndroidGradlePluginVersion":
+   This detector looks for usage of the Android Gradle Plugin where the
+   version you are using is not the current stable release. Using older
+   versions is fine, and there are cases where you deliberately want to stick
+   with an older version. However, you may simply not be aware that a more
+   recent version is available, and that is what this lint check helps find.
+
+S:\Spaces\Gaming\CouchJoust\app\src\main\AndroidManifest.xml:6: Warning: Fixed screen orientations will be ignored in most cases, starting from Android 16. Android is moving toward a model where apps are expected to adapt to various orientations, display sizes, and aspect ratios. [DiscouragedApi]
+        <activity android:name=".MainActivity" android:screenOrientation="landscape" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" android:exported="true">
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "DiscouragedApi":
+   Discouraged APIs are allowed and are not deprecated, but they may be unfit
+   for common use (e.g. due to slow performance or subtle behavior).
+
+S:\Spaces\Gaming\CouchJoust\app\src\main\AndroidManifest.xml:5: Warning: The attribute android:allowBackup is deprecated from Android 12 and higher and may be removed in future versions. Consider adding the attribute android:dataExtractionRules specifying an @xml resource which configures cloud backups and device transfers on Android 12 and higher. [DataExtractionRules]
+    <application android:label="Couch Joust" android:theme="@android:style/Theme.Material.NoActionBar" android:banner="@drawable/banner" android:icon="@drawable/icon" android:allowBackup="false" android:supportsRtl="true">
+                                                                                                                                                                                            ~~~~~
+
+   Explanation for issues of type "DataExtractionRules":
+   Before Android 12, the attributes android:allowBackup and
+   android:fullBackupContent were used to configure all forms of backup,
+   including cloud backups, device-to-device transfers and adb backup.
+
+   In Android 12 and higher, these attributes have been deprecated and will
+   only apply to cloud backups. You should instead use the attribute
+   android:dataExtractionRules, specifying an @xml resource that configures
+   which files to back up, for cloud backups and for device-to-device
+   transfers, separately. If your minSdkVersion supports older versions,
+   you'll still want to specify an android:fullBackupContent resource if the
+   default behavior is not right for your app.
+
+   https://developer.android.com/about/versions/12/backup-restore#xml-changes
+   https://goo.gle/DataExtractionRules
+
+S:\Spaces\Gaming\CouchJoust\app\src\main\res\drawable-nodpi\icon.png: Warning: Launcher icons should not fill every pixel of their square region; see the design guide for details [IconLauncherShape]
+
+   Explanation for issues of type "IconLauncherShape":
+   According to the Android Design Guide
+   (https://d.android.com/r/studio-ui/designer/material/iconography) your
+   launcher icons should "use a distinct silhouette", a "three-dimensional,
+   front view, with a slight perspective as if viewed from above, so that
+   users perceive some depth."
+
+   The unique silhouette implies that your launcher icon should not be a
+   filled square.
+
+S:\Spaces\Gaming\CouchJoust\app\src\main\java\com\couchjoust\Artwork.kt:29: Warning: Use the KTX function createBitmap instead? [UseKtx]
+    val surface=Bitmap.createBitmap(304,256,Bitmap.Config.ARGB_8888)
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+S:\Spaces\Gaming\CouchJoust\app\src\main\java\com\couchjoust\Artwork.kt:227: Warning: Use the KTX extension function Canvas.withSave instead? [UseKtx]
+                canvas.save();canvas.clipRect(0,0,304,224);frame(a.descriptor,a.x,a.y);canvas.restore()
+                ~~~~~~~~~~~~~
+S:\Spaces\Gaming\CouchJoust\app\src\main\java\com\couchjoust\HighScores.kt:34: Warning: Use the KTX extension function SharedPreferences.edit instead? [UseKtx]
+        preferences.edit().putString("allTime",stored.toString()).putLong("championScore",champion.score).putString("championName",champion.name).apply()
+        ~~~~~~~~~~~~~~~~~~
+S:\Spaces\Gaming\CouchJoust\app\src\main\java\com\couchjoust\MainActivity.kt:237: Warning: Use the KTX extension function SharedPreferences.edit instead? [UseKtx]
+                    preferences.edit().putBoolean("freePlay",freePlay).putFloat("overscan",overscan).putBoolean("sound",soundOn).apply()
+                    ~~~~~~~~~~~~~~~~~~
+S:\Spaces\Gaming\CouchJoust\app\src\main\java\com\couchjoust\Marquee.kt:17: Warning: Use the KTX function createBitmap instead? [UseKtx]
+    private val bitmap=Bitmap.createBitmap(304,256,Bitmap.Config.ARGB_8888)
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UseKtx":
+   The Android KTX libraries decorates the Android platform SDK as well as
+   various libraries with more convenient extension functions available from
+   Kotlin, allowing you to use default parameters, named parameters, and
+   more.
+
+   Available options:
+
+   **remove-defaults** (default is true):
+   Whether to skip arguments that match the defaults provided by the extension.
+
+   Extensions often provide default values for some of the parameters. For example:
+   ```kotlin
+   fun Path.readLines(charset: Charset = Charsets.UTF_8): List<String> { return Files.readAllLines(this, charset) }
+   ```
+   This lint check will by default automatically omit parameters that match the default, so if your code was calling
+
+   ```kotlin
+   Files.readAllLines(file, Charset.UTF_8)
+   ```
+   lint would replace this with
+   ```kotlin
+   file.readLines()
+   ```
+   rather than
+
+   ```kotlin
+   file.readLines(Charset.UTF_8
+   ```
+   You can turn this behavior off using this option.
+
+   To configure this option, use a `lint.xml` file with an <option> like this:
+
+   ```xml
+   <lint>
+       <issue id="UseKtx">
+           <option name="remove-defaults" value="true" />
+       </issue>
+   </lint>
+   ```
+
+   **require-present** (default is true):
+   Whether to only offer extensions already available.
+
+   This option lets you only have lint suggest extension replacements if those extensions are already available on the class path (in other words, you're already depending on the library containing the extension method.)
+
+   To configure this option, use a `lint.xml` file with an <option> like this:
+
+   ```xml
+   <lint>
+       <issue id="UseKtx">
+           <option name="require-present" value="true" />
+       </issue>
+   </lint>
+   ```
+
+0 errors, 9 warnings

@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "phrase_count": 139,
+  "text_page_count": 30,
+  "layout_entry_count": 67,
+  "default_score_entries": 41,
+  "embedded_ascii_literals": 17,
+  "additional_encoded_text_blocks": 2,
+  "all_phrases_terminated": true,
+  "all_pages_terminated": true,
+  "all_layout_phrase_references_resolved": true,
+  "font57_glyphs": 53,
+  "font35_glyphs": 49,
+  "pages_with_verified_font_call_context": 30,
+  "output_sha256": "192dc62be9ec1952acf3ea3101117fff2aa31056b5357131136c7dc97b3b457e"
+}

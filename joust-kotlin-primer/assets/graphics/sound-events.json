@@ -1,0 +1,827 @@
+{
+  "SNCRED": {
+    "priority": 200,
+    "line_start": 8053,
+    "line_end": 8053,
+    "comment": "CREDIT CHANGE SOUND",
+    "sequence": [
+      {
+        "command": 10,
+        "continue": false,
+        "hold_ticks": 40,
+        "encoded": 117
+      }
+    ]
+  },
+  "SNGS": {
+    "priority": 200,
+    "line_start": 8054,
+    "line_end": 8054,
+    "comment": "GAME START",
+    "sequence": [
+      {
+        "command": 27,
+        "continue": false,
+        "hold_ticks": 1,
+        "encoded": 100
+      }
+    ]
+  },
+  "SNHI2": {
+    "priority": 190,
+    "line_start": 8055,
+    "line_end": 8055,
+    "comment": "HIGH SCORE TO DATE END SOUND",
+    "sequence": [
+      {
+        "command": 28,
+        "continue": false,
+        "hold_ticks": 6,
+        "encoded": 99
+      }
+    ]
+  },
+  "SNHIGH": {
+    "priority": 190,
+    "line_start": 8056,
+    "line_end": 8090,
+    "comment": "HIGH SCORE TO DATE",
+    "sequence": [
+      {
+        "command": 17,
+        "continue": true,
+        "hold_ticks": 60,
+        "encoded": 238
+      },
+      {
+        "command": 16,
+        "continue": true,
+        "hold_ticks": 20,
+        "encoded": 239
+      },
+      {
+        "command": 16,
+        "continue": true,
+        "hold_ticks": 30,
+        "encoded": 239
+      },
+      {
+        "command": 15,
+        "continue": true,
+        "hold_ticks": 120,
+        "encoded": 240
+      },
+      {
+        "command": 16,
+        "continue": true,
+        "hold_ticks": 60,
+        "encoded": 239
+      },
+      {
+        "command": 16,
+        "continue": true,
+        "hold_ticks": 100,
+        "encoded": 239
+      },
+      {
+        "command": 15,
+        "continue": true,
+        "hold_ticks": 240,
+        "encoded": 240
+      },
+      {
+        "command": 26,
+        "continue": true,
+        "hold_ticks": 20,
+        "encoded": 229
+      },
+      {
+        "command": 26,
+        "continue": true,
+        "hold_ticks": 100,
+        "encoded": 229
+      },
+      {
+        "command": 16,
+        "continue": true,
+        "hold_ticks": 60,
+        "encoded": 239
+      },
+      {
+        "command": 15,
+        "continue": true,
+        "hold_ticks": 240,
+        "encoded": 240
+      },
+      {
+        "command": 26,
+        "continue": true,
+        "hold_ticks": 30,
+        "encoded": 229
+      },
+      {
+        "command": 24,
+        "continue": true,
+        "hold_ticks": 240,
+        "encoded": 231
+      },
+      {
+        "command": 16,
+        "continue": true,
+        "hold_ticks": 80,
+        "encoded": 239
+      },
+      {
+        "command": 16,
+        "continue": true,
+        "hold_ticks": 60,
+        "encoded": 239
+      },
+      {
+        "command": 16,
+        "continue": true,
+        "hold_ticks": 20,
+        "encoded": 239
+      },
+      {
+        "command": 15,
+        "continue": true,
+        "hold_ticks": 240,
+        "encoded": 240
+      },
+      {
+        "command": 16,
+        "continue": true,
+        "hold_ticks": 20,
+        "encoded": 239
+      },
+      {
+        "command": 16,
+        "continue": true,
+        "hold_ticks": 60,
+        "encoded": 239
+      },
+      {
+        "command": 16,
+        "continue": true,
+        "hold_ticks": 80,
+        "encoded": 239
+      },
+      {
+        "command": 16,
+        "continue": true,
+        "hold_ticks": 60,
+        "encoded": 239
+      },
+      {
+        "command": 16,
+        "continue": true,
+        "hold_ticks": 20,
+        "encoded": 239
+      },
+      {
+        "command": 16,
+        "continue": true,
+        "hold_ticks": 60,
+        "encoded": 239
+      },
+      {
+        "command": 15,
+        "continue": true,
+        "hold_ticks": 240,
+        "encoded": 240
+      },
+      {
+        "command": 16,
+        "continue": true,
+        "hold_ticks": 20,
+        "encoded": 239
+      },
+      {
+        "command": 16,
+        "continue": true,
+        "hold_ticks": 60,
+        "encoded": 239
+      },
+      {
+        "command": 16,
+        "continue": true,
+        "hold_ticks": 80,
+        "encoded": 239
+      },
+      {
+        "command": 16,
+        "continue": true,
+        "hold_ticks": 60,
+        "encoded": 239
+      },
+      {
+        "command": 16,
+        "continue": true,
+        "hold_ticks": 20,
+        "encoded": 239
+      },
+      {
+        "command": 16,
+        "continue": true,
+        "hold_ticks": 60,
+        "encoded": 239
+      },
+      {
+        "command": 16,
+        "continue": true,
+        "hold_ticks": 80,
+        "encoded": 239
+      },
+      {
+        "command": 15,
+        "continue": true,
+        "hold_ticks": 120,
+        "encoded": 240
+      },
+      {
+        "command": 15,
+        "continue": false,
+        "hold_ticks": 240,
+        "encoded": 112
+      }
+    ]
+  },
+  "SNREPL": {
+    "priority": 100,
+    "line_start": 8091,
+    "line_end": 8091,
+    "comment": "EXTRA MAN",
+    "sequence": [
+      {
+        "command": 11,
+        "continue": false,
+        "hold_ticks": 90,
+        "encoded": 116
+      }
+    ]
+  },
+  "SNCLIF": {
+    "priority": 67,
+    "line_start": 8092,
+    "line_end": 8092,
+    "comment": "CLIFF DESTROYER",
+    "sequence": [
+      {
+        "command": 25,
+        "continue": false,
+        "hold_ticks": 90,
+        "encoded": 102
+      }
+    ]
+  },
+  "SNPTED": {
+    "priority": 66,
+    "line_start": 8093,
+    "line_end": 8095,
+    "comment": "PTERODACTYL DYING SOUND",
+    "sequence": [
+      {
+        "command": 22,
+        "continue": true,
+        "hold_ticks": 15,
+        "encoded": 233
+      },
+      {
+        "command": 22,
+        "continue": true,
+        "hold_ticks": 15,
+        "encoded": 233
+      },
+      {
+        "command": 22,
+        "continue": true,
+        "hold_ticks": 7,
+        "encoded": 233
+      },
+      {
+        "command": 22,
+        "continue": true,
+        "hold_ticks": 7,
+        "encoded": 233
+      },
+      {
+        "command": 22,
+        "continue": false,
+        "hold_ticks": 90,
+        "encoded": 105
+      }
+    ]
+  },
+  "SNPTEI": {
+    "priority": 65,
+    "line_start": 8096,
+    "line_end": 8096,
+    "comment": "PTERODACTYL INTRODUCTION SCREAM",
+    "sequence": [
+      {
+        "command": 36,
+        "continue": true,
+        "hold_ticks": 30,
+        "encoded": 219
+      },
+      {
+        "command": 37,
+        "continue": false,
+        "hold_ticks": 30,
+        "encoded": 90
+      }
+    ]
+  },
+  "SNPTE": {
+    "priority": 65,
+    "line_start": 8097,
+    "line_end": 8097,
+    "comment": "PTERODACTYL SCREAM",
+    "sequence": [
+      {
+        "command": 36,
+        "continue": false,
+        "hold_ticks": 120,
+        "encoded": 91
+      }
+    ]
+  },
+  "SNBOUN": {
+    "priority": 50,
+    "line_start": 8098,
+    "line_end": 8098,
+    "comment": "COLLECT BOUNTY",
+    "sequence": [
+      {
+        "command": 28,
+        "continue": false,
+        "hold_ticks": 60,
+        "encoded": 99
+      }
+    ]
+  },
+  "SNTROL": {
+    "priority": 50,
+    "line_start": 8099,
+    "line_end": 8099,
+    "comment": "CAPTURED BY LAVA TROLL SOUND",
+    "sequence": [
+      {
+        "command": 9,
+        "continue": false,
+        "hold_ticks": 30,
+        "encoded": 118
+      }
+    ]
+  },
+  "SNEGG": {
+    "priority": 45,
+    "line_start": 8100,
+    "line_end": 8100,
+    "comment": "PLAYER HITS EGG SOUND",
+    "sequence": [
+      {
+        "command": 3,
+        "continue": false,
+        "hold_ticks": 30,
+        "encoded": 124
+      }
+    ]
+  },
+  "SNEGGH": {
+    "priority": 45,
+    "line_start": 8101,
+    "line_end": 8101,
+    "comment": "EGG HATCHING SOUND",
+    "sequence": [
+      {
+        "command": 2,
+        "continue": false,
+        "hold_ticks": 30,
+        "encoded": 125
+      }
+    ]
+  },
+  "SNMOUN": {
+    "priority": 45,
+    "line_start": 8102,
+    "line_end": 8102,
+    "comment": "ENEMY MOUNTING THE BIRD",
+    "sequence": [
+      {
+        "command": 12,
+        "continue": false,
+        "hold_ticks": 30,
+        "encoded": 115
+      }
+    ]
+  },
+  "SNCTHD": {
+    "priority": 10,
+    "line_start": 8103,
+    "line_end": 8103,
+    "comment": "CLIFF THUD",
+    "sequence": [
+      {
+        "command": 6,
+        "continue": false,
+        "hold_ticks": 10,
+        "encoded": 121
+      }
+    ]
+  },
+  "SNECRE": {
+    "priority": 40,
+    "line_start": 8105,
+    "line_end": 8105,
+    "comment": "ENEMY RE-CREATED (TRANSPORTER)",
+    "sequence": [
+      {
+        "command": 7,
+        "continue": true,
+        "hold_ticks": 90,
+        "encoded": 248
+      },
+      {
+        "command": 63,
+        "continue": false,
+        "hold_ticks": 1,
+        "encoded": 0
+      }
+    ]
+  },
+  "SNEDIE": {
+    "priority": 40,
+    "line_start": 8106,
+    "line_end": 8106,
+    "comment": "ENEMY DIES",
+    "sequence": [
+      {
+        "command": 22,
+        "continue": false,
+        "hold_ticks": 20,
+        "encoded": 105
+      }
+    ]
+  },
+  "SNELAV": {
+    "priority": 40,
+    "line_start": 8107,
+    "line_end": 8107,
+    "comment": "ENEMY IN LAVA",
+    "sequence": [
+      {
+        "command": 13,
+        "continue": false,
+        "hold_ticks": 30,
+        "encoded": 114
+      }
+    ]
+  },
+  "SNETHD": {
+    "priority": 9,
+    "line_start": 8108,
+    "line_end": 8108,
+    "comment": "ENEMIES THUD",
+    "sequence": [
+      {
+        "command": 8,
+        "continue": true,
+        "hold_ticks": 30,
+        "encoded": 247
+      },
+      {
+        "command": 63,
+        "continue": false,
+        "hold_ticks": 1,
+        "encoded": 0
+      }
+    ]
+  },
+  "SNELWU": {
+    "priority": 6,
+    "line_start": 8109,
+    "line_end": 8109,
+    "comment": "ENEMIES WING UP SOUND",
+    "sequence": [
+      {
+        "command": 33,
+        "continue": false,
+        "hold_ticks": 60,
+        "encoded": 94
+      }
+    ]
+  },
+  "SNELWD": {
+    "priority": 6,
+    "line_start": 8110,
+    "line_end": 8110,
+    "comment": "ENEMIES WING DOWN SOUND",
+    "sequence": [
+      {
+        "command": 32,
+        "continue": false,
+        "hold_ticks": 60,
+        "encoded": 95
+      }
+    ]
+  },
+  "SNERU1": {
+    "priority": 6,
+    "line_start": 8111,
+    "line_end": 8111,
+    "comment": "ENEMY RUNS",
+    "sequence": [
+      {
+        "command": 34,
+        "continue": false,
+        "hold_ticks": 60,
+        "encoded": 93
+      }
+    ]
+  },
+  "SNERU2": {
+    "priority": 6,
+    "line_start": 8112,
+    "line_end": 8112,
+    "comment": "ENEMY RUNS",
+    "sequence": [
+      {
+        "command": 35,
+        "continue": false,
+        "hold_ticks": 60,
+        "encoded": 92
+      }
+    ]
+  },
+  "SNEMSK": {
+    "priority": 6,
+    "line_start": 8113,
+    "line_end": 8113,
+    "comment": "ENEMIES SKIDDING SOUND",
+    "sequence": [
+      {
+        "command": 38,
+        "continue": false,
+        "hold_ticks": 60,
+        "encoded": 89
+      }
+    ]
+  },
+  "SNEMS2": {
+    "priority": 6,
+    "line_start": 8114,
+    "line_end": 8114,
+    "comment": "END OF ENEMIES SKIDDING SOUND",
+    "sequence": [
+      {
+        "command": 39,
+        "continue": false,
+        "hold_ticks": 30,
+        "encoded": 88
+      }
+    ]
+  },
+  "SNEFAL": {
+    "priority": 6,
+    "line_start": 8115,
+    "line_end": 8115,
+    "comment": "ENEMY STARTING TO FALL (SKID STOP)",
+    "sequence": [
+      {
+        "command": 63,
+        "continue": false,
+        "hold_ticks": 1,
+        "encoded": 0
+      }
+    ]
+  },
+  "SNPDIE": {
+    "priority": 80,
+    "line_start": 8117,
+    "line_end": 8117,
+    "comment": "PLAYER DIES",
+    "sequence": [
+      {
+        "command": 22,
+        "continue": false,
+        "hold_ticks": 20,
+        "encoded": 105
+      }
+    ]
+  },
+  "SNPCR1": {
+    "priority": 70,
+    "line_start": 8118,
+    "line_end": 8120,
+    "comment": "PLAYER 1 RE-CREATED (TRANSPORTER)",
+    "sequence": [
+      {
+        "command": 18,
+        "continue": true,
+        "hold_ticks": 30,
+        "encoded": 237
+      },
+      {
+        "command": 20,
+        "continue": true,
+        "hold_ticks": 255,
+        "encoded": 235
+      },
+      {
+        "command": 0,
+        "continue": false,
+        "hold_ticks": 165,
+        "encoded": 127
+      }
+    ]
+  },
+  "SNPCR2": {
+    "priority": 70,
+    "line_start": 8121,
+    "line_end": 8123,
+    "comment": "PLAYER 2 RE-CREATED (TRANSPORTER)",
+    "sequence": [
+      {
+        "command": 18,
+        "continue": true,
+        "hold_ticks": 43,
+        "encoded": 237
+      },
+      {
+        "command": 21,
+        "continue": true,
+        "hold_ticks": 255,
+        "encoded": 234
+      },
+      {
+        "command": 0,
+        "continue": false,
+        "hold_ticks": 152,
+        "encoded": 127
+      }
+    ]
+  },
+  "SNPTREF": {
+    "priority": 70,
+    "line_start": 8124,
+    "line_end": 8124,
+    "comment": "PLAYER ABORTED FADING IN  (TRANSPORTER)",
+    "sequence": [
+      {
+        "command": 63,
+        "continue": false,
+        "hold_ticks": 1,
+        "encoded": 0
+      }
+    ]
+  },
+  "SNPLAV": {
+    "priority": 60,
+    "line_start": 8125,
+    "line_end": 8125,
+    "comment": "PLAYER IN LAVA",
+    "sequence": [
+      {
+        "command": 13,
+        "continue": false,
+        "hold_ticks": 30,
+        "encoded": 114
+      }
+    ]
+  },
+  "SNPTHD": {
+    "priority": 20,
+    "line_start": 8126,
+    "line_end": 8126,
+    "comment": "AT LEAST 1 PERSON THUD'ED",
+    "sequence": [
+      {
+        "command": 8,
+        "continue": true,
+        "hold_ticks": 30,
+        "encoded": 247
+      },
+      {
+        "command": 63,
+        "continue": false,
+        "hold_ticks": 1,
+        "encoded": 0
+      }
+    ]
+  },
+  "SNPLWU": {
+    "priority": 10,
+    "line_start": 8127,
+    "line_end": 8127,
+    "comment": "PLAYERS WING UP SOUND",
+    "sequence": [
+      {
+        "command": 33,
+        "continue": false,
+        "hold_ticks": 90,
+        "encoded": 94
+      }
+    ]
+  },
+  "SNPLWD": {
+    "priority": 10,
+    "line_start": 8128,
+    "line_end": 8128,
+    "comment": "PLAYERS WING DOWN SOUND",
+    "sequence": [
+      {
+        "command": 32,
+        "continue": false,
+        "hold_ticks": 90,
+        "encoded": 95
+      }
+    ]
+  },
+  "SNPRU1": {
+    "priority": 10,
+    "line_start": 8129,
+    "line_end": 8129,
+    "comment": "PLAYER RUNS",
+    "sequence": [
+      {
+        "command": 34,
+        "continue": false,
+        "hold_ticks": 70,
+        "encoded": 93
+      }
+    ]
+  },
+  "SNPRU2": {
+    "priority": 10,
+    "line_start": 8130,
+    "line_end": 8130,
+    "comment": "PLAYER RUNS",
+    "sequence": [
+      {
+        "command": 35,
+        "continue": false,
+        "hold_ticks": 70,
+        "encoded": 92
+      }
+    ]
+  },
+  "SNPLSK": {
+    "priority": 10,
+    "line_start": 8131,
+    "line_end": 8131,
+    "comment": "PLAYERS SKIDDING SOUND",
+    "sequence": [
+      {
+        "command": 38,
+        "continue": false,
+        "hold_ticks": 70,
+        "encoded": 89
+      }
+    ]
+  },
+  "SNPLS2": {
+    "priority": 10,
+    "line_start": 8132,
+    "line_end": 8132,
+    "comment": "END OF PLAYERS SKIDDING SOUND",
+    "sequence": [
+      {
+        "command": 39,
+        "continue": false,
+        "hold_ticks": 40,
+        "encoded": 88
+      }
+    ]
+  },
+  "SNPFAL": {
+    "priority": 10,
+    "line_start": 8133,
+    "line_end": 8133,
+    "comment": "PLAYER STARTING TO FALL (SKID STOP)",
+    "sequence": [
+      {
+        "command": 63,
+        "continue": false,
+        "hold_ticks": 60,
+        "encoded": 0
+      }
+    ]
+  },
+  "SNBUB": {
+    "priority": 1,
+    "line_start": 1027,
+    "line_end": 1027,
+    "source_file": "SYSTEM.ASM",
+    "comment": "THE SOUND OF A BUBBLE",
+    "sequence": [
+      {
+        "command": 13,
+        "continue": false,
+        "hold_ticks": 1,
+        "encoded": 114
+      }
+    ]
+  }
+}

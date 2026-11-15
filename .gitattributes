@@ -1,0 +1,9 @@
+* text=auto eol=lf
+*.bat text eol=crlf
+# Preserve the supplied reference pack byte-for-byte, including original whitespace.
+joust-kotlin-primer/** -text -whitespace
+*.png binary
+*.wav binary
+*.zip binary
+*.jar binary
+*.mp4 binary

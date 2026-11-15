@@ -1,0 +1,17 @@
+{
+  "command_from_different_cwd": "Extracted 90 waves, 28 dynamic parameters, 69 egg positions, and 14 baiter delays.",
+  "source_sha256": "bc8b177d44e5bba5e5f9f4687c32c007309d9f476ca0e7f1b67cc413fe409ec3",
+  "files": {
+    "gameplay_tables.json": {
+      "byte_equal": true,
+      "sha256": "5631408b4afccc731f36f39f868f981d336be4c9ac3c1c6dbd1ed30faa482966",
+      "bytes": 118673
+    },
+    "waves.csv": {
+      "byte_equal": true,
+      "sha256": "66eeae1cda3b63a59320864de62c2cb0167b0d4ebc7c55583e580416a8b9dfee",
+      "bytes": 5073
+    }
+  },
+  "mismatched_source_rejected": true
+}

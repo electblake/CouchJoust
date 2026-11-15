@@ -1,0 +1,5127 @@
+{
+  "source_commit": "87e22aab945709fa107df609c0efcb839a17c1f9",
+  "source_file": "JOUSTRV4.ASM",
+  "source_file_sha256": "bc8b177d44e5bba5e5f9f4687c32c007309d9f476ca0e7f1b67cc413fe409ec3",
+  "wave_fields_note": "On egg-wave rows the bounder/hunter/shadow fields encode hatch species and concurrent hatch capacity, not initial mounted enemy spawns; use hatch_type and concurrent_hatch_cap.",
+  "wave_count": 90,
+  "wave_table_repeat_entry": 81,
+  "displayed_wave_counter": "decimal modulo 100, independent of table entry",
+  "waves": [
+    {
+      "entry": 1,
+      "source_line": 2439,
+      "raw_hex": [
+        "30",
+        "01",
+        "00",
+        "02"
+      ],
+      "bounders": 3,
+      "hunters": 0,
+      "shadow_lords": 0,
+      "initial_pursuer_limit": 1,
+      "wave_pterodactyls": 0,
+      "status": 2,
+      "immediate_pursuit": false,
+      "special": "intro",
+      "disabled_cliffs": [],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2439"
+    },
+    {
+      "entry": 2,
+      "source_line": 2440,
+      "raw_hex": [
+        "40",
+        "01",
+        "00",
+        "04"
+      ],
+      "bounders": 4,
+      "hunters": 0,
+      "shadow_lords": 0,
+      "initial_pursuer_limit": 1,
+      "wave_pterodactyls": 0,
+      "status": 4,
+      "immediate_pursuit": false,
+      "special": "team_or_survival",
+      "disabled_cliffs": [],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2440"
+    },
+    {
+      "entry": 3,
+      "source_line": 2441,
+      "raw_hex": [
+        "60",
+        "02",
+        "00",
+        "00"
+      ],
+      "bounders": 6,
+      "hunters": 0,
+      "shadow_lords": 0,
+      "initial_pursuer_limit": 2,
+      "wave_pterodactyls": 0,
+      "status": 0,
+      "immediate_pursuit": false,
+      "special": "normal",
+      "disabled_cliffs": [],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2441"
+    },
+    {
+      "entry": 4,
+      "source_line": 2442,
+      "raw_hex": [
+        "33",
+        "01",
+        "00",
+        "06"
+      ],
+      "bounders": 3,
+      "hunters": 3,
+      "shadow_lords": 0,
+      "initial_pursuer_limit": 1,
+      "wave_pterodactyls": 0,
+      "status": 6,
+      "immediate_pursuit": false,
+      "special": "gladiator",
+      "disabled_cliffs": [],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2442"
+    },
+    {
+      "entry": 5,
+      "source_line": 2443,
+      "raw_hex": [
+        "60",
+        "01",
+        "00",
+        "08"
+      ],
+      "bounders": 6,
+      "hunters": 0,
+      "shadow_lords": 0,
+      "initial_pursuer_limit": 1,
+      "wave_pterodactyls": 0,
+      "status": 8,
+      "immediate_pursuit": false,
+      "special": "egg",
+      "disabled_cliffs": [],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2443",
+      "egg_count": 12,
+      "hatch_type": "bounder",
+      "concurrent_hatch_cap": 6
+    },
+    {
+      "entry": 6,
+      "source_line": 2445,
+      "raw_hex": [
+        "33",
+        "03",
+        "00",
+        "41"
+      ],
+      "bounders": 3,
+      "hunters": 3,
+      "shadow_lords": 0,
+      "initial_pursuer_limit": 3,
+      "wave_pterodactyls": 0,
+      "status": 65,
+      "immediate_pursuit": true,
+      "special": "normal",
+      "disabled_cliffs": [
+        "CLIF2"
+      ],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2445"
+    },
+    {
+      "entry": 7,
+      "source_line": 2446,
+      "raw_hex": [
+        "24",
+        "02",
+        "00",
+        "75"
+      ],
+      "bounders": 2,
+      "hunters": 4,
+      "shadow_lords": 0,
+      "initial_pursuer_limit": 2,
+      "wave_pterodactyls": 0,
+      "status": 117,
+      "immediate_pursuit": true,
+      "special": "team_or_survival",
+      "disabled_cliffs": [
+        "CLIF1L",
+        "CLIF1R",
+        "CLIF2"
+      ],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2446"
+    },
+    {
+      "entry": 8,
+      "source_line": 2447,
+      "raw_hex": [
+        "06",
+        "01",
+        "01",
+        "7B"
+      ],
+      "bounders": 0,
+      "hunters": 6,
+      "shadow_lords": 0,
+      "initial_pursuer_limit": 1,
+      "wave_pterodactyls": 1,
+      "status": 123,
+      "immediate_pursuit": true,
+      "special": "pterodactyl",
+      "disabled_cliffs": [
+        "CLIF1L",
+        "CLIF1R",
+        "CLIF2"
+      ],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2447"
+    },
+    {
+      "entry": 9,
+      "source_line": 2448,
+      "raw_hex": [
+        "06",
+        "02",
+        "00",
+        "F7"
+      ],
+      "bounders": 0,
+      "hunters": 6,
+      "shadow_lords": 0,
+      "initial_pursuer_limit": 2,
+      "wave_pterodactyls": 0,
+      "status": 247,
+      "immediate_pursuit": true,
+      "special": "gladiator",
+      "disabled_cliffs": [
+        "CLIF1L",
+        "CLIF1R",
+        "CLIF2",
+        "CLIF4"
+      ],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2448"
+    },
+    {
+      "entry": 10,
+      "source_line": 2449,
+      "raw_hex": [
+        "80",
+        "03",
+        "00",
+        "08"
+      ],
+      "bounders": 8,
+      "hunters": 0,
+      "shadow_lords": 0,
+      "initial_pursuer_limit": 3,
+      "wave_pterodactyls": 0,
+      "status": 8,
+      "immediate_pursuit": false,
+      "special": "egg",
+      "disabled_cliffs": [],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2449",
+      "egg_count": 12,
+      "hatch_type": "bounder",
+      "concurrent_hatch_cap": 8
+    },
+    {
+      "entry": 11,
+      "source_line": 2451,
+      "raw_hex": [
+        "35",
+        "03",
+        "00",
+        "01"
+      ],
+      "bounders": 3,
+      "hunters": 5,
+      "shadow_lords": 0,
+      "initial_pursuer_limit": 3,
+      "wave_pterodactyls": 0,
+      "status": 1,
+      "immediate_pursuit": true,
+      "special": "normal",
+      "disabled_cliffs": [],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2451"
+    },
+    {
+      "entry": 12,
+      "source_line": 2452,
+      "raw_hex": [
+        "26",
+        "02",
+        "00",
+        "85"
+      ],
+      "bounders": 2,
+      "hunters": 6,
+      "shadow_lords": 0,
+      "initial_pursuer_limit": 2,
+      "wave_pterodactyls": 0,
+      "status": 133,
+      "immediate_pursuit": true,
+      "special": "team_or_survival",
+      "disabled_cliffs": [
+        "CLIF4"
+      ],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2452"
+    },
+    {
+      "entry": 13,
+      "source_line": 2453,
+      "raw_hex": [
+        "07",
+        "03",
+        "01",
+        "FB"
+      ],
+      "bounders": 0,
+      "hunters": 7,
+      "shadow_lords": 0,
+      "initial_pursuer_limit": 3,
+      "wave_pterodactyls": 1,
+      "status": 251,
+      "immediate_pursuit": true,
+      "special": "pterodactyl",
+      "disabled_cliffs": [
+        "CLIF1L",
+        "CLIF1R",
+        "CLIF2",
+        "CLIF4"
+      ],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2453"
+    },
+    {
+      "entry": 14,
+      "source_line": 2454,
+      "raw_hex": [
+        "08",
+        "04",
+        "00",
+        "F7"
+      ],
+      "bounders": 0,
+      "hunters": 8,
+      "shadow_lords": 0,
+      "initial_pursuer_limit": 4,
+      "wave_pterodactyls": 0,
+      "status": 247,
+      "immediate_pursuit": true,
+      "special": "gladiator",
+      "disabled_cliffs": [
+        "CLIF1L",
+        "CLIF1R",
+        "CLIF2",
+        "CLIF4"
+      ],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2454"
+    },
+    {
+      "entry": 15,
+      "source_line": 2455,
+      "raw_hex": [
+        "06",
+        "02",
+        "00",
+        "08"
+      ],
+      "bounders": 0,
+      "hunters": 6,
+      "shadow_lords": 0,
+      "initial_pursuer_limit": 2,
+      "wave_pterodactyls": 0,
+      "status": 8,
+      "immediate_pursuit": false,
+      "special": "egg",
+      "disabled_cliffs": [],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2455",
+      "egg_count": 12,
+      "hatch_type": "hunter",
+      "concurrent_hatch_cap": 6
+    },
+    {
+      "entry": 16,
+      "source_line": 2457,
+      "raw_hex": [
+        "05",
+        "1F",
+        "00",
+        "00"
+      ],
+      "bounders": 0,
+      "hunters": 5,
+      "shadow_lords": 1,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 0,
+      "immediate_pursuit": false,
+      "special": "normal",
+      "disabled_cliffs": [],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2457"
+    },
+    {
+      "entry": 17,
+      "source_line": 2458,
+      "raw_hex": [
+        "05",
+        "1F",
+        "00",
+        "04"
+      ],
+      "bounders": 0,
+      "hunters": 5,
+      "shadow_lords": 1,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 4,
+      "immediate_pursuit": false,
+      "special": "team_or_survival",
+      "disabled_cliffs": [],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2458"
+    },
+    {
+      "entry": 18,
+      "source_line": 2459,
+      "raw_hex": [
+        "05",
+        "1F",
+        "02",
+        "0A"
+      ],
+      "bounders": 0,
+      "hunters": 5,
+      "shadow_lords": 1,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 2,
+      "status": 10,
+      "immediate_pursuit": false,
+      "special": "pterodactyl",
+      "disabled_cliffs": [],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2459"
+    },
+    {
+      "entry": 19,
+      "source_line": 2460,
+      "raw_hex": [
+        "04",
+        "2F",
+        "00",
+        "06"
+      ],
+      "bounders": 0,
+      "hunters": 4,
+      "shadow_lords": 2,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 6,
+      "immediate_pursuit": false,
+      "special": "gladiator",
+      "disabled_cliffs": [],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2460"
+    },
+    {
+      "entry": 20,
+      "source_line": 2461,
+      "raw_hex": [
+        "06",
+        "03",
+        "00",
+        "08"
+      ],
+      "bounders": 0,
+      "hunters": 6,
+      "shadow_lords": 0,
+      "initial_pursuer_limit": 3,
+      "wave_pterodactyls": 0,
+      "status": 8,
+      "immediate_pursuit": false,
+      "special": "egg",
+      "disabled_cliffs": [],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2461",
+      "egg_count": 12,
+      "hatch_type": "hunter",
+      "concurrent_hatch_cap": 6
+    },
+    {
+      "entry": 21,
+      "source_line": 2463,
+      "raw_hex": [
+        "03",
+        "3F",
+        "00",
+        "31"
+      ],
+      "bounders": 0,
+      "hunters": 3,
+      "shadow_lords": 3,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 49,
+      "immediate_pursuit": true,
+      "special": "normal",
+      "disabled_cliffs": [
+        "CLIF1L",
+        "CLIF1R"
+      ],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2463"
+    },
+    {
+      "entry": 22,
+      "source_line": 2464,
+      "raw_hex": [
+        "02",
+        "4F",
+        "00",
+        "35"
+      ],
+      "bounders": 0,
+      "hunters": 2,
+      "shadow_lords": 4,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 53,
+      "immediate_pursuit": true,
+      "special": "team_or_survival",
+      "disabled_cliffs": [
+        "CLIF1L",
+        "CLIF1R"
+      ],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2464"
+    },
+    {
+      "entry": 23,
+      "source_line": 2465,
+      "raw_hex": [
+        "02",
+        "4F",
+        "02",
+        "BB"
+      ],
+      "bounders": 0,
+      "hunters": 2,
+      "shadow_lords": 4,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 2,
+      "status": 187,
+      "immediate_pursuit": true,
+      "special": "pterodactyl",
+      "disabled_cliffs": [
+        "CLIF1L",
+        "CLIF1R",
+        "CLIF4"
+      ],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2465"
+    },
+    {
+      "entry": 24,
+      "source_line": 2466,
+      "raw_hex": [
+        "02",
+        "4F",
+        "00",
+        "B7"
+      ],
+      "bounders": 0,
+      "hunters": 2,
+      "shadow_lords": 4,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 183,
+      "immediate_pursuit": true,
+      "special": "gladiator",
+      "disabled_cliffs": [
+        "CLIF1L",
+        "CLIF1R",
+        "CLIF4"
+      ],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2466"
+    },
+    {
+      "entry": 25,
+      "source_line": 2467,
+      "raw_hex": [
+        "06",
+        "04",
+        "00",
+        "08"
+      ],
+      "bounders": 0,
+      "hunters": 6,
+      "shadow_lords": 0,
+      "initial_pursuer_limit": 4,
+      "wave_pterodactyls": 0,
+      "status": 8,
+      "immediate_pursuit": false,
+      "special": "egg",
+      "disabled_cliffs": [],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2467",
+      "egg_count": 12,
+      "hatch_type": "hunter",
+      "concurrent_hatch_cap": 6
+    },
+    {
+      "entry": 26,
+      "source_line": 2469,
+      "raw_hex": [
+        "03",
+        "5F",
+        "00",
+        "F1"
+      ],
+      "bounders": 0,
+      "hunters": 3,
+      "shadow_lords": 5,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 241,
+      "immediate_pursuit": true,
+      "special": "normal",
+      "disabled_cliffs": [
+        "CLIF1L",
+        "CLIF1R",
+        "CLIF2",
+        "CLIF4"
+      ],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2469"
+    },
+    {
+      "entry": 27,
+      "source_line": 2470,
+      "raw_hex": [
+        "03",
+        "5F",
+        "00",
+        "F5"
+      ],
+      "bounders": 0,
+      "hunters": 3,
+      "shadow_lords": 5,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 245,
+      "immediate_pursuit": true,
+      "special": "team_or_survival",
+      "disabled_cliffs": [
+        "CLIF1L",
+        "CLIF1R",
+        "CLIF2",
+        "CLIF4"
+      ],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2470"
+    },
+    {
+      "entry": 28,
+      "source_line": 2471,
+      "raw_hex": [
+        "02",
+        "4F",
+        "02",
+        "FB"
+      ],
+      "bounders": 0,
+      "hunters": 2,
+      "shadow_lords": 4,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 2,
+      "status": 251,
+      "immediate_pursuit": true,
+      "special": "pterodactyl",
+      "disabled_cliffs": [
+        "CLIF1L",
+        "CLIF1R",
+        "CLIF2",
+        "CLIF4"
+      ],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2471"
+    },
+    {
+      "entry": 29,
+      "source_line": 2472,
+      "raw_hex": [
+        "03",
+        "5F",
+        "00",
+        "F7"
+      ],
+      "bounders": 0,
+      "hunters": 3,
+      "shadow_lords": 5,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 247,
+      "immediate_pursuit": true,
+      "special": "gladiator",
+      "disabled_cliffs": [
+        "CLIF1L",
+        "CLIF1R",
+        "CLIF2",
+        "CLIF4"
+      ],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2472"
+    },
+    {
+      "entry": 30,
+      "source_line": 2473,
+      "raw_hex": [
+        "06",
+        "03",
+        "00",
+        "08"
+      ],
+      "bounders": 0,
+      "hunters": 6,
+      "shadow_lords": 0,
+      "initial_pursuer_limit": 3,
+      "wave_pterodactyls": 0,
+      "status": 8,
+      "immediate_pursuit": false,
+      "special": "egg",
+      "disabled_cliffs": [],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2473",
+      "egg_count": 12,
+      "hatch_type": "hunter",
+      "concurrent_hatch_cap": 6
+    },
+    {
+      "entry": 31,
+      "source_line": 2475,
+      "raw_hex": [
+        "04",
+        "4F",
+        "00",
+        "01"
+      ],
+      "bounders": 0,
+      "hunters": 4,
+      "shadow_lords": 4,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 1,
+      "immediate_pursuit": true,
+      "special": "normal",
+      "disabled_cliffs": [],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2475"
+    },
+    {
+      "entry": 32,
+      "source_line": 2476,
+      "raw_hex": [
+        "02",
+        "6F",
+        "00",
+        "05"
+      ],
+      "bounders": 0,
+      "hunters": 2,
+      "shadow_lords": 6,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 5,
+      "immediate_pursuit": true,
+      "special": "team_or_survival",
+      "disabled_cliffs": [],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2476"
+    },
+    {
+      "entry": 33,
+      "source_line": 2477,
+      "raw_hex": [
+        "02",
+        "4F",
+        "02",
+        "4B"
+      ],
+      "bounders": 0,
+      "hunters": 2,
+      "shadow_lords": 4,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 2,
+      "status": 75,
+      "immediate_pursuit": true,
+      "special": "pterodactyl",
+      "disabled_cliffs": [
+        "CLIF2"
+      ],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2477"
+    },
+    {
+      "entry": 34,
+      "source_line": 2478,
+      "raw_hex": [
+        "02",
+        "6F",
+        "00",
+        "47"
+      ],
+      "bounders": 0,
+      "hunters": 2,
+      "shadow_lords": 6,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 71,
+      "immediate_pursuit": true,
+      "special": "gladiator",
+      "disabled_cliffs": [
+        "CLIF2"
+      ],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2478"
+    },
+    {
+      "entry": 35,
+      "source_line": 2479,
+      "raw_hex": [
+        "08",
+        "05",
+        "00",
+        "08"
+      ],
+      "bounders": 0,
+      "hunters": 8,
+      "shadow_lords": 0,
+      "initial_pursuer_limit": 5,
+      "wave_pterodactyls": 0,
+      "status": 8,
+      "immediate_pursuit": false,
+      "special": "egg",
+      "disabled_cliffs": [],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2479",
+      "egg_count": 12,
+      "hatch_type": "hunter",
+      "concurrent_hatch_cap": 8
+    },
+    {
+      "entry": 36,
+      "source_line": 2481,
+      "raw_hex": [
+        "02",
+        "6F",
+        "00",
+        "81"
+      ],
+      "bounders": 0,
+      "hunters": 2,
+      "shadow_lords": 6,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 129,
+      "immediate_pursuit": true,
+      "special": "normal",
+      "disabled_cliffs": [
+        "CLIF4"
+      ],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2481"
+    },
+    {
+      "entry": 37,
+      "source_line": 2482,
+      "raw_hex": [
+        "00",
+        "8F",
+        "00",
+        "85"
+      ],
+      "bounders": 0,
+      "hunters": 0,
+      "shadow_lords": 8,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 133,
+      "immediate_pursuit": true,
+      "special": "team_or_survival",
+      "disabled_cliffs": [
+        "CLIF4"
+      ],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2482"
+    },
+    {
+      "entry": 38,
+      "source_line": 2483,
+      "raw_hex": [
+        "00",
+        "6F",
+        "02",
+        "CB"
+      ],
+      "bounders": 0,
+      "hunters": 0,
+      "shadow_lords": 6,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 2,
+      "status": 203,
+      "immediate_pursuit": true,
+      "special": "pterodactyl",
+      "disabled_cliffs": [
+        "CLIF2",
+        "CLIF4"
+      ],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2483"
+    },
+    {
+      "entry": 39,
+      "source_line": 2484,
+      "raw_hex": [
+        "00",
+        "8F",
+        "00",
+        "C7"
+      ],
+      "bounders": 0,
+      "hunters": 0,
+      "shadow_lords": 8,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 199,
+      "immediate_pursuit": true,
+      "special": "gladiator",
+      "disabled_cliffs": [
+        "CLIF2",
+        "CLIF4"
+      ],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2484"
+    },
+    {
+      "entry": 40,
+      "source_line": 2485,
+      "raw_hex": [
+        "08",
+        "05",
+        "00",
+        "08"
+      ],
+      "bounders": 0,
+      "hunters": 8,
+      "shadow_lords": 0,
+      "initial_pursuer_limit": 5,
+      "wave_pterodactyls": 0,
+      "status": 8,
+      "immediate_pursuit": false,
+      "special": "egg",
+      "disabled_cliffs": [],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2485",
+      "egg_count": 12,
+      "hatch_type": "hunter",
+      "concurrent_hatch_cap": 8
+    },
+    {
+      "entry": 41,
+      "source_line": 2487,
+      "raw_hex": [
+        "03",
+        "7F",
+        "00",
+        "31"
+      ],
+      "bounders": 0,
+      "hunters": 3,
+      "shadow_lords": 7,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 49,
+      "immediate_pursuit": true,
+      "special": "normal",
+      "disabled_cliffs": [
+        "CLIF1L",
+        "CLIF1R"
+      ],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2487"
+    },
+    {
+      "entry": 42,
+      "source_line": 2488,
+      "raw_hex": [
+        "00",
+        "AF",
+        "00",
+        "B5"
+      ],
+      "bounders": 0,
+      "hunters": 0,
+      "shadow_lords": 10,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 181,
+      "immediate_pursuit": true,
+      "special": "team_or_survival",
+      "disabled_cliffs": [
+        "CLIF1L",
+        "CLIF1R",
+        "CLIF4"
+      ],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2488"
+    },
+    {
+      "entry": 43,
+      "source_line": 2489,
+      "raw_hex": [
+        "00",
+        "7F",
+        "03",
+        "BB"
+      ],
+      "bounders": 0,
+      "hunters": 0,
+      "shadow_lords": 7,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 3,
+      "status": 187,
+      "immediate_pursuit": true,
+      "special": "pterodactyl",
+      "disabled_cliffs": [
+        "CLIF1L",
+        "CLIF1R",
+        "CLIF4"
+      ],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2489"
+    },
+    {
+      "entry": 44,
+      "source_line": 2490,
+      "raw_hex": [
+        "00",
+        "AF",
+        "00",
+        "F7"
+      ],
+      "bounders": 0,
+      "hunters": 0,
+      "shadow_lords": 10,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 247,
+      "immediate_pursuit": true,
+      "special": "gladiator",
+      "disabled_cliffs": [
+        "CLIF1L",
+        "CLIF1R",
+        "CLIF2",
+        "CLIF4"
+      ],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2490"
+    },
+    {
+      "entry": 45,
+      "source_line": 2491,
+      "raw_hex": [
+        "08",
+        "06",
+        "00",
+        "08"
+      ],
+      "bounders": 0,
+      "hunters": 8,
+      "shadow_lords": 0,
+      "initial_pursuer_limit": 6,
+      "wave_pterodactyls": 0,
+      "status": 8,
+      "immediate_pursuit": false,
+      "special": "egg",
+      "disabled_cliffs": [],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2491",
+      "egg_count": 12,
+      "hatch_type": "hunter",
+      "concurrent_hatch_cap": 8
+    },
+    {
+      "entry": 46,
+      "source_line": 2493,
+      "raw_hex": [
+        "03",
+        "7F",
+        "00",
+        "01"
+      ],
+      "bounders": 0,
+      "hunters": 3,
+      "shadow_lords": 7,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 1,
+      "immediate_pursuit": true,
+      "special": "normal",
+      "disabled_cliffs": [],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2493"
+    },
+    {
+      "entry": 47,
+      "source_line": 2494,
+      "raw_hex": [
+        "00",
+        "AF",
+        "00",
+        "05"
+      ],
+      "bounders": 0,
+      "hunters": 0,
+      "shadow_lords": 10,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 5,
+      "immediate_pursuit": true,
+      "special": "team_or_survival",
+      "disabled_cliffs": [],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2494"
+    },
+    {
+      "entry": 48,
+      "source_line": 2495,
+      "raw_hex": [
+        "00",
+        "7F",
+        "03",
+        "0B"
+      ],
+      "bounders": 0,
+      "hunters": 0,
+      "shadow_lords": 7,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 3,
+      "status": 11,
+      "immediate_pursuit": true,
+      "special": "pterodactyl",
+      "disabled_cliffs": [],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2495"
+    },
+    {
+      "entry": 49,
+      "source_line": 2496,
+      "raw_hex": [
+        "00",
+        "AF",
+        "00",
+        "87"
+      ],
+      "bounders": 0,
+      "hunters": 0,
+      "shadow_lords": 10,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 135,
+      "immediate_pursuit": true,
+      "special": "gladiator",
+      "disabled_cliffs": [
+        "CLIF4"
+      ],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2496"
+    },
+    {
+      "entry": 50,
+      "source_line": 2497,
+      "raw_hex": [
+        "08",
+        "06",
+        "00",
+        "08"
+      ],
+      "bounders": 0,
+      "hunters": 8,
+      "shadow_lords": 0,
+      "initial_pursuer_limit": 6,
+      "wave_pterodactyls": 0,
+      "status": 8,
+      "immediate_pursuit": false,
+      "special": "egg",
+      "disabled_cliffs": [],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2497",
+      "egg_count": 12,
+      "hatch_type": "hunter",
+      "concurrent_hatch_cap": 8
+    },
+    {
+      "entry": 51,
+      "source_line": 2499,
+      "raw_hex": [
+        "03",
+        "7F",
+        "00",
+        "31"
+      ],
+      "bounders": 0,
+      "hunters": 3,
+      "shadow_lords": 7,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 49,
+      "immediate_pursuit": true,
+      "special": "normal",
+      "disabled_cliffs": [
+        "CLIF1L",
+        "CLIF1R"
+      ],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2499"
+    },
+    {
+      "entry": 52,
+      "source_line": 2500,
+      "raw_hex": [
+        "00",
+        "AF",
+        "00",
+        "B5"
+      ],
+      "bounders": 0,
+      "hunters": 0,
+      "shadow_lords": 10,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 181,
+      "immediate_pursuit": true,
+      "special": "team_or_survival",
+      "disabled_cliffs": [
+        "CLIF1L",
+        "CLIF1R",
+        "CLIF4"
+      ],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2500"
+    },
+    {
+      "entry": 53,
+      "source_line": 2501,
+      "raw_hex": [
+        "00",
+        "7F",
+        "03",
+        "BB"
+      ],
+      "bounders": 0,
+      "hunters": 0,
+      "shadow_lords": 7,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 3,
+      "status": 187,
+      "immediate_pursuit": true,
+      "special": "pterodactyl",
+      "disabled_cliffs": [
+        "CLIF1L",
+        "CLIF1R",
+        "CLIF4"
+      ],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2501"
+    },
+    {
+      "entry": 54,
+      "source_line": 2502,
+      "raw_hex": [
+        "00",
+        "AF",
+        "00",
+        "F7"
+      ],
+      "bounders": 0,
+      "hunters": 0,
+      "shadow_lords": 10,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 247,
+      "immediate_pursuit": true,
+      "special": "gladiator",
+      "disabled_cliffs": [
+        "CLIF1L",
+        "CLIF1R",
+        "CLIF2",
+        "CLIF4"
+      ],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2502"
+    },
+    {
+      "entry": 55,
+      "source_line": 2503,
+      "raw_hex": [
+        "08",
+        "0F",
+        "00",
+        "08"
+      ],
+      "bounders": 0,
+      "hunters": 8,
+      "shadow_lords": 0,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 8,
+      "immediate_pursuit": false,
+      "special": "egg",
+      "disabled_cliffs": [],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2503",
+      "egg_count": 12,
+      "hatch_type": "hunter",
+      "concurrent_hatch_cap": 8
+    },
+    {
+      "entry": 56,
+      "source_line": 2505,
+      "raw_hex": [
+        "03",
+        "7F",
+        "00",
+        "01"
+      ],
+      "bounders": 0,
+      "hunters": 3,
+      "shadow_lords": 7,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 1,
+      "immediate_pursuit": true,
+      "special": "normal",
+      "disabled_cliffs": [],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2505"
+    },
+    {
+      "entry": 57,
+      "source_line": 2506,
+      "raw_hex": [
+        "00",
+        "AF",
+        "00",
+        "05"
+      ],
+      "bounders": 0,
+      "hunters": 0,
+      "shadow_lords": 10,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 5,
+      "immediate_pursuit": true,
+      "special": "team_or_survival",
+      "disabled_cliffs": [],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2506"
+    },
+    {
+      "entry": 58,
+      "source_line": 2507,
+      "raw_hex": [
+        "00",
+        "7F",
+        "03",
+        "0B"
+      ],
+      "bounders": 0,
+      "hunters": 0,
+      "shadow_lords": 7,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 3,
+      "status": 11,
+      "immediate_pursuit": true,
+      "special": "pterodactyl",
+      "disabled_cliffs": [],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2507"
+    },
+    {
+      "entry": 59,
+      "source_line": 2508,
+      "raw_hex": [
+        "00",
+        "AF",
+        "00",
+        "87"
+      ],
+      "bounders": 0,
+      "hunters": 0,
+      "shadow_lords": 10,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 135,
+      "immediate_pursuit": true,
+      "special": "gladiator",
+      "disabled_cliffs": [
+        "CLIF4"
+      ],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2508"
+    },
+    {
+      "entry": 60,
+      "source_line": 2509,
+      "raw_hex": [
+        "00",
+        "63",
+        "00",
+        "08"
+      ],
+      "bounders": 0,
+      "hunters": 0,
+      "shadow_lords": 6,
+      "initial_pursuer_limit": 3,
+      "wave_pterodactyls": 0,
+      "status": 8,
+      "immediate_pursuit": false,
+      "special": "egg",
+      "disabled_cliffs": [],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2509",
+      "egg_count": 12,
+      "hatch_type": "shadow_lord",
+      "concurrent_hatch_cap": 6
+    },
+    {
+      "entry": 61,
+      "source_line": 2511,
+      "raw_hex": [
+        "00",
+        "AF",
+        "00",
+        "31"
+      ],
+      "bounders": 0,
+      "hunters": 0,
+      "shadow_lords": 10,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 49,
+      "immediate_pursuit": true,
+      "special": "normal",
+      "disabled_cliffs": [
+        "CLIF1L",
+        "CLIF1R"
+      ],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2511"
+    },
+    {
+      "entry": 62,
+      "source_line": 2512,
+      "raw_hex": [
+        "00",
+        "AF",
+        "00",
+        "B5"
+      ],
+      "bounders": 0,
+      "hunters": 0,
+      "shadow_lords": 10,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 181,
+      "immediate_pursuit": true,
+      "special": "team_or_survival",
+      "disabled_cliffs": [
+        "CLIF1L",
+        "CLIF1R",
+        "CLIF4"
+      ],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2512"
+    },
+    {
+      "entry": 63,
+      "source_line": 2513,
+      "raw_hex": [
+        "00",
+        "7F",
+        "03",
+        "BB"
+      ],
+      "bounders": 0,
+      "hunters": 0,
+      "shadow_lords": 7,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 3,
+      "status": 187,
+      "immediate_pursuit": true,
+      "special": "pterodactyl",
+      "disabled_cliffs": [
+        "CLIF1L",
+        "CLIF1R",
+        "CLIF4"
+      ],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2513"
+    },
+    {
+      "entry": 64,
+      "source_line": 2514,
+      "raw_hex": [
+        "00",
+        "AF",
+        "00",
+        "F7"
+      ],
+      "bounders": 0,
+      "hunters": 0,
+      "shadow_lords": 10,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 247,
+      "immediate_pursuit": true,
+      "special": "gladiator",
+      "disabled_cliffs": [
+        "CLIF1L",
+        "CLIF1R",
+        "CLIF2",
+        "CLIF4"
+      ],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2514"
+    },
+    {
+      "entry": 65,
+      "source_line": 2515,
+      "raw_hex": [
+        "00",
+        "64",
+        "00",
+        "08"
+      ],
+      "bounders": 0,
+      "hunters": 0,
+      "shadow_lords": 6,
+      "initial_pursuer_limit": 4,
+      "wave_pterodactyls": 0,
+      "status": 8,
+      "immediate_pursuit": false,
+      "special": "egg",
+      "disabled_cliffs": [],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2515",
+      "egg_count": 12,
+      "hatch_type": "shadow_lord",
+      "concurrent_hatch_cap": 6
+    },
+    {
+      "entry": 66,
+      "source_line": 2517,
+      "raw_hex": [
+        "00",
+        "AF",
+        "00",
+        "01"
+      ],
+      "bounders": 0,
+      "hunters": 0,
+      "shadow_lords": 10,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 1,
+      "immediate_pursuit": true,
+      "special": "normal",
+      "disabled_cliffs": [],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2517"
+    },
+    {
+      "entry": 67,
+      "source_line": 2518,
+      "raw_hex": [
+        "00",
+        "AF",
+        "00",
+        "05"
+      ],
+      "bounders": 0,
+      "hunters": 0,
+      "shadow_lords": 10,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 5,
+      "immediate_pursuit": true,
+      "special": "team_or_survival",
+      "disabled_cliffs": [],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2518"
+    },
+    {
+      "entry": 68,
+      "source_line": 2519,
+      "raw_hex": [
+        "00",
+        "7F",
+        "03",
+        "0B"
+      ],
+      "bounders": 0,
+      "hunters": 0,
+      "shadow_lords": 7,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 3,
+      "status": 11,
+      "immediate_pursuit": true,
+      "special": "pterodactyl",
+      "disabled_cliffs": [],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2519"
+    },
+    {
+      "entry": 69,
+      "source_line": 2520,
+      "raw_hex": [
+        "00",
+        "AF",
+        "00",
+        "87"
+      ],
+      "bounders": 0,
+      "hunters": 0,
+      "shadow_lords": 10,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 135,
+      "immediate_pursuit": true,
+      "special": "gladiator",
+      "disabled_cliffs": [
+        "CLIF4"
+      ],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2520"
+    },
+    {
+      "entry": 70,
+      "source_line": 2521,
+      "raw_hex": [
+        "00",
+        "65",
+        "00",
+        "08"
+      ],
+      "bounders": 0,
+      "hunters": 0,
+      "shadow_lords": 6,
+      "initial_pursuer_limit": 5,
+      "wave_pterodactyls": 0,
+      "status": 8,
+      "immediate_pursuit": false,
+      "special": "egg",
+      "disabled_cliffs": [],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2521",
+      "egg_count": 12,
+      "hatch_type": "shadow_lord",
+      "concurrent_hatch_cap": 6
+    },
+    {
+      "entry": 71,
+      "source_line": 2523,
+      "raw_hex": [
+        "00",
+        "AF",
+        "00",
+        "31"
+      ],
+      "bounders": 0,
+      "hunters": 0,
+      "shadow_lords": 10,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 49,
+      "immediate_pursuit": true,
+      "special": "normal",
+      "disabled_cliffs": [
+        "CLIF1L",
+        "CLIF1R"
+      ],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2523"
+    },
+    {
+      "entry": 72,
+      "source_line": 2524,
+      "raw_hex": [
+        "00",
+        "AF",
+        "00",
+        "B5"
+      ],
+      "bounders": 0,
+      "hunters": 0,
+      "shadow_lords": 10,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 181,
+      "immediate_pursuit": true,
+      "special": "team_or_survival",
+      "disabled_cliffs": [
+        "CLIF1L",
+        "CLIF1R",
+        "CLIF4"
+      ],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2524"
+    },
+    {
+      "entry": 73,
+      "source_line": 2525,
+      "raw_hex": [
+        "00",
+        "7F",
+        "03",
+        "BB"
+      ],
+      "bounders": 0,
+      "hunters": 0,
+      "shadow_lords": 7,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 3,
+      "status": 187,
+      "immediate_pursuit": true,
+      "special": "pterodactyl",
+      "disabled_cliffs": [
+        "CLIF1L",
+        "CLIF1R",
+        "CLIF4"
+      ],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2525"
+    },
+    {
+      "entry": 74,
+      "source_line": 2526,
+      "raw_hex": [
+        "00",
+        "AF",
+        "00",
+        "F7"
+      ],
+      "bounders": 0,
+      "hunters": 0,
+      "shadow_lords": 10,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 247,
+      "immediate_pursuit": true,
+      "special": "gladiator",
+      "disabled_cliffs": [
+        "CLIF1L",
+        "CLIF1R",
+        "CLIF2",
+        "CLIF4"
+      ],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2526"
+    },
+    {
+      "entry": 75,
+      "source_line": 2527,
+      "raw_hex": [
+        "00",
+        "6F",
+        "00",
+        "08"
+      ],
+      "bounders": 0,
+      "hunters": 0,
+      "shadow_lords": 6,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 8,
+      "immediate_pursuit": false,
+      "special": "egg",
+      "disabled_cliffs": [],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2527",
+      "egg_count": 12,
+      "hatch_type": "shadow_lord",
+      "concurrent_hatch_cap": 6
+    },
+    {
+      "entry": 76,
+      "source_line": 2529,
+      "raw_hex": [
+        "00",
+        "AF",
+        "00",
+        "01"
+      ],
+      "bounders": 0,
+      "hunters": 0,
+      "shadow_lords": 10,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 1,
+      "immediate_pursuit": true,
+      "special": "normal",
+      "disabled_cliffs": [],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2529"
+    },
+    {
+      "entry": 77,
+      "source_line": 2530,
+      "raw_hex": [
+        "00",
+        "AF",
+        "00",
+        "05"
+      ],
+      "bounders": 0,
+      "hunters": 0,
+      "shadow_lords": 10,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 5,
+      "immediate_pursuit": true,
+      "special": "team_or_survival",
+      "disabled_cliffs": [],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2530"
+    },
+    {
+      "entry": 78,
+      "source_line": 2531,
+      "raw_hex": [
+        "00",
+        "7F",
+        "03",
+        "0B"
+      ],
+      "bounders": 0,
+      "hunters": 0,
+      "shadow_lords": 7,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 3,
+      "status": 11,
+      "immediate_pursuit": true,
+      "special": "pterodactyl",
+      "disabled_cliffs": [],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2531"
+    },
+    {
+      "entry": 79,
+      "source_line": 2532,
+      "raw_hex": [
+        "00",
+        "AF",
+        "00",
+        "87"
+      ],
+      "bounders": 0,
+      "hunters": 0,
+      "shadow_lords": 10,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 135,
+      "immediate_pursuit": true,
+      "special": "gladiator",
+      "disabled_cliffs": [
+        "CLIF4"
+      ],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2532"
+    },
+    {
+      "entry": 80,
+      "source_line": 2533,
+      "raw_hex": [
+        "00",
+        "86",
+        "00",
+        "08"
+      ],
+      "bounders": 0,
+      "hunters": 0,
+      "shadow_lords": 8,
+      "initial_pursuer_limit": 6,
+      "wave_pterodactyls": 0,
+      "status": 8,
+      "immediate_pursuit": false,
+      "special": "egg",
+      "disabled_cliffs": [],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2533",
+      "egg_count": 12,
+      "hatch_type": "shadow_lord",
+      "concurrent_hatch_cap": 8
+    },
+    {
+      "entry": 81,
+      "source_line": 2535,
+      "raw_hex": [
+        "00",
+        "AF",
+        "00",
+        "31"
+      ],
+      "bounders": 0,
+      "hunters": 0,
+      "shadow_lords": 10,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 49,
+      "immediate_pursuit": true,
+      "special": "normal",
+      "disabled_cliffs": [
+        "CLIF1L",
+        "CLIF1R"
+      ],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2535"
+    },
+    {
+      "entry": 82,
+      "source_line": 2536,
+      "raw_hex": [
+        "00",
+        "AF",
+        "00",
+        "B5"
+      ],
+      "bounders": 0,
+      "hunters": 0,
+      "shadow_lords": 10,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 181,
+      "immediate_pursuit": true,
+      "special": "team_or_survival",
+      "disabled_cliffs": [
+        "CLIF1L",
+        "CLIF1R",
+        "CLIF4"
+      ],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2536"
+    },
+    {
+      "entry": 83,
+      "source_line": 2537,
+      "raw_hex": [
+        "00",
+        "7F",
+        "03",
+        "BB"
+      ],
+      "bounders": 0,
+      "hunters": 0,
+      "shadow_lords": 7,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 3,
+      "status": 187,
+      "immediate_pursuit": true,
+      "special": "pterodactyl",
+      "disabled_cliffs": [
+        "CLIF1L",
+        "CLIF1R",
+        "CLIF4"
+      ],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2537"
+    },
+    {
+      "entry": 84,
+      "source_line": 2538,
+      "raw_hex": [
+        "00",
+        "AF",
+        "00",
+        "F7"
+      ],
+      "bounders": 0,
+      "hunters": 0,
+      "shadow_lords": 10,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 247,
+      "immediate_pursuit": true,
+      "special": "gladiator",
+      "disabled_cliffs": [
+        "CLIF1L",
+        "CLIF1R",
+        "CLIF2",
+        "CLIF4"
+      ],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2538"
+    },
+    {
+      "entry": 85,
+      "source_line": 2539,
+      "raw_hex": [
+        "00",
+        "8F",
+        "00",
+        "08"
+      ],
+      "bounders": 0,
+      "hunters": 0,
+      "shadow_lords": 8,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 8,
+      "immediate_pursuit": false,
+      "special": "egg",
+      "disabled_cliffs": [],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2539",
+      "egg_count": 12,
+      "hatch_type": "shadow_lord",
+      "concurrent_hatch_cap": 8
+    },
+    {
+      "entry": 86,
+      "source_line": 2541,
+      "raw_hex": [
+        "00",
+        "AF",
+        "00",
+        "01"
+      ],
+      "bounders": 0,
+      "hunters": 0,
+      "shadow_lords": 10,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 1,
+      "immediate_pursuit": true,
+      "special": "normal",
+      "disabled_cliffs": [],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2541"
+    },
+    {
+      "entry": 87,
+      "source_line": 2542,
+      "raw_hex": [
+        "00",
+        "AF",
+        "00",
+        "05"
+      ],
+      "bounders": 0,
+      "hunters": 0,
+      "shadow_lords": 10,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 5,
+      "immediate_pursuit": true,
+      "special": "team_or_survival",
+      "disabled_cliffs": [],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2542"
+    },
+    {
+      "entry": 88,
+      "source_line": 2543,
+      "raw_hex": [
+        "00",
+        "7F",
+        "03",
+        "0B"
+      ],
+      "bounders": 0,
+      "hunters": 0,
+      "shadow_lords": 7,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 3,
+      "status": 11,
+      "immediate_pursuit": true,
+      "special": "pterodactyl",
+      "disabled_cliffs": [],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2543"
+    },
+    {
+      "entry": 89,
+      "source_line": 2544,
+      "raw_hex": [
+        "00",
+        "AF",
+        "00",
+        "87"
+      ],
+      "bounders": 0,
+      "hunters": 0,
+      "shadow_lords": 10,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 135,
+      "immediate_pursuit": true,
+      "special": "gladiator",
+      "disabled_cliffs": [
+        "CLIF4"
+      ],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2544"
+    },
+    {
+      "entry": 90,
+      "source_line": 2545,
+      "raw_hex": [
+        "00",
+        "8F",
+        "00",
+        "08"
+      ],
+      "bounders": 0,
+      "hunters": 0,
+      "shadow_lords": 8,
+      "initial_pursuer_limit": 15,
+      "wave_pterodactyls": 0,
+      "status": 8,
+      "immediate_pursuit": false,
+      "special": "egg",
+      "disabled_cliffs": [],
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2545",
+      "egg_count": 12,
+      "hatch_type": "shadow_lord",
+      "concurrent_hatch_cap": 8
+    }
+  ],
+  "dynamic_adjustments": [
+    {
+      "symbol": "LAVTIM",
+      "source_line": 7306,
+      "start_u16": [
+        11,
+        6,
+        4
+      ],
+      "start_s16": [
+        11,
+        6,
+        4
+      ],
+      "start_hex": [
+        "000B",
+        "0006",
+        "0004"
+      ],
+      "increment_s8": -1,
+      "end_u16": 1,
+      "end_s16": 1,
+      "end_hex": "0001",
+      "wave_intervals_by_difficulty": [
+        15,
+        10,
+        8,
+        6,
+        4,
+        4,
+        3,
+        3,
+        2,
+        1
+      ],
+      "period_hex": "FA86443321",
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L7306"
+    },
+    {
+      "symbol": "LAVGRA",
+      "source_line": 7307,
+      "start_u16": [
+        4,
+        6,
+        8
+      ],
+      "start_s16": [
+        4,
+        6,
+        8
+      ],
+      "start_hex": [
+        "0004",
+        "0006",
+        "0008"
+      ],
+      "increment_s8": 2,
+      "end_u16": 45,
+      "end_s16": 45,
+      "end_hex": "002D",
+      "wave_intervals_by_difficulty": [
+        15,
+        10,
+        8,
+        6,
+        4,
+        3,
+        3,
+        3,
+        2,
+        1
+      ],
+      "period_hex": "FA86433321",
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L7307"
+    },
+    {
+      "symbol": "LNTLAV",
+      "source_line": 7308,
+      "start_u16": [
+        16,
+        8,
+        4
+      ],
+      "start_s16": [
+        16,
+        8,
+        4
+      ],
+      "start_hex": [
+        "0010",
+        "0008",
+        "0004"
+      ],
+      "increment_s8": -1,
+      "end_u16": 1,
+      "end_s16": 1,
+      "end_hex": "0001",
+      "wave_intervals_by_difficulty": [
+        15,
+        10,
+        8,
+        6,
+        4,
+        4,
+        3,
+        3,
+        2,
+        1
+      ],
+      "period_hex": "FA86443321",
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L7308"
+    },
+    {
+      "symbol": "EGGWT",
+      "source_line": 7309,
+      "start_u16": [
+        96,
+        64,
+        32
+      ],
+      "start_s16": [
+        96,
+        64,
+        32
+      ],
+      "start_hex": [
+        "0060",
+        "0040",
+        "0020"
+      ],
+      "increment_s8": -2,
+      "end_u16": 16,
+      "end_s16": 16,
+      "end_hex": "0010",
+      "wave_intervals_by_difficulty": [
+        15,
+        15,
+        12,
+        10,
+        8,
+        6,
+        4,
+        3,
+        2,
+        1
+      ],
+      "period_hex": "FFCA864321",
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L7309"
+    },
+    {
+      "symbol": "EGGWT2",
+      "source_line": 7310,
+      "start_u16": [
+        94,
+        56,
+        34
+      ],
+      "start_s16": [
+        94,
+        56,
+        34
+      ],
+      "start_hex": [
+        "005E",
+        "0038",
+        "0022"
+      ],
+      "increment_s8": -4,
+      "end_u16": 8,
+      "end_s16": 8,
+      "end_hex": "0008",
+      "wave_intervals_by_difficulty": [
+        12,
+        10,
+        5,
+        3,
+        10,
+        5,
+        2,
+        5,
+        2,
+        1
+      ],
+      "period_hex": "CA53A52521",
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L7310"
+    },
+    {
+      "symbol": "BODNRG",
+      "source_line": 7311,
+      "start_u16": [
+        14,
+        14,
+        12
+      ],
+      "start_s16": [
+        14,
+        14,
+        12
+      ],
+      "start_hex": [
+        "000E",
+        "000E",
+        "000C"
+      ],
+      "increment_s8": -1,
+      "end_u16": 11,
+      "end_s16": 11,
+      "end_hex": "000B",
+      "wave_intervals_by_difficulty": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        8,
+        4,
+        2
+      ],
+      "period_hex": "FFFFFFF842",
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L7311"
+    },
+    {
+      "symbol": "BODNDI",
+      "source_line": 7312,
+      "start_u16": [
+        61440,
+        61952,
+        63488
+      ],
+      "start_s16": [
+        -4096,
+        -3584,
+        -2048
+      ],
+      "start_hex": [
+        "F000",
+        "F200",
+        "F800"
+      ],
+      "increment_s8": 32,
+      "end_u16": 65280,
+      "end_s16": -256,
+      "end_hex": "FF00",
+      "wave_intervals_by_difficulty": [
+        4,
+        2,
+        1,
+        1,
+        4,
+        2,
+        1,
+        4,
+        2,
+        1
+      ],
+      "period_hex": "4211421421",
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L7312"
+    },
+    {
+      "symbol": "BODNVY",
+      "source_line": 7313,
+      "start_u16": [
+        128,
+        256,
+        512
+      ],
+      "start_s16": [
+        128,
+        256,
+        512
+      ],
+      "start_hex": [
+        "0080",
+        "0100",
+        "0200"
+      ],
+      "increment_s8": 32,
+      "end_u16": 768,
+      "end_s16": 768,
+      "end_hex": "0300",
+      "wave_intervals_by_difficulty": [
+        4,
+        2,
+        1,
+        1,
+        15,
+        8,
+        1,
+        3,
+        2,
+        1
+      ],
+      "period_hex": "4211F81321",
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L7313"
+    },
+    {
+      "symbol": "BOUPRG",
+      "source_line": 7314,
+      "start_u16": [
+        65521,
+        65522,
+        65524
+      ],
+      "start_s16": [
+        -15,
+        -14,
+        -12
+      ],
+      "start_hex": [
+        "FFF1",
+        "FFF2",
+        "FFF4"
+      ],
+      "increment_s8": 1,
+      "end_u16": 65525,
+      "end_s16": -11,
+      "end_hex": "FFF5",
+      "wave_intervals_by_difficulty": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        8,
+        4,
+        2
+      ],
+      "period_hex": "FFFFFFF842",
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L7314"
+    },
+    {
+      "symbol": "BOUPDI",
+      "source_line": 7315,
+      "start_u16": [
+        4096,
+        3584,
+        2048
+      ],
+      "start_s16": [
+        4096,
+        3584,
+        2048
+      ],
+      "start_hex": [
+        "1000",
+        "0E00",
+        "0800"
+      ],
+      "increment_s8": -32,
+      "end_u16": 256,
+      "end_s16": 256,
+      "end_hex": "0100",
+      "wave_intervals_by_difficulty": [
+        4,
+        2,
+        1,
+        1,
+        4,
+        2,
+        1,
+        4,
+        2,
+        1
+      ],
+      "period_hex": "4211421421",
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L7315"
+    },
+    {
+      "symbol": "BOUPWD",
+      "source_line": 7316,
+      "start_u16": [
+        3,
+        2,
+        1
+      ],
+      "start_s16": [
+        3,
+        2,
+        1
+      ],
+      "start_hex": [
+        "0003",
+        "0002",
+        "0001"
+      ],
+      "increment_s8": -1,
+      "end_u16": 1,
+      "end_s16": 1,
+      "end_hex": "0001",
+      "wave_intervals_by_difficulty": [
+        15,
+        10,
+        8,
+        6,
+        4,
+        4,
+        3,
+        3,
+        2,
+        1
+      ],
+      "period_hex": "FA86443321",
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L7316"
+    },
+    {
+      "symbol": "BOUPWU",
+      "source_line": 7317,
+      "start_u16": [
+        10,
+        8,
+        6
+      ],
+      "start_s16": [
+        10,
+        8,
+        6
+      ],
+      "start_hex": [
+        "000A",
+        "0008",
+        "0006"
+      ],
+      "increment_s8": -1,
+      "end_u16": 2,
+      "end_s16": 2,
+      "end_hex": "0002",
+      "wave_intervals_by_difficulty": [
+        15,
+        10,
+        8,
+        6,
+        4,
+        4,
+        3,
+        3,
+        2,
+        1
+      ],
+      "period_hex": "FA86443321",
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L7317"
+    },
+    {
+      "symbol": "BOLETM",
+      "source_line": 7318,
+      "start_u16": [
+        32,
+        21,
+        16
+      ],
+      "start_s16": [
+        32,
+        21,
+        16
+      ],
+      "start_hex": [
+        "0020",
+        "0015",
+        "0010"
+      ],
+      "increment_s8": -1,
+      "end_u16": 2,
+      "end_s16": 2,
+      "end_hex": "0002",
+      "wave_intervals_by_difficulty": [
+        7,
+        7,
+        6,
+        6,
+        4,
+        4,
+        3,
+        3,
+        2,
+        1
+      ],
+      "period_hex": "7766443321",
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L7318"
+    },
+    {
+      "symbol": "HUDNRG",
+      "source_line": 7319,
+      "start_u16": [
+        15,
+        14,
+        12
+      ],
+      "start_s16": [
+        15,
+        14,
+        12
+      ],
+      "start_hex": [
+        "000F",
+        "000E",
+        "000C"
+      ],
+      "increment_s8": -1,
+      "end_u16": 11,
+      "end_s16": 11,
+      "end_hex": "000B",
+      "wave_intervals_by_difficulty": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        10,
+        2,
+        2
+      ],
+      "period_hex": "FFFFFFFA22",
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L7319"
+    },
+    {
+      "symbol": "HUDNDI",
+      "source_line": 7320,
+      "start_u16": [
+        61440,
+        61952,
+        63488
+      ],
+      "start_s16": [
+        -4096,
+        -3584,
+        -2048
+      ],
+      "start_hex": [
+        "F000",
+        "F200",
+        "F800"
+      ],
+      "increment_s8": 32,
+      "end_u16": 65280,
+      "end_s16": -256,
+      "end_hex": "FF00",
+      "wave_intervals_by_difficulty": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        8,
+        4,
+        2,
+        2
+      ],
+      "period_hex": "FFFFFF8422",
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L7320"
+    },
+    {
+      "symbol": "HUDNVY",
+      "source_line": 7321,
+      "start_u16": [
+        256,
+        512,
+        768
+      ],
+      "start_s16": [
+        256,
+        512,
+        768
+      ],
+      "start_hex": [
+        "0100",
+        "0200",
+        "0300"
+      ],
+      "increment_s8": 32,
+      "end_u16": 896,
+      "end_s16": 896,
+      "end_hex": "0380",
+      "wave_intervals_by_difficulty": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        8,
+        4,
+        8,
+        4
+      ],
+      "period_hex": "FFFFFF8484",
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L7321"
+    },
+    {
+      "symbol": "HUUPRG",
+      "source_line": 7322,
+      "start_u16": [
+        65521,
+        65522,
+        65524
+      ],
+      "start_s16": [
+        -15,
+        -14,
+        -12
+      ],
+      "start_hex": [
+        "FFF1",
+        "FFF2",
+        "FFF4"
+      ],
+      "increment_s8": 1,
+      "end_u16": 65525,
+      "end_s16": -11,
+      "end_hex": "FFF5",
+      "wave_intervals_by_difficulty": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        8,
+        2,
+        2
+      ],
+      "period_hex": "FFFFFFF822",
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L7322"
+    },
+    {
+      "symbol": "HUUPDI",
+      "source_line": 7323,
+      "start_u16": [
+        4096,
+        3584,
+        2048
+      ],
+      "start_s16": [
+        4096,
+        3584,
+        2048
+      ],
+      "start_hex": [
+        "1000",
+        "0E00",
+        "0800"
+      ],
+      "increment_s8": -32,
+      "end_u16": 256,
+      "end_s16": 256,
+      "end_hex": "0100",
+      "wave_intervals_by_difficulty": [
+        15,
+        15,
+        15,
+        8,
+        15,
+        15,
+        8,
+        4,
+        2,
+        2
+      ],
+      "period_hex": "FFF8FF8422",
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L7323"
+    },
+    {
+      "symbol": "HUUPWD",
+      "source_line": 7324,
+      "start_u16": [
+        3,
+        2,
+        1
+      ],
+      "start_s16": [
+        3,
+        2,
+        1
+      ],
+      "start_hex": [
+        "0003",
+        "0002",
+        "0001"
+      ],
+      "increment_s8": -1,
+      "end_u16": 1,
+      "end_s16": 1,
+      "end_hex": "0001",
+      "wave_intervals_by_difficulty": [
+        15,
+        15,
+        15,
+        8,
+        15,
+        15,
+        8,
+        3,
+        2,
+        2
+      ],
+      "period_hex": "FFF8FF8322",
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L7324"
+    },
+    {
+      "symbol": "HUUPWU",
+      "source_line": 7325,
+      "start_u16": [
+        10,
+        8,
+        6
+      ],
+      "start_s16": [
+        10,
+        8,
+        6
+      ],
+      "start_hex": [
+        "000A",
+        "0008",
+        "0006"
+      ],
+      "increment_s8": -1,
+      "end_u16": 2,
+      "end_s16": 2,
+      "end_hex": "0002",
+      "wave_intervals_by_difficulty": [
+        15,
+        15,
+        15,
+        8,
+        15,
+        15,
+        8,
+        3,
+        2,
+        2
+      ],
+      "period_hex": "FFF8FF8322",
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L7325"
+    },
+    {
+      "symbol": "HUUPVY",
+      "source_line": 7326,
+      "start_u16": [
+        65408,
+        65280,
+        65024
+      ],
+      "start_s16": [
+        -128,
+        -256,
+        -512
+      ],
+      "start_hex": [
+        "FF80",
+        "FF00",
+        "FE00"
+      ],
+      "increment_s8": 32,
+      "end_u16": 65024,
+      "end_s16": -512,
+      "end_hex": "FE00",
+      "wave_intervals_by_difficulty": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        8,
+        4,
+        8,
+        4
+      ],
+      "period_hex": "FFFFFF8484",
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L7326"
+    },
+    {
+      "symbol": "HULETM",
+      "source_line": 7327,
+      "start_u16": [
+        32,
+        21,
+        16
+      ],
+      "start_s16": [
+        32,
+        21,
+        16
+      ],
+      "start_hex": [
+        "0020",
+        "0015",
+        "0010"
+      ],
+      "increment_s8": -1,
+      "end_u16": 2,
+      "end_s16": 2,
+      "end_hex": "0002",
+      "wave_intervals_by_difficulty": [
+        15,
+        15,
+        15,
+        8,
+        8,
+        4,
+        3,
+        3,
+        2,
+        2
+      ],
+      "period_hex": "FFF8843322",
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L7327"
+    },
+    {
+      "symbol": "SHDNRG",
+      "source_line": 7328,
+      "start_u16": [
+        20,
+        16,
+        14
+      ],
+      "start_s16": [
+        20,
+        16,
+        14
+      ],
+      "start_hex": [
+        "0014",
+        "0010",
+        "000E"
+      ],
+      "increment_s8": -1,
+      "end_u16": 12,
+      "end_s16": 12,
+      "end_hex": "000C",
+      "wave_intervals_by_difficulty": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        10,
+        8,
+        2
+      ],
+      "period_hex": "FFFFFFFA82",
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L7328"
+    },
+    {
+      "symbol": "SHUPRG",
+      "source_line": 7329,
+      "start_u16": [
+        65516,
+        65504,
+        65522
+      ],
+      "start_s16": [
+        -20,
+        -32,
+        -14
+      ],
+      "start_hex": [
+        "FFEC",
+        "FFE0",
+        "FFF2"
+      ],
+      "increment_s8": 1,
+      "end_u16": 65524,
+      "end_s16": -12,
+      "end_hex": "FFF4",
+      "wave_intervals_by_difficulty": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        10,
+        8,
+        2
+      ],
+      "period_hex": "FFFFFFFA82",
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L7329"
+    },
+    {
+      "symbol": "SHUPVY",
+      "source_line": 7330,
+      "start_u16": [
+        65520,
+        65024,
+        64768
+      ],
+      "start_s16": [
+        -16,
+        -512,
+        -768
+      ],
+      "start_hex": [
+        "FFF0",
+        "FE00",
+        "FD00"
+      ],
+      "increment_s8": 32,
+      "end_u16": 64512,
+      "end_s16": -1024,
+      "end_hex": "FC00",
+      "wave_intervals_by_difficulty": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        10,
+        8,
+        4
+      ],
+      "period_hex": "FFFFFFFA84",
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L7330"
+    },
+    {
+      "symbol": "SHUPTM",
+      "source_line": 7331,
+      "start_u16": [
+        20,
+        10,
+        8
+      ],
+      "start_s16": [
+        20,
+        10,
+        8
+      ],
+      "start_hex": [
+        "0014",
+        "000A",
+        "0008"
+      ],
+      "increment_s8": -1,
+      "end_u16": 2,
+      "end_s16": 2,
+      "end_hex": "0002",
+      "wave_intervals_by_difficulty": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        10,
+        8,
+        2
+      ],
+      "period_hex": "FFFFFFFA82",
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L7331"
+    },
+    {
+      "symbol": "SHLETM",
+      "source_line": 7332,
+      "start_u16": [
+        32,
+        21,
+        16
+      ],
+      "start_s16": [
+        32,
+        21,
+        16
+      ],
+      "start_hex": [
+        "0020",
+        "0015",
+        "0010"
+      ],
+      "increment_s8": -1,
+      "end_u16": 2,
+      "end_s16": 2,
+      "end_hex": "0002",
+      "wave_intervals_by_difficulty": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        10,
+        8,
+        2
+      ],
+      "period_hex": "FFFFFFFA82",
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L7332"
+    },
+    {
+      "symbol": "SHCLTM",
+      "source_line": 7333,
+      "start_u16": [
+        10,
+        8,
+        6
+      ],
+      "start_s16": [
+        10,
+        8,
+        6
+      ],
+      "start_hex": [
+        "000A",
+        "0008",
+        "0006"
+      ],
+      "increment_s8": -1,
+      "end_u16": 2,
+      "end_s16": 2,
+      "end_hex": "0002",
+      "wave_intervals_by_difficulty": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        10,
+        6,
+        1
+      ],
+      "period_hex": "FFFFFFFA61",
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L7333"
+    }
+  ],
+  "derived_default_difficulty_5_values_at_wave": {
+    "1": [
+      {
+        "symbol": "LAVTIM",
+        "value_s16": 6,
+        "value_hex": "0006",
+        "next_change_countdown": 2
+      },
+      {
+        "symbol": "LAVGRA",
+        "value_s16": 6,
+        "value_hex": "0006",
+        "next_change_countdown": 2
+      },
+      {
+        "symbol": "LNTLAV",
+        "value_s16": 8,
+        "value_hex": "0008",
+        "next_change_countdown": 2
+      },
+      {
+        "symbol": "EGGWT",
+        "value_s16": 64,
+        "value_hex": "0040",
+        "next_change_countdown": 2
+      },
+      {
+        "symbol": "EGGWT2",
+        "value_s16": 56,
+        "value_hex": "0038",
+        "next_change_countdown": 2
+      },
+      {
+        "symbol": "BODNRG",
+        "value_s16": 14,
+        "value_hex": "000E",
+        "next_change_countdown": 2
+      },
+      {
+        "symbol": "BODNDI",
+        "value_s16": -3584,
+        "value_hex": "F200",
+        "next_change_countdown": 2
+      },
+      {
+        "symbol": "BODNVY",
+        "value_s16": 256,
+        "value_hex": "0100",
+        "next_change_countdown": 2
+      },
+      {
+        "symbol": "BOUPRG",
+        "value_s16": -14,
+        "value_hex": "FFF2",
+        "next_change_countdown": 2
+      },
+      {
+        "symbol": "BOUPDI",
+        "value_s16": 3584,
+        "value_hex": "0E00",
+        "next_change_countdown": 2
+      },
+      {
+        "symbol": "BOUPWD",
+        "value_s16": 2,
+        "value_hex": "0002",
+        "next_change_countdown": 2
+      },
+      {
+        "symbol": "BOUPWU",
+        "value_s16": 8,
+        "value_hex": "0008",
+        "next_change_countdown": 2
+      },
+      {
+        "symbol": "BOLETM",
+        "value_s16": 21,
+        "value_hex": "0015",
+        "next_change_countdown": 2
+      },
+      {
+        "symbol": "HUDNRG",
+        "value_s16": 14,
+        "value_hex": "000E",
+        "next_change_countdown": 2
+      },
+      {
+        "symbol": "HUDNDI",
+        "value_s16": -3584,
+        "value_hex": "F200",
+        "next_change_countdown": 2
+      },
+      {
+        "symbol": "HUDNVY",
+        "value_s16": 512,
+        "value_hex": "0200",
+        "next_change_countdown": 2
+      },
+      {
+        "symbol": "HUUPRG",
+        "value_s16": -14,
+        "value_hex": "FFF2",
+        "next_change_countdown": 2
+      },
+      {
+        "symbol": "HUUPDI",
+        "value_s16": 3584,
+        "value_hex": "0E00",
+        "next_change_countdown": 2
+      },
+      {
+        "symbol": "HUUPWD",
+        "value_s16": 2,
+        "value_hex": "0002",
+        "next_change_countdown": 2
+      },
+      {
+        "symbol": "HUUPWU",
+        "value_s16": 8,
+        "value_hex": "0008",
+        "next_change_countdown": 2
+      },
+      {
+        "symbol": "HUUPVY",
+        "value_s16": -256,
+        "value_hex": "FF00",
+        "next_change_countdown": 2
+      },
+      {
+        "symbol": "HULETM",
+        "value_s16": 21,
+        "value_hex": "0015",
+        "next_change_countdown": 2
+      },
+      {
+        "symbol": "SHDNRG",
+        "value_s16": 16,
+        "value_hex": "0010",
+        "next_change_countdown": 2
+      },
+      {
+        "symbol": "SHUPRG",
+        "value_s16": -32,
+        "value_hex": "FFE0",
+        "next_change_countdown": 2
+      },
+      {
+        "symbol": "SHUPVY",
+        "value_s16": -512,
+        "value_hex": "FE00",
+        "next_change_countdown": 2
+      },
+      {
+        "symbol": "SHUPTM",
+        "value_s16": 10,
+        "value_hex": "000A",
+        "next_change_countdown": 2
+      },
+      {
+        "symbol": "SHLETM",
+        "value_s16": 21,
+        "value_hex": "0015",
+        "next_change_countdown": 2
+      },
+      {
+        "symbol": "SHCLTM",
+        "value_s16": 8,
+        "value_hex": "0008",
+        "next_change_countdown": 2
+      }
+    ],
+    "2": [
+      {
+        "symbol": "LAVTIM",
+        "value_s16": 6,
+        "value_hex": "0006",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "LAVGRA",
+        "value_s16": 6,
+        "value_hex": "0006",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "LNTLAV",
+        "value_s16": 8,
+        "value_hex": "0008",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "EGGWT",
+        "value_s16": 64,
+        "value_hex": "0040",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "EGGWT2",
+        "value_s16": 56,
+        "value_hex": "0038",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "BODNRG",
+        "value_s16": 14,
+        "value_hex": "000E",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "BODNDI",
+        "value_s16": -3584,
+        "value_hex": "F200",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "BODNVY",
+        "value_s16": 256,
+        "value_hex": "0100",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "BOUPRG",
+        "value_s16": -14,
+        "value_hex": "FFF2",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "BOUPDI",
+        "value_s16": 3584,
+        "value_hex": "0E00",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "BOUPWD",
+        "value_s16": 2,
+        "value_hex": "0002",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "BOUPWU",
+        "value_s16": 8,
+        "value_hex": "0008",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "BOLETM",
+        "value_s16": 21,
+        "value_hex": "0015",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "HUDNRG",
+        "value_s16": 14,
+        "value_hex": "000E",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "HUDNDI",
+        "value_s16": -3584,
+        "value_hex": "F200",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "HUDNVY",
+        "value_s16": 512,
+        "value_hex": "0200",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "HUUPRG",
+        "value_s16": -14,
+        "value_hex": "FFF2",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "HUUPDI",
+        "value_s16": 3584,
+        "value_hex": "0E00",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "HUUPWD",
+        "value_s16": 2,
+        "value_hex": "0002",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "HUUPWU",
+        "value_s16": 8,
+        "value_hex": "0008",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "HUUPVY",
+        "value_s16": -256,
+        "value_hex": "FF00",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "HULETM",
+        "value_s16": 21,
+        "value_hex": "0015",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "SHDNRG",
+        "value_s16": 16,
+        "value_hex": "0010",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "SHUPRG",
+        "value_s16": -32,
+        "value_hex": "FFE0",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "SHUPVY",
+        "value_s16": -512,
+        "value_hex": "FE00",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "SHUPTM",
+        "value_s16": 10,
+        "value_hex": "000A",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "SHLETM",
+        "value_s16": 21,
+        "value_hex": "0015",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "SHCLTM",
+        "value_s16": 8,
+        "value_hex": "0008",
+        "next_change_countdown": 1
+      }
+    ],
+    "3": [
+      {
+        "symbol": "LAVTIM",
+        "value_s16": 5,
+        "value_hex": "0005",
+        "next_change_countdown": 4
+      },
+      {
+        "symbol": "LAVGRA",
+        "value_s16": 8,
+        "value_hex": "0008",
+        "next_change_countdown": 3
+      },
+      {
+        "symbol": "LNTLAV",
+        "value_s16": 7,
+        "value_hex": "0007",
+        "next_change_countdown": 4
+      },
+      {
+        "symbol": "EGGWT",
+        "value_s16": 62,
+        "value_hex": "003E",
+        "next_change_countdown": 6
+      },
+      {
+        "symbol": "EGGWT2",
+        "value_s16": 52,
+        "value_hex": "0034",
+        "next_change_countdown": 5
+      },
+      {
+        "symbol": "BODNRG",
+        "value_s16": 13,
+        "value_hex": "000D",
+        "next_change_countdown": 15
+      },
+      {
+        "symbol": "BODNDI",
+        "value_s16": -3552,
+        "value_hex": "F220",
+        "next_change_countdown": 2
+      },
+      {
+        "symbol": "BODNVY",
+        "value_s16": 288,
+        "value_hex": "0120",
+        "next_change_countdown": 8
+      },
+      {
+        "symbol": "BOUPRG",
+        "value_s16": -13,
+        "value_hex": "FFF3",
+        "next_change_countdown": 15
+      },
+      {
+        "symbol": "BOUPDI",
+        "value_s16": 3552,
+        "value_hex": "0DE0",
+        "next_change_countdown": 2
+      },
+      {
+        "symbol": "BOUPWD",
+        "value_s16": 1,
+        "value_hex": "0001",
+        "next_change_countdown": 4
+      },
+      {
+        "symbol": "BOUPWU",
+        "value_s16": 7,
+        "value_hex": "0007",
+        "next_change_countdown": 4
+      },
+      {
+        "symbol": "BOLETM",
+        "value_s16": 20,
+        "value_hex": "0014",
+        "next_change_countdown": 4
+      },
+      {
+        "symbol": "HUDNRG",
+        "value_s16": 13,
+        "value_hex": "000D",
+        "next_change_countdown": 15
+      },
+      {
+        "symbol": "HUDNDI",
+        "value_s16": -3552,
+        "value_hex": "F220",
+        "next_change_countdown": 15
+      },
+      {
+        "symbol": "HUDNVY",
+        "value_s16": 544,
+        "value_hex": "0220",
+        "next_change_countdown": 15
+      },
+      {
+        "symbol": "HUUPRG",
+        "value_s16": -13,
+        "value_hex": "FFF3",
+        "next_change_countdown": 15
+      },
+      {
+        "symbol": "HUUPDI",
+        "value_s16": 3552,
+        "value_hex": "0DE0",
+        "next_change_countdown": 15
+      },
+      {
+        "symbol": "HUUPWD",
+        "value_s16": 1,
+        "value_hex": "0001",
+        "next_change_countdown": 15
+      },
+      {
+        "symbol": "HUUPWU",
+        "value_s16": 7,
+        "value_hex": "0007",
+        "next_change_countdown": 15
+      },
+      {
+        "symbol": "HUUPVY",
+        "value_s16": -512,
+        "value_hex": "FE00",
+        "next_change_countdown": 15
+      },
+      {
+        "symbol": "HULETM",
+        "value_s16": 20,
+        "value_hex": "0014",
+        "next_change_countdown": 4
+      },
+      {
+        "symbol": "SHDNRG",
+        "value_s16": 15,
+        "value_hex": "000F",
+        "next_change_countdown": 15
+      },
+      {
+        "symbol": "SHUPRG",
+        "value_s16": -31,
+        "value_hex": "FFE1",
+        "next_change_countdown": 15
+      },
+      {
+        "symbol": "SHUPVY",
+        "value_s16": -1024,
+        "value_hex": "FC00",
+        "next_change_countdown": 15
+      },
+      {
+        "symbol": "SHUPTM",
+        "value_s16": 9,
+        "value_hex": "0009",
+        "next_change_countdown": 15
+      },
+      {
+        "symbol": "SHLETM",
+        "value_s16": 20,
+        "value_hex": "0014",
+        "next_change_countdown": 15
+      },
+      {
+        "symbol": "SHCLTM",
+        "value_s16": 7,
+        "value_hex": "0007",
+        "next_change_countdown": 15
+      }
+    ],
+    "4": [
+      {
+        "symbol": "LAVTIM",
+        "value_s16": 5,
+        "value_hex": "0005",
+        "next_change_countdown": 3
+      },
+      {
+        "symbol": "LAVGRA",
+        "value_s16": 8,
+        "value_hex": "0008",
+        "next_change_countdown": 2
+      },
+      {
+        "symbol": "LNTLAV",
+        "value_s16": 7,
+        "value_hex": "0007",
+        "next_change_countdown": 3
+      },
+      {
+        "symbol": "EGGWT",
+        "value_s16": 62,
+        "value_hex": "003E",
+        "next_change_countdown": 5
+      },
+      {
+        "symbol": "EGGWT2",
+        "value_s16": 52,
+        "value_hex": "0034",
+        "next_change_countdown": 4
+      },
+      {
+        "symbol": "BODNRG",
+        "value_s16": 13,
+        "value_hex": "000D",
+        "next_change_countdown": 14
+      },
+      {
+        "symbol": "BODNDI",
+        "value_s16": -3552,
+        "value_hex": "F220",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "BODNVY",
+        "value_s16": 288,
+        "value_hex": "0120",
+        "next_change_countdown": 7
+      },
+      {
+        "symbol": "BOUPRG",
+        "value_s16": -13,
+        "value_hex": "FFF3",
+        "next_change_countdown": 14
+      },
+      {
+        "symbol": "BOUPDI",
+        "value_s16": 3552,
+        "value_hex": "0DE0",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "BOUPWD",
+        "value_s16": 1,
+        "value_hex": "0001",
+        "next_change_countdown": 3
+      },
+      {
+        "symbol": "BOUPWU",
+        "value_s16": 7,
+        "value_hex": "0007",
+        "next_change_countdown": 3
+      },
+      {
+        "symbol": "BOLETM",
+        "value_s16": 20,
+        "value_hex": "0014",
+        "next_change_countdown": 3
+      },
+      {
+        "symbol": "HUDNRG",
+        "value_s16": 13,
+        "value_hex": "000D",
+        "next_change_countdown": 14
+      },
+      {
+        "symbol": "HUDNDI",
+        "value_s16": -3552,
+        "value_hex": "F220",
+        "next_change_countdown": 14
+      },
+      {
+        "symbol": "HUDNVY",
+        "value_s16": 544,
+        "value_hex": "0220",
+        "next_change_countdown": 14
+      },
+      {
+        "symbol": "HUUPRG",
+        "value_s16": -13,
+        "value_hex": "FFF3",
+        "next_change_countdown": 14
+      },
+      {
+        "symbol": "HUUPDI",
+        "value_s16": 3552,
+        "value_hex": "0DE0",
+        "next_change_countdown": 14
+      },
+      {
+        "symbol": "HUUPWD",
+        "value_s16": 1,
+        "value_hex": "0001",
+        "next_change_countdown": 14
+      },
+      {
+        "symbol": "HUUPWU",
+        "value_s16": 7,
+        "value_hex": "0007",
+        "next_change_countdown": 14
+      },
+      {
+        "symbol": "HUUPVY",
+        "value_s16": -512,
+        "value_hex": "FE00",
+        "next_change_countdown": 14
+      },
+      {
+        "symbol": "HULETM",
+        "value_s16": 20,
+        "value_hex": "0014",
+        "next_change_countdown": 3
+      },
+      {
+        "symbol": "SHDNRG",
+        "value_s16": 15,
+        "value_hex": "000F",
+        "next_change_countdown": 14
+      },
+      {
+        "symbol": "SHUPRG",
+        "value_s16": -31,
+        "value_hex": "FFE1",
+        "next_change_countdown": 14
+      },
+      {
+        "symbol": "SHUPVY",
+        "value_s16": -1024,
+        "value_hex": "FC00",
+        "next_change_countdown": 14
+      },
+      {
+        "symbol": "SHUPTM",
+        "value_s16": 9,
+        "value_hex": "0009",
+        "next_change_countdown": 14
+      },
+      {
+        "symbol": "SHLETM",
+        "value_s16": 20,
+        "value_hex": "0014",
+        "next_change_countdown": 14
+      },
+      {
+        "symbol": "SHCLTM",
+        "value_s16": 7,
+        "value_hex": "0007",
+        "next_change_countdown": 14
+      }
+    ],
+    "5": [
+      {
+        "symbol": "LAVTIM",
+        "value_s16": 5,
+        "value_hex": "0005",
+        "next_change_countdown": 2
+      },
+      {
+        "symbol": "LAVGRA",
+        "value_s16": 8,
+        "value_hex": "0008",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "LNTLAV",
+        "value_s16": 7,
+        "value_hex": "0007",
+        "next_change_countdown": 2
+      },
+      {
+        "symbol": "EGGWT",
+        "value_s16": 62,
+        "value_hex": "003E",
+        "next_change_countdown": 4
+      },
+      {
+        "symbol": "EGGWT2",
+        "value_s16": 52,
+        "value_hex": "0034",
+        "next_change_countdown": 3
+      },
+      {
+        "symbol": "BODNRG",
+        "value_s16": 13,
+        "value_hex": "000D",
+        "next_change_countdown": 13
+      },
+      {
+        "symbol": "BODNDI",
+        "value_s16": -3520,
+        "value_hex": "F240",
+        "next_change_countdown": 2
+      },
+      {
+        "symbol": "BODNVY",
+        "value_s16": 288,
+        "value_hex": "0120",
+        "next_change_countdown": 6
+      },
+      {
+        "symbol": "BOUPRG",
+        "value_s16": -13,
+        "value_hex": "FFF3",
+        "next_change_countdown": 13
+      },
+      {
+        "symbol": "BOUPDI",
+        "value_s16": 3520,
+        "value_hex": "0DC0",
+        "next_change_countdown": 2
+      },
+      {
+        "symbol": "BOUPWD",
+        "value_s16": 1,
+        "value_hex": "0001",
+        "next_change_countdown": 2
+      },
+      {
+        "symbol": "BOUPWU",
+        "value_s16": 7,
+        "value_hex": "0007",
+        "next_change_countdown": 2
+      },
+      {
+        "symbol": "BOLETM",
+        "value_s16": 20,
+        "value_hex": "0014",
+        "next_change_countdown": 2
+      },
+      {
+        "symbol": "HUDNRG",
+        "value_s16": 13,
+        "value_hex": "000D",
+        "next_change_countdown": 13
+      },
+      {
+        "symbol": "HUDNDI",
+        "value_s16": -3552,
+        "value_hex": "F220",
+        "next_change_countdown": 13
+      },
+      {
+        "symbol": "HUDNVY",
+        "value_s16": 544,
+        "value_hex": "0220",
+        "next_change_countdown": 13
+      },
+      {
+        "symbol": "HUUPRG",
+        "value_s16": -13,
+        "value_hex": "FFF3",
+        "next_change_countdown": 13
+      },
+      {
+        "symbol": "HUUPDI",
+        "value_s16": 3552,
+        "value_hex": "0DE0",
+        "next_change_countdown": 13
+      },
+      {
+        "symbol": "HUUPWD",
+        "value_s16": 1,
+        "value_hex": "0001",
+        "next_change_countdown": 13
+      },
+      {
+        "symbol": "HUUPWU",
+        "value_s16": 7,
+        "value_hex": "0007",
+        "next_change_countdown": 13
+      },
+      {
+        "symbol": "HUUPVY",
+        "value_s16": -512,
+        "value_hex": "FE00",
+        "next_change_countdown": 13
+      },
+      {
+        "symbol": "HULETM",
+        "value_s16": 20,
+        "value_hex": "0014",
+        "next_change_countdown": 2
+      },
+      {
+        "symbol": "SHDNRG",
+        "value_s16": 15,
+        "value_hex": "000F",
+        "next_change_countdown": 13
+      },
+      {
+        "symbol": "SHUPRG",
+        "value_s16": -31,
+        "value_hex": "FFE1",
+        "next_change_countdown": 13
+      },
+      {
+        "symbol": "SHUPVY",
+        "value_s16": -1024,
+        "value_hex": "FC00",
+        "next_change_countdown": 13
+      },
+      {
+        "symbol": "SHUPTM",
+        "value_s16": 9,
+        "value_hex": "0009",
+        "next_change_countdown": 13
+      },
+      {
+        "symbol": "SHLETM",
+        "value_s16": 20,
+        "value_hex": "0014",
+        "next_change_countdown": 13
+      },
+      {
+        "symbol": "SHCLTM",
+        "value_s16": 7,
+        "value_hex": "0007",
+        "next_change_countdown": 13
+      }
+    ],
+    "10": [
+      {
+        "symbol": "LAVTIM",
+        "value_s16": 4,
+        "value_hex": "0004",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "LAVGRA",
+        "value_s16": 12,
+        "value_hex": "000C",
+        "next_change_countdown": 2
+      },
+      {
+        "symbol": "LNTLAV",
+        "value_s16": 6,
+        "value_hex": "0006",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "EGGWT",
+        "value_s16": 60,
+        "value_hex": "003C",
+        "next_change_countdown": 5
+      },
+      {
+        "symbol": "EGGWT2",
+        "value_s16": 48,
+        "value_hex": "0030",
+        "next_change_countdown": 3
+      },
+      {
+        "symbol": "BODNRG",
+        "value_s16": 13,
+        "value_hex": "000D",
+        "next_change_countdown": 8
+      },
+      {
+        "symbol": "BODNDI",
+        "value_s16": -3456,
+        "value_hex": "F280",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "BODNVY",
+        "value_s16": 288,
+        "value_hex": "0120",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "BOUPRG",
+        "value_s16": -13,
+        "value_hex": "FFF3",
+        "next_change_countdown": 8
+      },
+      {
+        "symbol": "BOUPDI",
+        "value_s16": 3456,
+        "value_hex": "0D80",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "BOUPWD",
+        "value_s16": 1,
+        "value_hex": "0001",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "BOUPWU",
+        "value_s16": 6,
+        "value_hex": "0006",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "BOLETM",
+        "value_s16": 19,
+        "value_hex": "0013",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "HUDNRG",
+        "value_s16": 13,
+        "value_hex": "000D",
+        "next_change_countdown": 8
+      },
+      {
+        "symbol": "HUDNDI",
+        "value_s16": -3552,
+        "value_hex": "F220",
+        "next_change_countdown": 8
+      },
+      {
+        "symbol": "HUDNVY",
+        "value_s16": 544,
+        "value_hex": "0220",
+        "next_change_countdown": 8
+      },
+      {
+        "symbol": "HUUPRG",
+        "value_s16": -13,
+        "value_hex": "FFF3",
+        "next_change_countdown": 8
+      },
+      {
+        "symbol": "HUUPDI",
+        "value_s16": 3552,
+        "value_hex": "0DE0",
+        "next_change_countdown": 8
+      },
+      {
+        "symbol": "HUUPWD",
+        "value_s16": 1,
+        "value_hex": "0001",
+        "next_change_countdown": 8
+      },
+      {
+        "symbol": "HUUPWU",
+        "value_s16": 7,
+        "value_hex": "0007",
+        "next_change_countdown": 8
+      },
+      {
+        "symbol": "HUUPVY",
+        "value_s16": -512,
+        "value_hex": "FE00",
+        "next_change_countdown": 8
+      },
+      {
+        "symbol": "HULETM",
+        "value_s16": 19,
+        "value_hex": "0013",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "SHDNRG",
+        "value_s16": 15,
+        "value_hex": "000F",
+        "next_change_countdown": 8
+      },
+      {
+        "symbol": "SHUPRG",
+        "value_s16": -31,
+        "value_hex": "FFE1",
+        "next_change_countdown": 8
+      },
+      {
+        "symbol": "SHUPVY",
+        "value_s16": -1024,
+        "value_hex": "FC00",
+        "next_change_countdown": 8
+      },
+      {
+        "symbol": "SHUPTM",
+        "value_s16": 9,
+        "value_hex": "0009",
+        "next_change_countdown": 8
+      },
+      {
+        "symbol": "SHLETM",
+        "value_s16": 20,
+        "value_hex": "0014",
+        "next_change_countdown": 8
+      },
+      {
+        "symbol": "SHCLTM",
+        "value_s16": 7,
+        "value_hex": "0007",
+        "next_change_countdown": 8
+      }
+    ],
+    "20": [
+      {
+        "symbol": "LAVTIM",
+        "value_s16": 1,
+        "value_hex": "0001",
+        "next_change_countdown": 3
+      },
+      {
+        "symbol": "LAVGRA",
+        "value_s16": 18,
+        "value_hex": "0012",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "LNTLAV",
+        "value_s16": 3,
+        "value_hex": "0003",
+        "next_change_countdown": 3
+      },
+      {
+        "symbol": "EGGWT",
+        "value_s16": 58,
+        "value_hex": "003A",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "EGGWT2",
+        "value_s16": 40,
+        "value_hex": "0028",
+        "next_change_countdown": 3
+      },
+      {
+        "symbol": "BODNRG",
+        "value_s16": 12,
+        "value_hex": "000C",
+        "next_change_countdown": 13
+      },
+      {
+        "symbol": "BODNDI",
+        "value_s16": -3296,
+        "value_hex": "F320",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "BODNVY",
+        "value_s16": 352,
+        "value_hex": "0160",
+        "next_change_countdown": 7
+      },
+      {
+        "symbol": "BOUPRG",
+        "value_s16": -12,
+        "value_hex": "FFF4",
+        "next_change_countdown": 13
+      },
+      {
+        "symbol": "BOUPDI",
+        "value_s16": 3296,
+        "value_hex": "0CE0",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "BOUPWD",
+        "value_s16": 1,
+        "value_hex": "0001",
+        "next_change_countdown": 3
+      },
+      {
+        "symbol": "BOUPWU",
+        "value_s16": 3,
+        "value_hex": "0003",
+        "next_change_countdown": 3
+      },
+      {
+        "symbol": "BOLETM",
+        "value_s16": 16,
+        "value_hex": "0010",
+        "next_change_countdown": 3
+      },
+      {
+        "symbol": "HUDNRG",
+        "value_s16": 12,
+        "value_hex": "000C",
+        "next_change_countdown": 13
+      },
+      {
+        "symbol": "HUDNDI",
+        "value_s16": -3520,
+        "value_hex": "F240",
+        "next_change_countdown": 13
+      },
+      {
+        "symbol": "HUDNVY",
+        "value_s16": 576,
+        "value_hex": "0240",
+        "next_change_countdown": 13
+      },
+      {
+        "symbol": "HUUPRG",
+        "value_s16": -12,
+        "value_hex": "FFF4",
+        "next_change_countdown": 13
+      },
+      {
+        "symbol": "HUUPDI",
+        "value_s16": 3520,
+        "value_hex": "0DC0",
+        "next_change_countdown": 13
+      },
+      {
+        "symbol": "HUUPWD",
+        "value_s16": 1,
+        "value_hex": "0001",
+        "next_change_countdown": 13
+      },
+      {
+        "symbol": "HUUPWU",
+        "value_s16": 6,
+        "value_hex": "0006",
+        "next_change_countdown": 13
+      },
+      {
+        "symbol": "HUUPVY",
+        "value_s16": -512,
+        "value_hex": "FE00",
+        "next_change_countdown": 13
+      },
+      {
+        "symbol": "HULETM",
+        "value_s16": 16,
+        "value_hex": "0010",
+        "next_change_countdown": 3
+      },
+      {
+        "symbol": "SHDNRG",
+        "value_s16": 14,
+        "value_hex": "000E",
+        "next_change_countdown": 13
+      },
+      {
+        "symbol": "SHUPRG",
+        "value_s16": -30,
+        "value_hex": "FFE2",
+        "next_change_countdown": 13
+      },
+      {
+        "symbol": "SHUPVY",
+        "value_s16": -1024,
+        "value_hex": "FC00",
+        "next_change_countdown": 13
+      },
+      {
+        "symbol": "SHUPTM",
+        "value_s16": 8,
+        "value_hex": "0008",
+        "next_change_countdown": 13
+      },
+      {
+        "symbol": "SHLETM",
+        "value_s16": 19,
+        "value_hex": "0013",
+        "next_change_countdown": 13
+      },
+      {
+        "symbol": "SHCLTM",
+        "value_s16": 6,
+        "value_hex": "0006",
+        "next_change_countdown": 13
+      }
+    ],
+    "40": [
+      {
+        "symbol": "LAVTIM",
+        "value_s16": 1,
+        "value_hex": "0001",
+        "next_change_countdown": 3
+      },
+      {
+        "symbol": "LAVGRA",
+        "value_s16": 32,
+        "value_hex": "0020",
+        "next_change_countdown": 2
+      },
+      {
+        "symbol": "LNTLAV",
+        "value_s16": 1,
+        "value_hex": "0001",
+        "next_change_countdown": 3
+      },
+      {
+        "symbol": "EGGWT",
+        "value_s16": 50,
+        "value_hex": "0032",
+        "next_change_countdown": 5
+      },
+      {
+        "symbol": "EGGWT2",
+        "value_s16": 24,
+        "value_hex": "0018",
+        "next_change_countdown": 3
+      },
+      {
+        "symbol": "BODNRG",
+        "value_s16": 11,
+        "value_hex": "000B",
+        "next_change_countdown": 8
+      },
+      {
+        "symbol": "BODNDI",
+        "value_s16": -2976,
+        "value_hex": "F460",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "BODNVY",
+        "value_s16": 416,
+        "value_hex": "01A0",
+        "next_change_countdown": 3
+      },
+      {
+        "symbol": "BOUPRG",
+        "value_s16": -11,
+        "value_hex": "FFF5",
+        "next_change_countdown": 8
+      },
+      {
+        "symbol": "BOUPDI",
+        "value_s16": 2976,
+        "value_hex": "0BA0",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "BOUPWD",
+        "value_s16": 1,
+        "value_hex": "0001",
+        "next_change_countdown": 3
+      },
+      {
+        "symbol": "BOUPWU",
+        "value_s16": 2,
+        "value_hex": "0002",
+        "next_change_countdown": 3
+      },
+      {
+        "symbol": "BOLETM",
+        "value_s16": 11,
+        "value_hex": "000B",
+        "next_change_countdown": 3
+      },
+      {
+        "symbol": "HUDNRG",
+        "value_s16": 11,
+        "value_hex": "000B",
+        "next_change_countdown": 8
+      },
+      {
+        "symbol": "HUDNDI",
+        "value_s16": -3488,
+        "value_hex": "F260",
+        "next_change_countdown": 8
+      },
+      {
+        "symbol": "HUDNVY",
+        "value_s16": 608,
+        "value_hex": "0260",
+        "next_change_countdown": 8
+      },
+      {
+        "symbol": "HUUPRG",
+        "value_s16": -11,
+        "value_hex": "FFF5",
+        "next_change_countdown": 8
+      },
+      {
+        "symbol": "HUUPDI",
+        "value_s16": 3488,
+        "value_hex": "0DA0",
+        "next_change_countdown": 8
+      },
+      {
+        "symbol": "HUUPWD",
+        "value_s16": 1,
+        "value_hex": "0001",
+        "next_change_countdown": 8
+      },
+      {
+        "symbol": "HUUPWU",
+        "value_s16": 5,
+        "value_hex": "0005",
+        "next_change_countdown": 8
+      },
+      {
+        "symbol": "HUUPVY",
+        "value_s16": -512,
+        "value_hex": "FE00",
+        "next_change_countdown": 8
+      },
+      {
+        "symbol": "HULETM",
+        "value_s16": 11,
+        "value_hex": "000B",
+        "next_change_countdown": 3
+      },
+      {
+        "symbol": "SHDNRG",
+        "value_s16": 13,
+        "value_hex": "000D",
+        "next_change_countdown": 8
+      },
+      {
+        "symbol": "SHUPRG",
+        "value_s16": -29,
+        "value_hex": "FFE3",
+        "next_change_countdown": 8
+      },
+      {
+        "symbol": "SHUPVY",
+        "value_s16": -1024,
+        "value_hex": "FC00",
+        "next_change_countdown": 8
+      },
+      {
+        "symbol": "SHUPTM",
+        "value_s16": 7,
+        "value_hex": "0007",
+        "next_change_countdown": 8
+      },
+      {
+        "symbol": "SHLETM",
+        "value_s16": 18,
+        "value_hex": "0012",
+        "next_change_countdown": 8
+      },
+      {
+        "symbol": "SHCLTM",
+        "value_s16": 5,
+        "value_hex": "0005",
+        "next_change_countdown": 8
+      }
+    ],
+    "90": [
+      {
+        "symbol": "LAVTIM",
+        "value_s16": 1,
+        "value_hex": "0001",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "LAVGRA",
+        "value_s16": 45,
+        "value_hex": "002D",
+        "next_change_countdown": 3
+      },
+      {
+        "symbol": "LNTLAV",
+        "value_s16": 1,
+        "value_hex": "0001",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "EGGWT",
+        "value_s16": 34,
+        "value_hex": "0022",
+        "next_change_countdown": 3
+      },
+      {
+        "symbol": "EGGWT2",
+        "value_s16": 8,
+        "value_hex": "0008",
+        "next_change_countdown": 3
+      },
+      {
+        "symbol": "BODNRG",
+        "value_s16": 11,
+        "value_hex": "000B",
+        "next_change_countdown": 3
+      },
+      {
+        "symbol": "BODNDI",
+        "value_s16": -2176,
+        "value_hex": "F780",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "BODNVY",
+        "value_s16": 608,
+        "value_hex": "0260",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "BOUPRG",
+        "value_s16": -11,
+        "value_hex": "FFF5",
+        "next_change_countdown": 3
+      },
+      {
+        "symbol": "BOUPDI",
+        "value_s16": 2176,
+        "value_hex": "0880",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "BOUPWD",
+        "value_s16": 1,
+        "value_hex": "0001",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "BOUPWU",
+        "value_s16": 2,
+        "value_hex": "0002",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "BOLETM",
+        "value_s16": 2,
+        "value_hex": "0002",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "HUDNRG",
+        "value_s16": 11,
+        "value_hex": "000B",
+        "next_change_countdown": 3
+      },
+      {
+        "symbol": "HUDNDI",
+        "value_s16": -3392,
+        "value_hex": "F2C0",
+        "next_change_countdown": 3
+      },
+      {
+        "symbol": "HUDNVY",
+        "value_s16": 704,
+        "value_hex": "02C0",
+        "next_change_countdown": 3
+      },
+      {
+        "symbol": "HUUPRG",
+        "value_s16": -11,
+        "value_hex": "FFF5",
+        "next_change_countdown": 3
+      },
+      {
+        "symbol": "HUUPDI",
+        "value_s16": 3392,
+        "value_hex": "0D40",
+        "next_change_countdown": 3
+      },
+      {
+        "symbol": "HUUPWD",
+        "value_s16": 1,
+        "value_hex": "0001",
+        "next_change_countdown": 3
+      },
+      {
+        "symbol": "HUUPWU",
+        "value_s16": 2,
+        "value_hex": "0002",
+        "next_change_countdown": 3
+      },
+      {
+        "symbol": "HUUPVY",
+        "value_s16": -512,
+        "value_hex": "FE00",
+        "next_change_countdown": 3
+      },
+      {
+        "symbol": "HULETM",
+        "value_s16": 2,
+        "value_hex": "0002",
+        "next_change_countdown": 1
+      },
+      {
+        "symbol": "SHDNRG",
+        "value_s16": 12,
+        "value_hex": "000C",
+        "next_change_countdown": 3
+      },
+      {
+        "symbol": "SHUPRG",
+        "value_s16": -26,
+        "value_hex": "FFE6",
+        "next_change_countdown": 3
+      },
+      {
+        "symbol": "SHUPVY",
+        "value_s16": -1024,
+        "value_hex": "FC00",
+        "next_change_countdown": 3
+      },
+      {
+        "symbol": "SHUPTM",
+        "value_s16": 4,
+        "value_hex": "0004",
+        "next_change_countdown": 3
+      },
+      {
+        "symbol": "SHLETM",
+        "value_s16": 15,
+        "value_hex": "000F",
+        "next_change_countdown": 3
+      },
+      {
+        "symbol": "SHCLTM",
+        "value_s16": 2,
+        "value_hex": "0002",
+        "next_change_countdown": 3
+      }
+    ]
+  },
+  "egg_wave_positions": [
+    {
+      "index": 0,
+      "cliff": "CLIF1L",
+      "x": 9,
+      "y": 68,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2920-L2921"
+    },
+    {
+      "index": 1,
+      "cliff": "CLIF1L",
+      "x": 17,
+      "y": 68,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2920-L2921"
+    },
+    {
+      "index": 2,
+      "cliff": "CLIF1L",
+      "x": 25,
+      "y": 68,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2920-L2921"
+    },
+    {
+      "index": 3,
+      "cliff": "CLIF1R",
+      "x": 253,
+      "y": 68,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2922-L2923"
+    },
+    {
+      "index": 4,
+      "cliff": "CLIF1R",
+      "x": 261,
+      "y": 68,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2922-L2923"
+    },
+    {
+      "index": 5,
+      "cliff": "CLIF1R",
+      "x": 269,
+      "y": 68,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2922-L2923"
+    },
+    {
+      "index": 6,
+      "cliff": "CLIF1R",
+      "x": 277,
+      "y": 68,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2922-L2923"
+    },
+    {
+      "index": 7,
+      "cliff": "CLIF1R",
+      "x": 285,
+      "y": 68,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2922-L2923"
+    },
+    {
+      "index": 8,
+      "cliff": "CLIF2",
+      "x": 86,
+      "y": 80,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2924-L2925"
+    },
+    {
+      "index": 9,
+      "cliff": "CLIF2",
+      "x": 94,
+      "y": 80,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2924-L2925"
+    },
+    {
+      "index": 10,
+      "cliff": "CLIF2",
+      "x": 102,
+      "y": 80,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2924-L2925"
+    },
+    {
+      "index": 11,
+      "cliff": "CLIF2",
+      "x": 110,
+      "y": 80,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2924-L2925"
+    },
+    {
+      "index": 12,
+      "cliff": "CLIF2",
+      "x": 118,
+      "y": 80,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2924-L2925"
+    },
+    {
+      "index": 13,
+      "cliff": "CLIF2",
+      "x": 126,
+      "y": 80,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2924-L2925"
+    },
+    {
+      "index": 14,
+      "cliff": "CLIF2",
+      "x": 134,
+      "y": 80,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2924-L2925"
+    },
+    {
+      "index": 15,
+      "cliff": "CLIF2",
+      "x": 142,
+      "y": 80,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2924-L2925"
+    },
+    {
+      "index": 16,
+      "cliff": "CLIF2",
+      "x": 150,
+      "y": 80,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2924-L2925"
+    },
+    {
+      "index": 17,
+      "cliff": "CLIF2",
+      "x": 158,
+      "y": 80,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2924-L2925"
+    },
+    {
+      "index": 18,
+      "cliff": "CLIF2",
+      "x": 166,
+      "y": 80,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2924-L2925"
+    },
+    {
+      "index": 19,
+      "cliff": "CLIF3U",
+      "x": 202,
+      "y": 128,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2926-L2927"
+    },
+    {
+      "index": 20,
+      "cliff": "CLIF3U",
+      "x": 210,
+      "y": 128,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2926-L2927"
+    },
+    {
+      "index": 21,
+      "cliff": "CLIF3U",
+      "x": 218,
+      "y": 128,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2926-L2927"
+    },
+    {
+      "index": 22,
+      "cliff": "CLIF3U",
+      "x": 226,
+      "y": 128,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2926-L2927"
+    },
+    {
+      "index": 23,
+      "cliff": "CLIF3U",
+      "x": 234,
+      "y": 128,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2926-L2927"
+    },
+    {
+      "index": 24,
+      "cliff": "CLIF3U",
+      "x": 242,
+      "y": 128,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2926-L2927"
+    },
+    {
+      "index": 25,
+      "cliff": "CLIF3U",
+      "x": 250,
+      "y": 128,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2926-L2927"
+    },
+    {
+      "index": 26,
+      "cliff": "CLIF3L",
+      "x": 9,
+      "y": 137,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2928-L2929"
+    },
+    {
+      "index": 27,
+      "cliff": "CLIF3L",
+      "x": 17,
+      "y": 137,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2928-L2929"
+    },
+    {
+      "index": 28,
+      "cliff": "CLIF3L",
+      "x": 25,
+      "y": 137,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2928-L2929"
+    },
+    {
+      "index": 29,
+      "cliff": "CLIF3L",
+      "x": 33,
+      "y": 137,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2928-L2929"
+    },
+    {
+      "index": 30,
+      "cliff": "CLIF3L",
+      "x": 41,
+      "y": 137,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2928-L2929"
+    },
+    {
+      "index": 31,
+      "cliff": "CLIF3L",
+      "x": 49,
+      "y": 137,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2928-L2929"
+    },
+    {
+      "index": 32,
+      "cliff": "CLIF3L",
+      "x": 57,
+      "y": 137,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2928-L2929"
+    },
+    {
+      "index": 33,
+      "cliff": "CLIF3R",
+      "x": 257,
+      "y": 137,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2930-L2931"
+    },
+    {
+      "index": 34,
+      "cliff": "CLIF3R",
+      "x": 265,
+      "y": 137,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2930-L2931"
+    },
+    {
+      "index": 35,
+      "cliff": "CLIF3R",
+      "x": 273,
+      "y": 137,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2930-L2931"
+    },
+    {
+      "index": 36,
+      "cliff": "CLIF3R",
+      "x": 281,
+      "y": 137,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2930-L2931"
+    },
+    {
+      "index": 37,
+      "cliff": "CLIF3R",
+      "x": 289,
+      "y": 137,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2930-L2931"
+    },
+    {
+      "index": 38,
+      "cliff": "CLIF4",
+      "x": 106,
+      "y": 162,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2932-L2933"
+    },
+    {
+      "index": 39,
+      "cliff": "CLIF4",
+      "x": 114,
+      "y": 162,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2932-L2933"
+    },
+    {
+      "index": 40,
+      "cliff": "CLIF4",
+      "x": 122,
+      "y": 162,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2932-L2933"
+    },
+    {
+      "index": 41,
+      "cliff": "CLIF4",
+      "x": 130,
+      "y": 162,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2932-L2933"
+    },
+    {
+      "index": 42,
+      "cliff": "CLIF4",
+      "x": 138,
+      "y": 162,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2932-L2933"
+    },
+    {
+      "index": 43,
+      "cliff": "CLIF4",
+      "x": 146,
+      "y": 162,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2932-L2933"
+    },
+    {
+      "index": 44,
+      "cliff": "CLIF4",
+      "x": 154,
+      "y": 162,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2932-L2933"
+    },
+    {
+      "index": 45,
+      "cliff": "CLIF4",
+      "x": 162,
+      "y": 162,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2932-L2933"
+    },
+    {
+      "index": 46,
+      "cliff": "CLIF5",
+      "x": 54,
+      "y": 210,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2934-L2935"
+    },
+    {
+      "index": 47,
+      "cliff": "CLIF5",
+      "x": 62,
+      "y": 210,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2934-L2935"
+    },
+    {
+      "index": 48,
+      "cliff": "CLIF5",
+      "x": 70,
+      "y": 210,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2934-L2935"
+    },
+    {
+      "index": 49,
+      "cliff": "CLIF5",
+      "x": 78,
+      "y": 210,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2934-L2935"
+    },
+    {
+      "index": 50,
+      "cliff": "CLIF5",
+      "x": 86,
+      "y": 210,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2934-L2935"
+    },
+    {
+      "index": 51,
+      "cliff": "CLIF5",
+      "x": 94,
+      "y": 210,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2934-L2935"
+    },
+    {
+      "index": 52,
+      "cliff": "CLIF5",
+      "x": 102,
+      "y": 210,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2934-L2935"
+    },
+    {
+      "index": 53,
+      "cliff": "CLIF5",
+      "x": 110,
+      "y": 210,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2934-L2935"
+    },
+    {
+      "index": 54,
+      "cliff": "CLIF5",
+      "x": 118,
+      "y": 210,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2934-L2935"
+    },
+    {
+      "index": 55,
+      "cliff": "CLIF5",
+      "x": 126,
+      "y": 210,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2934-L2935"
+    },
+    {
+      "index": 56,
+      "cliff": "CLIF5",
+      "x": 134,
+      "y": 210,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2934-L2935"
+    },
+    {
+      "index": 57,
+      "cliff": "CLIF5",
+      "x": 142,
+      "y": 210,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2934-L2935"
+    },
+    {
+      "index": 58,
+      "cliff": "CLIF5",
+      "x": 150,
+      "y": 210,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2934-L2935"
+    },
+    {
+      "index": 59,
+      "cliff": "CLIF5",
+      "x": 158,
+      "y": 210,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2934-L2935"
+    },
+    {
+      "index": 60,
+      "cliff": "CLIF5",
+      "x": 166,
+      "y": 210,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2934-L2935"
+    },
+    {
+      "index": 61,
+      "cliff": "CLIF5",
+      "x": 174,
+      "y": 210,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2934-L2935"
+    },
+    {
+      "index": 62,
+      "cliff": "CLIF5",
+      "x": 182,
+      "y": 210,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2934-L2935"
+    },
+    {
+      "index": 63,
+      "cliff": "CLIF5",
+      "x": 190,
+      "y": 210,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2934-L2935"
+    },
+    {
+      "index": 64,
+      "cliff": "CLIF5",
+      "x": 198,
+      "y": 210,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2934-L2935"
+    },
+    {
+      "index": 65,
+      "cliff": "CLIF5",
+      "x": 206,
+      "y": 210,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2934-L2935"
+    },
+    {
+      "index": 66,
+      "cliff": "CLIF5",
+      "x": 214,
+      "y": 210,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2934-L2935"
+    },
+    {
+      "index": 67,
+      "cliff": "CLIF5",
+      "x": 222,
+      "y": 210,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2934-L2935"
+    },
+    {
+      "index": 68,
+      "cliff": "CLIF5",
+      "x": 230,
+      "y": 210,
+      "source": "https://github.com/synamaxmusic/joust/blob/87e22aab945709fa107df609c0efcb839a17c1f9/JOUSTRV4.ASM#L2934-L2935"
+    }
+  ],
+  "egg_ledge_groups": [
+    [
+      0,
+      7
+    ],
+    [
+      8,
+      18
+    ],
+    [
+      19,
+      25
+    ],
+    [
+      26,
+      37
+    ],
+    [
+      38,
+      45
+    ],
+    [
+      46,
+      68
+    ]
+  ],
+  "bait_times_in_eight_tick_units": [
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    22,
+    37,
+    52,
+    112,
+    112,
+    225,
+    337,
+    450
+  ]
+}

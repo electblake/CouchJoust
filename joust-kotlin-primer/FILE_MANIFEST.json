@@ -1,0 +1,2233 @@
+{
+  "algorithm": "SHA-256",
+  "excludes": [
+    "FILE_MANIFEST.json"
+  ],
+  "files": [
+    {
+      "path": "OPEN_ME.html",
+      "bytes": 4012,
+      "sha256": "24f769ff058c8d99104508da7bd5117cc7ab942df611a3fefed01fde5e2a8d40"
+    },
+    {
+      "path": "PROVENANCE.json",
+      "bytes": 4301,
+      "sha256": "4102612ae0310bb513f1396c409f46599c8ec2a069f3439ecd32396cb5abbfbf"
+    },
+    {
+      "path": "README.md",
+      "bytes": 807,
+      "sha256": "76558dfa4dffa72bedff1134ce51ed6d837050204bbd80dd297dcebf05f35316"
+    },
+    {
+      "path": "REPRODUCE.md",
+      "bytes": 3426,
+      "sha256": "809df01382fb1a89c91c0294df90df53672b58c212f53e8577cbf030f8d32c76"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 6742,
+      "sha256": "4db3993bb7f813bfe1001cf9c4ef7c4989800d23c42e6852c79c97eff9c10237"
+    },
+    {
+      "path": "assets/ASSET_CATALOG.html",
+      "bytes": 67361,
+      "sha256": "bc5c19c78de119aba8f1a86d08e8f0cf70e7b039d40c266d693cc87109802174"
+    },
+    {
+      "path": "assets/audio/README.md",
+      "bytes": 6800,
+      "sha256": "e1ea92cc5a741ebe9c2ffad96b75edfa64e69bf063117ab6d5a1497b25efd310"
+    },
+    {
+      "path": "assets/audio/audio-manifest.json",
+      "bytes": 82148,
+      "sha256": "623887c2688a2795a77e1582f95dd7c125565285cc5264ccc20bcd0556552e7e"
+    },
+    {
+      "path": "assets/audio/commands/command_01.wav",
+      "bytes": 16222,
+      "sha256": "8ab6f14d98ad0f3b7cdf14bf468aed6815df34b8bffd6c83e5349749d06c497a"
+    },
+    {
+      "path": "assets/audio/commands/command_02.wav",
+      "bytes": 104278,
+      "sha256": "0c16bfa1de5fc6a6a39f10fea0c9bbe26c96ed9e6eb1a363bf5610f54ede2703"
+    },
+    {
+      "path": "assets/audio/commands/command_03.wav",
+      "bytes": 21932,
+      "sha256": "5a09886e34071ff0c351966379f567cc955ae468b9871b2fc0325449ee67e2d7"
+    },
+    {
+      "path": "assets/audio/commands/command_04.wav",
+      "bytes": 1643522,
+      "sha256": "b5e164240b63b9afe3da137230f8ee37397361157ccbb2a1d97da9380e9a412b"
+    },
+    {
+      "path": "assets/audio/commands/command_05.wav",
+      "bytes": 79788,
+      "sha256": "543945515671fc586a5d3027198311f93ffaf44d5f3371d43d1d0180846b35a9"
+    },
+    {
+      "path": "assets/audio/commands/command_06.wav",
+      "bytes": 14574,
+      "sha256": "1d79c7461ae8af7efa9e056aff6e4b4debb5b9ca59440bd6633c401506b476b5"
+    },
+    {
+      "path": "assets/audio/commands/command_07.wav",
+      "bytes": 261366,
+      "sha256": "a29a93d5409af07024947a83b771e499bdeebc4da1af6612b63e147f55005e64"
+    },
+    {
+      "path": "assets/audio/commands/command_08.wav",
+      "bytes": 292056,
+      "sha256": "bb39e5c999ba56968deeb0cee2de32a64de2d29562cf4f27bf099a3a26be1ca0"
+    },
+    {
+      "path": "assets/audio/commands/command_09.wav",
+      "bytes": 35570,
+      "sha256": "0e06501c8e71c6766033a7f479d72db6f0f6c2bf6d2ed4e130243c7655bec33c"
+    },
+    {
+      "path": "assets/audio/commands/command_0a.wav",
+      "bytes": 53938,
+      "sha256": "52a0bde356ee5936792d5ef7508096e54a61f12df48b2a88bc2612fadf226f7a"
+    },
+    {
+      "path": "assets/audio/commands/command_0b.wav",
+      "bytes": 120708,
+      "sha256": "79d7da93a6afa6389b03b9b0ad31c48f7edcf69ec45aa9c14b25bfc9762af749"
+    },
+    {
+      "path": "assets/audio/commands/command_0c.wav",
+      "bytes": 24242,
+      "sha256": "c1932bacad06f45a3f3b54c9d806f277a2d383dfd4aba8149cd29d5ecbfbb329"
+    },
+    {
+      "path": "assets/audio/commands/command_0d.wav",
+      "bytes": 58334,
+      "sha256": "0c397dc97d09c4b3042685ebed8b4fd8f6c2588d48418a7ab81218c22add417a"
+    },
+    {
+      "path": "assets/audio/commands/command_0e.wav",
+      "bytes": 30428,
+      "sha256": "c15c043d72849f18a48fcfa85092aacb94490ba6dc4f805828cdcfb8a7e4754c"
+    },
+    {
+      "path": "assets/audio/commands/command_0f.wav",
+      "bytes": 103552,
+      "sha256": "5ec15c2b2f6bf8574cccc9d044259650cd40955b7a92f41ab1914c3e0b3c578d"
+    },
+    {
+      "path": "assets/audio/commands/command_10.wav",
+      "bytes": 90238,
+      "sha256": "2645dbf9546b57dac6652a3b75a3eb0d09222420ad442b2adb21879969fde078"
+    },
+    {
+      "path": "assets/audio/commands/command_11.wav",
+      "bytes": 85630,
+      "sha256": "c93b0a5940f1fb58fc8e1c0cab98f073c7bc7620c12bf6f3562962f8362b5130"
+    },
+    {
+      "path": "assets/audio/commands/command_12.wav",
+      "bytes": 200038,
+      "sha256": "19afe2d72ac0853c1c734e8a00f86ada2732d3fae68f95e2ce977093ac49fa50"
+    },
+    {
+      "path": "assets/audio/commands/command_13.wav",
+      "bytes": 20626,
+      "sha256": "d152daf1bc7dd55145bcf1f621bad9175111a861fa7c4e9f3766e61fa5005a45"
+    },
+    {
+      "path": "assets/audio/commands/command_14.wav",
+      "bytes": 606170,
+      "sha256": "564aa18068849c3f115f4afa35f29c6b51aa752aa9f9c361dc8096978eee012c"
+    },
+    {
+      "path": "assets/audio/commands/command_15.wav",
+      "bytes": 579960,
+      "sha256": "f81937816355f12237b9c6dcc140f7ebf3b6c63e322b4c276231a4748ded134f"
+    },
+    {
+      "path": "assets/audio/commands/command_16.wav",
+      "bytes": 67036,
+      "sha256": "cbd29214a84627eeefafb169ebfc4fec4745ce76c6a1fa89d307fe00f4663ec0"
+    },
+    {
+      "path": "assets/audio/commands/command_17.wav",
+      "bytes": 21598,
+      "sha256": "3fbc4f4c19c1c24b3bb8bfb075cc7e06c6a18acc61aefb4877d78fadf7347388"
+    },
+    {
+      "path": "assets/audio/commands/command_18.wav",
+      "bytes": 51218,
+      "sha256": "afe7c7aaa76ebc926bcfcbb6db3328869b558105cbeee7ece8b87772054480e6"
+    },
+    {
+      "path": "assets/audio/commands/command_19.wav",
+      "bytes": 508294,
+      "sha256": "3f0805446149082092364900c1f99da2182de74c7a748adf645a4004f73ca4f8"
+    },
+    {
+      "path": "assets/audio/commands/command_1a.wav",
+      "bytes": 34604,
+      "sha256": "0ba139eeaa841656829ef7cc5b220afc00be40cd527ae6c6700d3070654e83d6"
+    },
+    {
+      "path": "assets/audio/commands/command_1b.wav",
+      "bytes": 176556,
+      "sha256": "4e41c7e551041206f5c0e519c0d55d44311bcb049216e689022515a5b33c2ff0"
+    },
+    {
+      "path": "assets/audio/commands/command_1c.wav",
+      "bytes": 300130,
+      "sha256": "c224473918b0b2fc4e44c1654f8090ef287f8bf0ddde5a234aec701e4211c4d1"
+    },
+    {
+      "path": "assets/audio/commands/command_1d.wav",
+      "bytes": 10716,
+      "sha256": "15c920ef9a6c74299e890706277a8c39277d15552ee44246b7a224ff0d95652e"
+    },
+    {
+      "path": "assets/audio/commands/command_1e.wav",
+      "bytes": 206012,
+      "sha256": "359608edd52de7a85c415a079e9f4dbf3654025354e78452e3b87308552b9ad5"
+    },
+    {
+      "path": "assets/audio/commands/command_1f.wav",
+      "bytes": 154,
+      "sha256": "0d5aa7b7fc39e7ef7481b4f770ad1b2a5ab5ba34e070f8d41999ddeb279f2b2c"
+    },
+    {
+      "path": "assets/audio/commands/command_20.wav",
+      "bytes": 26124,
+      "sha256": "f4d89a70da6fb59b07a82c282840d8eaf8b7b5420ac67eec7dcb5c0079f53dde"
+    },
+    {
+      "path": "assets/audio/commands/command_21.wav",
+      "bytes": 12590,
+      "sha256": "75efd34545936860055b8d369e8f326d9695528a320e3b2ea2ac8c3bc8919a8b"
+    },
+    {
+      "path": "assets/audio/commands/command_22.wav",
+      "bytes": 4120,
+      "sha256": "a599715484cfef6cef53270c17d63a47c5a80f0a35e75c102c4d4c505ae63375"
+    },
+    {
+      "path": "assets/audio/commands/command_23.wav",
+      "bytes": 3238,
+      "sha256": "b24bd530ab163f0432cd9c544cfbee9e341a214985065be9097cf696540114b5"
+    },
+    {
+      "path": "assets/audio/commands/command_24.wav",
+      "bytes": 72016,
+      "sha256": "faaceb0b99309a18e07f95febf5a482bc04ac2befc4a4af61fef86d696e298c8"
+    },
+    {
+      "path": "assets/audio/commands/command_25.wav",
+      "bytes": 39110,
+      "sha256": "27f98adab9f7c148d21a198fa653da564e984ea3e4bec88cf87b1c3d1efacafa"
+    },
+    {
+      "path": "assets/audio/commands/command_26.wav",
+      "bytes": 88630,
+      "sha256": "7fdd10ed4358c46009294b8def08eae12c47c3ba05406af0d78127489ba68904"
+    },
+    {
+      "path": "assets/audio/commands/command_27.wav",
+      "bytes": 43076,
+      "sha256": "036dfe9c42d459e0f090d1bca987f31d2db6be5dd89743a5d7075c1073e2ec24"
+    },
+    {
+      "path": "assets/audio/dac-traces/SNBOUN.json.gz",
+      "bytes": 32956,
+      "sha256": "2d7bb8bc0e9eb933798929064d02f0a606da6e608b78bb10f88e7eb6e27a806a"
+    },
+    {
+      "path": "assets/audio/dac-traces/SNBUB.json.gz",
+      "bytes": 5949,
+      "sha256": "6b26fa8127103a488c24b0af7802365e2ba56f44eabcfd1167e39b75408eb8f3"
+    },
+    {
+      "path": "assets/audio/dac-traces/SNCLIF.json.gz",
+      "bytes": 10905,
+      "sha256": "dd696e76dd53698b4642e0f150e3e2a0cc34fa7f7c54622967e8cd7ac97893db"
+    },
+    {
+      "path": "assets/audio/dac-traces/SNCRED.json.gz",
+      "bytes": 10657,
+      "sha256": "b787b0e969701e225b15af3986005c1f1b3db3b81349f466face4a05d839d3c0"
+    },
+    {
+      "path": "assets/audio/dac-traces/SNCTHD.json.gz",
+      "bytes": 1644,
+      "sha256": "a9c03cd84044f2f953ba136c596e7b5e9fc4dad52083e2258dfd6b5fa2975d71"
+    },
+    {
+      "path": "assets/audio/dac-traces/SNECRE.json.gz",
+      "bytes": 13896,
+      "sha256": "6d55a6c9ef8b2558229a85c8589f0a09cf893ed07ebd672ddb5a393fdda24888"
+    },
+    {
+      "path": "assets/audio/dac-traces/SNEDIE.json.gz",
+      "bytes": 1649,
+      "sha256": "3f6dd8970ec3573164e9cb7dd23b8d194366b9b4eddaac8310dd871393e0d6ec"
+    },
+    {
+      "path": "assets/audio/dac-traces/SNEGG.json.gz",
+      "bytes": 3658,
+      "sha256": "74f650bb37f1013f2970c591c9e4100216ef57c6f5875a501d54f1320d3e7424"
+    },
+    {
+      "path": "assets/audio/dac-traces/SNEGGH.json.gz",
+      "bytes": 41680,
+      "sha256": "a1354a9fefd773bcedbb045765c9351df61b30f9960cd935fb8587c055f9110f"
+    },
+    {
+      "path": "assets/audio/dac-traces/SNELAV.json.gz",
+      "bytes": 5950,
+      "sha256": "cac509b437a84375be815f53c236992f71ec3986a27f679d15c81868112787f1"
+    },
+    {
+      "path": "assets/audio/dac-traces/SNELWD.json.gz",
+      "bytes": 1554,
+      "sha256": "860b5050253247eb679a2546f230579cc82778e45d8312e075f350b54407dea0"
+    },
+    {
+      "path": "assets/audio/dac-traces/SNELWU.json.gz",
+      "bytes": 738,
+      "sha256": "e0497c38c7dc6faccee7996ebeafddb1357515c9effab37cbc96794e1942a590"
+    },
+    {
+      "path": "assets/audio/dac-traces/SNEMS2.json.gz",
+      "bytes": 5303,
+      "sha256": "37703a0f9d78d0ff5903f2997b32473be2c7011719e24317e718fe8ea95815f5"
+    },
+    {
+      "path": "assets/audio/dac-traces/SNEMSK.json.gz",
+      "bytes": 11104,
+      "sha256": "bde6e605d3cc1210d97bd79c5322e3867da3941eebce37fea2dd3091c4cb65da"
+    },
+    {
+      "path": "assets/audio/dac-traces/SNERU1.json.gz",
+      "bytes": 353,
+      "sha256": "843d6d6ffa693d51ddfd86778579394527a4459300a6b659ebb54f5e57acd48d"
+    },
+    {
+      "path": "assets/audio/dac-traces/SNERU2.json.gz",
+      "bytes": 257,
+      "sha256": "887c1cfa70557b1c441d9b2b6dcdf8a94965a4ec603ec2f5b1f0902234f204a2"
+    },
+    {
+      "path": "assets/audio/dac-traces/SNETHD.json.gz",
+      "bytes": 6932,
+      "sha256": "cf23afeb0f1f895836709192371731c4e40ac6931a68f705044ad6500bd21b5c"
+    },
+    {
+      "path": "assets/audio/dac-traces/SNGS.json.gz",
+      "bytes": 20568,
+      "sha256": "c4028bb16af39d85c73d362eb7b69bb12b45e8bedc0d01505ecf9886ef6d7d6f"
+    },
+    {
+      "path": "assets/audio/dac-traces/SNHI2.json.gz",
+      "bytes": 32955,
+      "sha256": "bd45a66e3056561de6d7e42298273d28edba35c15504bac178cf8518efefd3e4"
+    },
+    {
+      "path": "assets/audio/dac-traces/SNHIGH.json.gz",
+      "bytes": 552914,
+      "sha256": "ad2bc4ac6f7c569d9fa9f45a42bb9e06bf3dd6dcfa40f5543505d9babfc7a817"
+    },
+    {
+      "path": "assets/audio/dac-traces/SNMOUN.json.gz",
+      "bytes": 2040,
+      "sha256": "5feca10d5713ec1754caeba0a926d7d6a3450bef5624b5bec5b35b26d182fe65"
+    },
+    {
+      "path": "assets/audio/dac-traces/SNPCR1.json.gz",
+      "bytes": 53607,
+      "sha256": "cef8be03298360adbd6236c425f97bd43e3e5b69ed738e03b6d57ee3882b8877"
+    },
+    {
+      "path": "assets/audio/dac-traces/SNPCR2.json.gz",
+      "bytes": 56964,
+      "sha256": "89d2c9663d5e16fcabd6ec7fb0335caa5877e445c543ab7c67ac686a78a8a612"
+    },
+    {
+      "path": "assets/audio/dac-traces/SNPDIE.json.gz",
+      "bytes": 1649,
+      "sha256": "f34e775116c3a286311f36c122f8b793c2d323786c859b9c6b02f623e07d2d4c"
+    },
+    {
+      "path": "assets/audio/dac-traces/SNPLAV.json.gz",
+      "bytes": 5950,
+      "sha256": "8f2ffffbeca572ccfe05f69c30fdb0c5fc01748d8f0ff5393ee187624eefae2d"
+    },
+    {
+      "path": "assets/audio/dac-traces/SNPLS2.json.gz",
+      "bytes": 5302,
+      "sha256": "71488cf4cd79a122bcfe1cdbfc519c6006dc75e6686e9276f6b377a04e3b3c3f"
+    },
+    {
+      "path": "assets/audio/dac-traces/SNPLSK.json.gz",
+      "bytes": 11105,
+      "sha256": "f92b918209c22792777be2b04e73f6bebfc948b53b78d216d0f45c2e05a04c48"
+    },
+    {
+      "path": "assets/audio/dac-traces/SNPLWD.json.gz",
+      "bytes": 1555,
+      "sha256": "c23617b88769dfce36e74389496114c30767991bd4f7d33446f62de0ed4afd23"
+    },
+    {
+      "path": "assets/audio/dac-traces/SNPLWU.json.gz",
+      "bytes": 739,
+      "sha256": "c31ea077fa71998658fd47800e827f6e5554185cfecd1216d7725c856c766cb7"
+    },
+    {
+      "path": "assets/audio/dac-traces/SNPRU1.json.gz",
+      "bytes": 352,
+      "sha256": "be858e3789221f447bd237c8386322669fe941669d01fd9cec449799c6108f45"
+    },
+    {
+      "path": "assets/audio/dac-traces/SNPRU2.json.gz",
+      "bytes": 257,
+      "sha256": "136e01691a4240eb00e4e98e51cff5acc2cf8784ed263e30e237067899a32193"
+    },
+    {
+      "path": "assets/audio/dac-traces/SNPTE.json.gz",
+      "bytes": 14678,
+      "sha256": "0ea35a50ae01b1a66bf943f6f0f4d9743c2c655bbc44e2cf778077365c5e1032"
+    },
+    {
+      "path": "assets/audio/dac-traces/SNPTED.json.gz",
+      "bytes": 4712,
+      "sha256": "6442e85aa64c8d7d058368fc64e908c0d9dd15794317df6c6c992f35387a539e"
+    },
+    {
+      "path": "assets/audio/dac-traces/SNPTEI.json.gz",
+      "bytes": 17320,
+      "sha256": "32f7b283d51069386cc69da732f51c7cfd7925ed91d894bccfeae562cd301225"
+    },
+    {
+      "path": "assets/audio/dac-traces/SNPTHD.json.gz",
+      "bytes": 6932,
+      "sha256": "7226494775b7a1c66470a7e4b458a409e142c41fc6d0f682334d73db2dd85bfc"
+    },
+    {
+      "path": "assets/audio/dac-traces/SNREPL.json.gz",
+      "bytes": 21032,
+      "sha256": "3385562d36054fe5ff66e6c8c12a870c07516475efa6faacc3730df466ac4517"
+    },
+    {
+      "path": "assets/audio/dac-traces/SNTROL.json.gz",
+      "bytes": 9982,
+      "sha256": "0f7050e27b8c0789691481f7e96bdf78e24be4487b39838da13bfc14e4310a23"
+    },
+    {
+      "path": "assets/audio/dac-traces/command_01.json.gz",
+      "bytes": 4641,
+      "sha256": "fae026c0dfc5a63af27f0a93dfe57dd7e756fd05b87c3e48020ffced2d412be3"
+    },
+    {
+      "path": "assets/audio/dac-traces/command_02.json.gz",
+      "bytes": 41682,
+      "sha256": "d71163eca49437b27da2fd321712b0025a73df4d10e99d3856c5b0ada7c0d7e1"
+    },
+    {
+      "path": "assets/audio/dac-traces/command_03.json.gz",
+      "bytes": 3666,
+      "sha256": "c2e37312181b9170d267f87859bc74cbe9486f4afc24c600dad92539cbedcf2b"
+    },
+    {
+      "path": "assets/audio/dac-traces/command_04.json.gz",
+      "bytes": 77736,
+      "sha256": "26b4625b06c14654456a92fd9c72290455160b80d5cacffa4effe1c895960158"
+    },
+    {
+      "path": "assets/audio/dac-traces/command_05.json.gz",
+      "bytes": 37482,
+      "sha256": "bfcb5b21d3af34b2b50e082ef332e95d1dc9398d6a2a8a382c0f4c77d62d7b16"
+    },
+    {
+      "path": "assets/audio/dac-traces/command_06.json.gz",
+      "bytes": 1646,
+      "sha256": "ce74333134ed4bea35504ae280e18ee84a9eabc6826d1dc81c8b9ee2e43c1288"
+    },
+    {
+      "path": "assets/audio/dac-traces/command_07.json.gz",
+      "bytes": 24798,
+      "sha256": "e2d9c0d4acbd1a354bdcaabafd89f7b3d0df5e3392879568d2614098938e6fac"
+    },
+    {
+      "path": "assets/audio/dac-traces/command_08.json.gz",
+      "bytes": 41187,
+      "sha256": "15eacf1f04e90e099b14b662c4158cdc9905e0fff92901f8a0a7396ce7007713"
+    },
+    {
+      "path": "assets/audio/dac-traces/command_09.json.gz",
+      "bytes": 9988,
+      "sha256": "dc62dcebe371d189f2fdc8889c750256f48db8b98089b76a179b284d73261056"
+    },
+    {
+      "path": "assets/audio/dac-traces/command_0a.json.gz",
+      "bytes": 10661,
+      "sha256": "c48331d54f2c8b08fe359a52b7254800501a0777be4292bc0a3ab2ca1129965c"
+    },
+    {
+      "path": "assets/audio/dac-traces/command_0b.json.gz",
+      "bytes": 21038,
+      "sha256": "216dee4ddc4a84a566815489e1847dade0bd4510399fd8b3d8d531496e975a38"
+    },
+    {
+      "path": "assets/audio/dac-traces/command_0c.json.gz",
+      "bytes": 2044,
+      "sha256": "c7c39aa78478ed4700665f781c95b34cb641bd68cd9a3c1c041fda2be578148c"
+    },
+    {
+      "path": "assets/audio/dac-traces/command_0d.json.gz",
+      "bytes": 5954,
+      "sha256": "c2dc3f1e49bc576db4d9cda28c8497bc9039c8e902d0dfd2f1a745f47dbec6b2"
+    },
+    {
+      "path": "assets/audio/dac-traces/command_0e.json.gz",
+      "bytes": 1450,
+      "sha256": "69fea1c4af6b791b4bad300ecbeae2b91d2004282586b72e0cc94aaea42a6635"
+    },
+    {
+      "path": "assets/audio/dac-traces/command_0f.json.gz",
+      "bytes": 19148,
+      "sha256": "3290245508a663425b5c3223adc4434a23b67eccb3700d9341547d9e1573edfd"
+    },
+    {
+      "path": "assets/audio/dac-traces/command_10.json.gz",
+      "bytes": 20394,
+      "sha256": "3054ed6672c7000727d9e248b4b8d561ed967c307f51771c0877abcc8fcfc801"
+    },
+    {
+      "path": "assets/audio/dac-traces/command_11.json.gz",
+      "bytes": 46961,
+      "sha256": "0b4ee0935b2678724d6d3226faa5b68de756c95f3e99d557c9d685e34193f8f6"
+    },
+    {
+      "path": "assets/audio/dac-traces/command_12.json.gz",
+      "bytes": 40677,
+      "sha256": "27396952ec0693d71e65430e902def45325066b847ddc16144bfccae4657b9cb"
+    },
+    {
+      "path": "assets/audio/dac-traces/command_13.json.gz",
+      "bytes": 867,
+      "sha256": "37f77d057905fba1395c4750a09be3cee7c8ac7a27e081dd4a8477540136c3c7"
+    },
+    {
+      "path": "assets/audio/dac-traces/command_14.json.gz",
+      "bytes": 43505,
+      "sha256": "16bf1c1daaeff10099c9f2d79358257abd3ab23928086f082199ad7ab502b1b0"
+    },
+    {
+      "path": "assets/audio/dac-traces/command_15.json.gz",
+      "bytes": 43365,
+      "sha256": "173c51777b1adebb61245823db68f1f1d598bd5e24b6a795f47b67ab7807efa6"
+    },
+    {
+      "path": "assets/audio/dac-traces/command_16.json.gz",
+      "bytes": 1654,
+      "sha256": "ca6bf7b6fcbebbb00bba85c8a22c9ae22f41053c8eb1898a7a022e20d83b99ef"
+    },
+    {
+      "path": "assets/audio/dac-traces/command_17.json.gz",
+      "bytes": 435,
+      "sha256": "6e2806fa99867e6493da7ae8c562a14a932091a5adabfddf6b6c5e161fbf2cd0"
+    },
+    {
+      "path": "assets/audio/dac-traces/command_18.json.gz",
+      "bytes": 11159,
+      "sha256": "445c8fceb1add00d50a3052eaca3cda278ba4ea647b20ef2987b10e088195876"
+    },
+    {
+      "path": "assets/audio/dac-traces/command_19.json.gz",
+      "bytes": 10909,
+      "sha256": "c3341922a0de244760304ba0259e86f6b7195dfb3fba25dd1da473be17d6c6f8"
+    },
+    {
+      "path": "assets/audio/dac-traces/command_1a.json.gz",
+      "bytes": 2779,
+      "sha256": "4e5aeee094486ebf707cbcc4628f01652f7ae876aad6fa898434e4e8cff77639"
+    },
+    {
+      "path": "assets/audio/dac-traces/command_1b.json.gz",
+      "bytes": 20572,
+      "sha256": "eb8612e83d54b7cffb13e365f448048985599d6ad8aba701642ca78c020dae12"
+    },
+    {
+      "path": "assets/audio/dac-traces/command_1c.json.gz",
+      "bytes": 32960,
+      "sha256": "4069a88e5ba432584bd1fb4e67b5f732a882aec59db2a94317b315a96e734a78"
+    },
+    {
+      "path": "assets/audio/dac-traces/command_1d.json.gz",
+      "bytes": 581,
+      "sha256": "5a05bddb30937fa110fd43c5952fabf2522215babb0be14566a349b8784436d8"
+    },
+    {
+      "path": "assets/audio/dac-traces/command_1e.json.gz",
+      "bytes": 52963,
+      "sha256": "c0d86dcf2a1d5b93e3a17c6d6fad7909ab226e880be7fb3ab18ca6d67467667e"
+    },
+    {
+      "path": "assets/audio/dac-traces/command_1f.json.gz",
+      "bytes": 139,
+      "sha256": "8630d3ff84ec77091624797ecd3b1565bed72adf6cf40d15c602f5620114f97b"
+    },
+    {
+      "path": "assets/audio/dac-traces/command_20.json.gz",
+      "bytes": 1557,
+      "sha256": "706fa12290d39c6bd62b84bbd8db2e67f8e60b861a23a51925e7af0225b7640a"
+    },
+    {
+      "path": "assets/audio/dac-traces/command_21.json.gz",
+      "bytes": 741,
+      "sha256": "0176697673fe1b03afb721f431eb76dea66fdc548acd940b34384bff9aa3c80c"
+    },
+    {
+      "path": "assets/audio/dac-traces/command_22.json.gz",
+      "bytes": 354,
+      "sha256": "0d6ffa0ba6756089b6d54b5de59b656a7897e5eb46f9018db785acefc94d0711"
+    },
+    {
+      "path": "assets/audio/dac-traces/command_23.json.gz",
+      "bytes": 260,
+      "sha256": "a0a04b1b8547055a40fd5fe9814e9fea116e35ac03f8be85368462b5afd51278"
+    },
+    {
+      "path": "assets/audio/dac-traces/command_24.json.gz",
+      "bytes": 14683,
+      "sha256": "4de4e964a46513adde286ca1bc5dc8f01e92bc7052b880cc416a8879cadeb14d"
+    },
+    {
+      "path": "assets/audio/dac-traces/command_25.json.gz",
+      "bytes": 6401,
+      "sha256": "e71037a4d13b3e303c258253b2fc9e667614babd62812fa12743716a691232fa"
+    },
+    {
+      "path": "assets/audio/dac-traces/command_26.json.gz",
+      "bytes": 11106,
+      "sha256": "d62b055b2ac2507306394e6e2226c29fdd4818d3eb832e91e04acde84342018d"
+    },
+    {
+      "path": "assets/audio/dac-traces/command_27.json.gz",
+      "bytes": 5306,
+      "sha256": "2b0ffcdcc7778e81d60498d9fe9f23f63be0debd9bf0caceaae3610a2b12cc9d"
+    },
+    {
+      "path": "assets/audio/events/SNBOUN.wav",
+      "bytes": 300130,
+      "sha256": "c224473918b0b2fc4e44c1654f8090ef287f8bf0ddde5a234aec701e4211c4d1"
+    },
+    {
+      "path": "assets/audio/events/SNBUB.wav",
+      "bytes": 58390,
+      "sha256": "2eb36099f3ca05bf0c6ef01e3bda3ca39d962f9b85582a7d7f7c4ab71a4bc2e7"
+    },
+    {
+      "path": "assets/audio/events/SNCLIF.wav",
+      "bytes": 508312,
+      "sha256": "885b1d326e5b2208771e9a6fc1ec005b18898a3235cd028f9fba0cac66a6d30f"
+    },
+    {
+      "path": "assets/audio/events/SNCRED.wav",
+      "bytes": 63942,
+      "sha256": "e249cc4c74df94ea56009f7709aeaf29b3a8e5d4fee75d823b9278e80e23473f"
+    },
+    {
+      "path": "assets/audio/events/SNCTHD.wav",
+      "bytes": 16020,
+      "sha256": "b015cc91eb5810da7cb1435d144b7f84c7cc1f6ee9dc29db253156b2dfb5c29c"
+    },
+    {
+      "path": "assets/audio/events/SNECRE.wav",
+      "bytes": 145412,
+      "sha256": "593bfe5d472d2bb3872321445de56e6e388e181f7eb6d8223efa0e9370f214e5"
+    },
+    {
+      "path": "assets/audio/events/SNEDIE.wav",
+      "bytes": 67088,
+      "sha256": "ff9e5e40f145940f74f79c950e056e8f07e6ef3aa00568b83e0bfc9f5e8c0de8"
+    },
+    {
+      "path": "assets/audio/events/SNEGG.wav",
+      "bytes": 47968,
+      "sha256": "5ff6b05ebf73a82dd30eb594b1753727a49fa3a004697d075552f4c19083e409"
+    },
+    {
+      "path": "assets/audio/events/SNEGGH.wav",
+      "bytes": 104222,
+      "sha256": "3717d77537e4bb09acb18be972cc7cd628621b0faaa31067fad8dc50cbbffeaa"
+    },
+    {
+      "path": "assets/audio/events/SNELAV.wav",
+      "bytes": 58418,
+      "sha256": "cc27ef98012f4b43eba574683f1bd647a966f3339713d48fd2cb8b5081682b4c"
+    },
+    {
+      "path": "assets/audio/events/SNELWD.wav",
+      "bytes": 95892,
+      "sha256": "a03ed42168274518e0c5af61db5e0cd35cee43b0117ce76822f7308ef7b1d75e"
+    },
+    {
+      "path": "assets/audio/events/SNELWU.wav",
+      "bytes": 95892,
+      "sha256": "32144cb1935807ebda79e4d97e01cc107050adfa8d7e3183fd46fb7e0c24364c"
+    },
+    {
+      "path": "assets/audio/events/SNEMS2.wav",
+      "bytes": 47968,
+      "sha256": "37ab4e76db42fd02d75bfa77f40d3e6f74f5be064e918ea91aef9e95a6f5d73d"
+    },
+    {
+      "path": "assets/audio/events/SNEMSK.wav",
+      "bytes": 95892,
+      "sha256": "4449fa04387202f39a7c8cfc343882039dc8ac5d63d7017d0d4055c3cd7a8c1e"
+    },
+    {
+      "path": "assets/audio/events/SNERU1.wav",
+      "bytes": 95892,
+      "sha256": "841b370ebde7051ab4c285fe7f7653485db623680b40d8abe9dac73d2900a2eb"
+    },
+    {
+      "path": "assets/audio/events/SNERU2.wav",
+      "bytes": 95892,
+      "sha256": "c9271c8696679974f48b05e4ee9022ac94d67e2fa070d4cb82f79bdf9f1bf534"
+    },
+    {
+      "path": "assets/audio/events/SNETHD.wav",
+      "bytes": 49566,
+      "sha256": "8d73bbbfe0a965a04a76ec5f6db6ce84c1ea7fd209e803051a9b3bf8ba0b3b6e"
+    },
+    {
+      "path": "assets/audio/events/SNGS.wav",
+      "bytes": 176510,
+      "sha256": "64ca4834dda0a72a3e828c9696693baa97b09ddf3f64ccc9035e51deef1c3e84"
+    },
+    {
+      "path": "assets/audio/events/SNHI2.wav",
+      "bytes": 300130,
+      "sha256": "c224473918b0b2fc4e44c1654f8090ef287f8bf0ddde5a234aec701e4211c4d1"
+    },
+    {
+      "path": "assets/audio/events/SNHIGH.wav",
+      "bytes": 4792366,
+      "sha256": "a0c4ed8e43482abf864e9648c696068b7dcb7514819204031176d520884adb7f"
+    },
+    {
+      "path": "assets/audio/events/SNMOUN.wav",
+      "bytes": 47968,
+      "sha256": "69e2737e2fe65b7bb3a7fbbd22e09ed4fbea31462360f402a896bd0c8892cf9e"
+    },
+    {
+      "path": "assets/audio/events/SNPCR1.wav",
+      "bytes": 718894,
+      "sha256": "53f20b6392ecdda410b56515f335d4c272b45fd9e0949d45a55d2d45803ce201"
+    },
+    {
+      "path": "assets/audio/events/SNPCR2.wav",
+      "bytes": 718894,
+      "sha256": "a2bee73bf493e54df343ac2aa664752ce6bbccc6ec26885c3a67c911bdcfa8c1"
+    },
+    {
+      "path": "assets/audio/events/SNPDIE.wav",
+      "bytes": 67088,
+      "sha256": "ff9e5e40f145940f74f79c950e056e8f07e6ef3aa00568b83e0bfc9f5e8c0de8"
+    },
+    {
+      "path": "assets/audio/events/SNPLAV.wav",
+      "bytes": 58418,
+      "sha256": "cc27ef98012f4b43eba574683f1bd647a966f3339713d48fd2cb8b5081682b4c"
+    },
+    {
+      "path": "assets/audio/events/SNPLS2.wav",
+      "bytes": 63942,
+      "sha256": "5c04360c8a67ca350b4caddf533ad10b7cf6e307b3d6bea8095a7a3d03013299"
+    },
+    {
+      "path": "assets/audio/events/SNPLSK.wav",
+      "bytes": 111866,
+      "sha256": "f39c9f8e7e08f60377f8096377f9effed3e35a3a4e61b9fe4f329f70f022408b"
+    },
+    {
+      "path": "assets/audio/events/SNPLWD.wav",
+      "bytes": 143814,
+      "sha256": "cb0cdfd6b9e1960362eb32df654ed07a3fb739a35acd8836de6d104ce7e0caeb"
+    },
+    {
+      "path": "assets/audio/events/SNPLWU.wav",
+      "bytes": 143814,
+      "sha256": "c66d750afa072ce6c44147543cf1d1bb12abc8f38e9f5cf67e62991e3edf6497"
+    },
+    {
+      "path": "assets/audio/events/SNPRU1.wav",
+      "bytes": 111866,
+      "sha256": "fbb8e747587007c23ccefe6ad2fc115dbf5214e0e1d09b97eceb884e9ac72247"
+    },
+    {
+      "path": "assets/audio/events/SNPRU2.wav",
+      "bytes": 111866,
+      "sha256": "0ea0bbbb2c172fdbb909806e0678ca55d27aac8505ecd5e25f5b6cd87e54910b"
+    },
+    {
+      "path": "assets/audio/events/SNPTE.wav",
+      "bytes": 191738,
+      "sha256": "ddc2f6861da20bbddfbf11214f7d751a17efde3e5709e68525c023c9e902bc6b"
+    },
+    {
+      "path": "assets/audio/events/SNPTED.wav",
+      "bytes": 214102,
+      "sha256": "1fb12d9cf4d09fb2d51e13a94222142a0534a282dc21cf677a88e6e9735d321c"
+    },
+    {
+      "path": "assets/audio/events/SNPTEI.wav",
+      "bytes": 95892,
+      "sha256": "4ddd630d922714c017ef68267ec1e86c614afe41a6c1db1a7ce7df699318c7ed"
+    },
+    {
+      "path": "assets/audio/events/SNPTHD.wav",
+      "bytes": 49566,
+      "sha256": "8d73bbbfe0a965a04a76ec5f6db6ce84c1ea7fd209e803051a9b3bf8ba0b3b6e"
+    },
+    {
+      "path": "assets/audio/events/SNREPL.wav",
+      "bytes": 143814,
+      "sha256": "ab06ca3be3248df4a3c5698c645d65fa92d5f767aec69077cad6825058d7a5c1"
+    },
+    {
+      "path": "assets/audio/events/SNTROL.wav",
+      "bytes": 47968,
+      "sha256": "47dcc68b1cb243ba507cd0690e75e9162543026b786453f6ead7bae34c7bf742"
+    },
+    {
+      "path": "assets/audio/reference/video_sound_rom_4_std_780.ic12",
+      "bytes": 4096,
+      "sha256": "16e6fe7d3f0bd84b2a23d97387ae1cca15bd8cb9ce0471a668cdbcca4619ce4f"
+    },
+    {
+      "path": "assets/audio/tools/offline6800/LICENSE-MAME.txt",
+      "bytes": 1534,
+      "sha256": "0bb3d511e6d1d2871496024a8cc6491ced524f751ebe0170cfb41c45f5a8fc88"
+    },
+    {
+      "path": "assets/audio/tools/offline6800/README.md",
+      "bytes": 2679,
+      "sha256": "c3d5cef23117fde6cd0f0d20007e9beea8d3b8987cc809f54098dae88eb90313"
+    },
+    {
+      "path": "assets/audio/tools/offline6800/m6800.py",
+      "bytes": 5425,
+      "sha256": "05c911b33f9db2ee961c6b25f35a284a23ee819e04547dafd75b763b782a6c01"
+    },
+    {
+      "path": "assets/audio/tools/offline6800/m6800_offline.cpp",
+      "bytes": 43350,
+      "sha256": "be1420905dad36a3a02708fabf8ca3c9955c22a0738b729f3c61c8600b6e509d"
+    },
+    {
+      "path": "assets/audio/tools/offline6800/smoke-results.json",
+      "bytes": 44973,
+      "sha256": "f9efeb784f736fe2154892a673a21352621f5b755b42868800f4dbc02db32e42"
+    },
+    {
+      "path": "assets/audio/tools/offline6800/smoke_test.py",
+      "bytes": 2879,
+      "sha256": "702da006ef8ef33d2b35e794289edc44159f15e92fc4acab336ac24dc4934417"
+    },
+    {
+      "path": "assets/audio/tools/offline6800/verification-results.json",
+      "bytes": 796,
+      "sha256": "5b70e341c88e96c0488161515619c5a980dfe76c10118f6014cf01413b0e881f"
+    },
+    {
+      "path": "assets/audio/tools/offline6800/verify_core.py",
+      "bytes": 4729,
+      "sha256": "7ed514061145822d9b2de19802bd04a5753c848443a8a586a87bf8665fd80397"
+    },
+    {
+      "path": "assets/audio/tools/rebuild_sound_image.py",
+      "bytes": 1344,
+      "sha256": "005d87fc20a1b90460eb68789405d650a02e12a28dbcd8e242c56e4b22753eac"
+    },
+    {
+      "path": "assets/audio/tools/render_audio.py",
+      "bytes": 8911,
+      "sha256": "8ef7f4ae71948cb02af2beb1c079ef651cf9b3869592db966cc2e01262f2ad7d"
+    },
+    {
+      "path": "assets/graphics/arena-source-space-4x.png",
+      "bytes": 6565,
+      "sha256": "ddc35f62598309124887ce33b5daa8274e2c84849b61088d3f07a936b0b0ff88"
+    },
+    {
+      "path": "assets/graphics/arena-source-space.png",
+      "bytes": 2646,
+      "sha256": "baf086c27126f32717dd758d3840c72dba1fc28d4d0fb0ca04f39d4db72d2868"
+    },
+    {
+      "path": "assets/graphics/arena-visible-4x.png",
+      "bytes": 6329,
+      "sha256": "5663748a5cf39d2fa23742ce1cdaf73860c1ef285c7c8fe613f11c2ee5fbbc28"
+    },
+    {
+      "path": "assets/graphics/arena-visible.png",
+      "bytes": 2612,
+      "sha256": "ff5a48a00da67c034fab94ceae9a21b696efa45d8d37276323cfddeac5c337b6"
+    },
+    {
+      "path": "assets/graphics/asset-manifest.json",
+      "bytes": 206284,
+      "sha256": "2b55d344068ed5f501a8895229ad1c137f83a9a99deab49a7586f04d23da0b0a"
+    },
+    {
+      "path": "assets/graphics/extraction-summary.json",
+      "bytes": 525,
+      "sha256": "5ecef7b1327c09924ef3fda0c9b46dd3c30800836545e36c615828265c097108"
+    },
+    {
+      "path": "assets/graphics/font-atlas.png",
+      "bytes": 21929,
+      "sha256": "59066dfeaa93016be75d1a5c278ae27ab51bea4b146e14f972991a4e012f8150"
+    },
+    {
+      "path": "assets/graphics/fonts/L0.png",
+      "bytes": 878,
+      "sha256": "e81cec7594d251252730413e6bf949345ade10a1e3933153dc8d2a24ebf69c3b"
+    },
+    {
+      "path": "assets/graphics/fonts/L1.png",
+      "bytes": 873,
+      "sha256": "d2adfdf32a7f6f03cbfd511fe6aef7fe85e2d1159497cce82948cc530306582e"
+    },
+    {
+      "path": "assets/graphics/fonts/L2.png",
+      "bytes": 878,
+      "sha256": "a68af91085e8ff8e2f3f7c12ed438146ba04ab5ce5d4cf5b0fda4ed87e2a9e5a"
+    },
+    {
+      "path": "assets/graphics/fonts/L3.png",
+      "bytes": 877,
+      "sha256": "1fa77156fba3bf08be310d90c813c5bc5d246b99a5b5079e8549ac74fb0c48b5"
+    },
+    {
+      "path": "assets/graphics/fonts/L4.png",
+      "bytes": 880,
+      "sha256": "4769aa6ed6d4c8d09e019a2f42cd2c403b9f8e511b2f4ce409017d9f908280f4"
+    },
+    {
+      "path": "assets/graphics/fonts/L5.png",
+      "bytes": 876,
+      "sha256": "41c248edbda10da5036cd316d8e30e91743e3822aca4358f2ee7bc981ed5e3e4"
+    },
+    {
+      "path": "assets/graphics/fonts/L6.png",
+      "bytes": 879,
+      "sha256": "9579889fa6a6fead9b411b2ea49682902714054012a131b5b5a76b3b10f94789"
+    },
+    {
+      "path": "assets/graphics/fonts/L7.png",
+      "bytes": 870,
+      "sha256": "6e8b63db32187726d42d6b392ff3c807984bc83e3ae6d3a5fd232ab12c508634"
+    },
+    {
+      "path": "assets/graphics/fonts/L8.png",
+      "bytes": 871,
+      "sha256": "2ccc74fd10d86c147493d9765f76776ac28750c724db62b4da93925445a3787b"
+    },
+    {
+      "path": "assets/graphics/fonts/L9.png",
+      "bytes": 877,
+      "sha256": "4a9d6bbf98980eeb71c81bec52c4196a0b69188db7832494e67a3a874c847b4a"
+    },
+    {
+      "path": "assets/graphics/fonts/LA.png",
+      "bytes": 875,
+      "sha256": "4be1c4e7a849827f1a6bd00c733e977f427d0b7e0d3be562dc82110d7f74c8a3"
+    },
+    {
+      "path": "assets/graphics/fonts/LAMP.png",
+      "bytes": 877,
+      "sha256": "c630ec95550a0bbb30f72dce69a9780eeb663542c9df3064202975bda3500f4c"
+    },
+    {
+      "path": "assets/graphics/fonts/LB.png",
+      "bytes": 871,
+      "sha256": "96585e350ab151a4d561dc59548e7a84218931f27df736c39de825755ab1f027"
+    },
+    {
+      "path": "assets/graphics/fonts/LBARW.png",
+      "bytes": 871,
+      "sha256": "9139f854a04c0aa6fee4d956bb1919036475206530bfefe529c3ba059489ae85"
+    },
+    {
+      "path": "assets/graphics/fonts/LBRKL.png",
+      "bytes": 868,
+      "sha256": "10742a27f53dfc6a42dfe82b9ae095f720da1eb30ca5b752694d364b058cb870"
+    },
+    {
+      "path": "assets/graphics/fonts/LBRKR.png",
+      "bytes": 867,
+      "sha256": "b33ae538b9beffc8ee9fb9dd5e88e685213ca42445cd209ac184fb2ba2e69793"
+    },
+    {
+      "path": "assets/graphics/fonts/LC.png",
+      "bytes": 875,
+      "sha256": "9796ea5870ed974c3df1c6e92937cf281248f488e3a4842e090af88cd3377a2c"
+    },
+    {
+      "path": "assets/graphics/fonts/LCMMA.png",
+      "bytes": 864,
+      "sha256": "588c74a44b87e1fe49a3a81876e625410524ab8171cf4e8cf45e390894119d92"
+    },
+    {
+      "path": "assets/graphics/fonts/LCNARW.png",
+      "bytes": 875,
+      "sha256": "ab84d2e2458a7e415a96c6f6f192a19718635a1647ada3a17aadfae9285c95fd"
+    },
+    {
+      "path": "assets/graphics/fonts/LCOLON.png",
+      "bytes": 869,
+      "sha256": "ed38f150f1335c3dc912d32222a9b25d28e86871ff9ccb09d0394e7fead5fe87"
+    },
+    {
+      "path": "assets/graphics/fonts/LCUR.png",
+      "bytes": 865,
+      "sha256": "51a8fc270a86de616d8869d299cd3159691b2593340bfab45b8f445b95edd25d"
+    },
+    {
+      "path": "assets/graphics/fonts/LD.png",
+      "bytes": 872,
+      "sha256": "276b6e3baa238b86a54ce3596fbde11f604ebee1da3233304cea85d21b214e96"
+    },
+    {
+      "path": "assets/graphics/fonts/LDQOT.png",
+      "bytes": 865,
+      "sha256": "b564732c3c9e687d90a3b90b4bdd653729cef010e376d3010517c2ce2fe966f2"
+    },
+    {
+      "path": "assets/graphics/fonts/LDSH.png",
+      "bytes": 865,
+      "sha256": "51226bc1cca672dc70c05c4f017633583a66251990424c16eea60adf5ff7d65d"
+    },
+    {
+      "path": "assets/graphics/fonts/LE.png",
+      "bytes": 876,
+      "sha256": "20ace0aa0c072be5b801348f3c96117a34c7e8e84a5479bfc4c38efe0db13cad"
+    },
+    {
+      "path": "assets/graphics/fonts/LEQU.png",
+      "bytes": 866,
+      "sha256": "6f4ebb8bb4759a498ae0be624b67a48c45f372d57b86ce0e47855634fd1410e4"
+    },
+    {
+      "path": "assets/graphics/fonts/LEXC.png",
+      "bytes": 866,
+      "sha256": "54f6fa1041ac6e63a3cb28d868abf110fb710c36c712e2ba9b63d9b4a510abdf"
+    },
+    {
+      "path": "assets/graphics/fonts/LF.png",
+      "bytes": 874,
+      "sha256": "1b1454779862cd32d156685a909d9bd4dbe586ad346cdf0f66da116d26d2188c"
+    },
+    {
+      "path": "assets/graphics/fonts/LG.png",
+      "bytes": 877,
+      "sha256": "225ba51f98f1578cd77a1d8b0ae252c02a33bc1ad480571a79000adf2a8c7dd2"
+    },
+    {
+      "path": "assets/graphics/fonts/LH.png",
+      "bytes": 870,
+      "sha256": "9ba7876664aab22e566c1b2958d4669a24c68d637952c18cb54fe61c8cd5d968"
+    },
+    {
+      "path": "assets/graphics/fonts/LI.png",
+      "bytes": 870,
+      "sha256": "283d676de0ef0c8e884c7e56bd5a840c560453be7c69635fe47dd27ebbb21e0c"
+    },
+    {
+      "path": "assets/graphics/fonts/LJ.png",
+      "bytes": 874,
+      "sha256": "2c22f4bd05c5853b75077559c4ec2f37c790117cbe79f7f972acb79c350e738b"
+    },
+    {
+      "path": "assets/graphics/fonts/LK.png",
+      "bytes": 877,
+      "sha256": "bcd2102838c8222acbe773bdcf94cea1ba86c55350bee32a8eff50b646afea0f"
+    },
+    {
+      "path": "assets/graphics/fonts/LL.png",
+      "bytes": 872,
+      "sha256": "0ab5082931ec76855674f119f77eb0d8c3f56b6bc760fec3c5f2920d150e78f7"
+    },
+    {
+      "path": "assets/graphics/fonts/LM.png",
+      "bytes": 872,
+      "sha256": "5018ffeec78d4bcde94002fdc6cd93c4bc69c8c284059d370416ea595d8d8668"
+    },
+    {
+      "path": "assets/graphics/fonts/LN.png",
+      "bytes": 874,
+      "sha256": "f34865b4c5cd40938d5a2859bf692d6ec0a016613b1f7c7e528cf7f99ec1cc33"
+    },
+    {
+      "path": "assets/graphics/fonts/LO.png",
+      "bytes": 871,
+      "sha256": "bfdc3939a9a0f40629c9d122fce478206427eb44433a83e092f80620f5fa6f7f"
+    },
+    {
+      "path": "assets/graphics/fonts/LP.png",
+      "bytes": 872,
+      "sha256": "40f6d0f55d7f97eb56230009082a1d8cb696a3208386278d098f352a812f6eb7"
+    },
+    {
+      "path": "assets/graphics/fonts/LPER.png",
+      "bytes": 863,
+      "sha256": "c1f044eaded15420b7165dba1a0019b38a67ff18630f7ed7bc5824f8c26a9935"
+    },
+    {
+      "path": "assets/graphics/fonts/LQ.png",
+      "bytes": 877,
+      "sha256": "93f8e181120e19ce582f913ee3a3e8ecad3aac9759d46b64144f8941b81b7c4c"
+    },
+    {
+      "path": "assets/graphics/fonts/LQUE.png",
+      "bytes": 874,
+      "sha256": "4d674238269d8ea8d9d3e9b1cc9e219d8a4fadd2f284a6ced887dc19c5cf952e"
+    },
+    {
+      "path": "assets/graphics/fonts/LR.png",
+      "bytes": 876,
+      "sha256": "306e90c3d3b16d86285e059a0aadfe0f616aca741971b0c891ef8f677242de29"
+    },
+    {
+      "path": "assets/graphics/fonts/LS.png",
+      "bytes": 876,
+      "sha256": "faf51b588c6d855af384c2ab57482ec0aebb1d3f4c620309d738577c54b1caef"
+    },
+    {
+      "path": "assets/graphics/fonts/LSLSH.png",
+      "bytes": 869,
+      "sha256": "fc58647b5f86e48bd6e46d6b0cb60175bbed8a9995b8de5aedb4542e90473ada"
+    },
+    {
+      "path": "assets/graphics/fonts/LSPC.png",
+      "bytes": 862,
+      "sha256": "f0c779e21d7e533eb712beba8a70d24002df5c381547d7ae3963ad673a4373f4"
+    },
+    {
+      "path": "assets/graphics/fonts/LSQOT.png",
+      "bytes": 864,
+      "sha256": "3a4b42671a898d13154c273d5ce806da9eca18470cd9bde99df8d7e28d0e406e"
+    },
+    {
+      "path": "assets/graphics/fonts/LT.png",
+      "bytes": 875,
+      "sha256": "95c5d3c894583cba6b73a0ffbf76ab119ed40a647f2019478a305f8bf2e27636"
+    },
+    {
+      "path": "assets/graphics/fonts/LU.png",
+      "bytes": 870,
+      "sha256": "dbabc3049f55a88a85809e614d24995929b31e312d0460420f4c5a6e0486218d"
+    },
+    {
+      "path": "assets/graphics/fonts/LV.png",
+      "bytes": 871,
+      "sha256": "f016eb88c2aa8cf003ee88da670e3a798b568b14d9a1d381627c2dea84cf226a"
+    },
+    {
+      "path": "assets/graphics/fonts/LW.png",
+      "bytes": 875,
+      "sha256": "828db50715c53b042b2c1153f84784335e06f344ee178090d78ef7b6b38611e6"
+    },
+    {
+      "path": "assets/graphics/fonts/LX.png",
+      "bytes": 874,
+      "sha256": "e56050c86ddd94234d67ed64cb94e8d5a7b1aa0f350ae07c9bb25c321e2d62fc"
+    },
+    {
+      "path": "assets/graphics/fonts/LY.png",
+      "bytes": 872,
+      "sha256": "1c079aa0e2585a9cbbcd7cede1c37bb934047e28ce0a167255d693ffe7ede28e"
+    },
+    {
+      "path": "assets/graphics/fonts/LZ.png",
+      "bytes": 872,
+      "sha256": "ab7bebcf674ee75f827e14ddffef837e96596065e528ceaaa3b621fb66be7570"
+    },
+    {
+      "path": "assets/graphics/fonts/S0.png",
+      "bytes": 869,
+      "sha256": "67d0cc490ef3bc912e6a7a9e22d0c0e473d3da827a63a73d382a454bf20764cd"
+    },
+    {
+      "path": "assets/graphics/fonts/S1.png",
+      "bytes": 872,
+      "sha256": "d5ddf470ecd3c68af45371b25e6994f36abe90e4cda27fdfd5b836618504b681"
+    },
+    {
+      "path": "assets/graphics/fonts/S2.png",
+      "bytes": 871,
+      "sha256": "f32dffb7f1dd5657ee0b17dd4069123ec7c29fac80ada67e961f21c24406fd3c"
+    },
+    {
+      "path": "assets/graphics/fonts/S3.png",
+      "bytes": 868,
+      "sha256": "14e38c3b45cbfbbe0d01aad590f5f5c39cad08c81a178fc8a38bdac5f5537cba"
+    },
+    {
+      "path": "assets/graphics/fonts/S4.png",
+      "bytes": 871,
+      "sha256": "f157b1286b5e1524a4573f860f91e2ac2cfc8149453409ba737d3383e6506bdf"
+    },
+    {
+      "path": "assets/graphics/fonts/S5.png",
+      "bytes": 871,
+      "sha256": "b3304ee832e72af2dcd88e48d5c8e0aa054cdbdad435669db32f6137c28bce83"
+    },
+    {
+      "path": "assets/graphics/fonts/S6.png",
+      "bytes": 871,
+      "sha256": "e8e7abb0049ba99d0ea186a4bdb205e9b0cc1a3ba2df815342706bed05c31adc"
+    },
+    {
+      "path": "assets/graphics/fonts/S7.png",
+      "bytes": 868,
+      "sha256": "665339c88270ea9abac5f126af22bfe623994abf7984c2d0f40acd6b1bc8275f"
+    },
+    {
+      "path": "assets/graphics/fonts/S8.png",
+      "bytes": 869,
+      "sha256": "271ed137aeee1410d1cc22663179e01de25cb5b367a3e9cfcfdd5b9237aae9bc"
+    },
+    {
+      "path": "assets/graphics/fonts/S9.png",
+      "bytes": 872,
+      "sha256": "9e6929838109c8cd76df9aa56dd2eefdaf89a3cbff5cfc260e9726bfa60da5e1"
+    },
+    {
+      "path": "assets/graphics/fonts/SA.png",
+      "bytes": 871,
+      "sha256": "fc090443553c15b7c4d11830043da3ecd13816c6327ab11317de4e99d6d530da"
+    },
+    {
+      "path": "assets/graphics/fonts/SARRW.png",
+      "bytes": 872,
+      "sha256": "3f8cef8aef85c13bb04cd9df8db973e12f7092c4b9780a3192e695f8ec5f8fed"
+    },
+    {
+      "path": "assets/graphics/fonts/SB.png",
+      "bytes": 873,
+      "sha256": "c405f49b39753468ed94a707bc9540b8b31a78db1a03821cc9b547b70848dea4"
+    },
+    {
+      "path": "assets/graphics/fonts/SBARW.png",
+      "bytes": 869,
+      "sha256": "9cd78656a4446c6425dc3609adf3948af12662b96f69a6f04f91cc0aa57a8789"
+    },
+    {
+      "path": "assets/graphics/fonts/SBRKL.png",
+      "bytes": 866,
+      "sha256": "ac2a65f0762b29ccab505b2845fda0d0ac3beb7d42ab2d412d8bcd433c1b8b48"
+    },
+    {
+      "path": "assets/graphics/fonts/SBRKR.png",
+      "bytes": 865,
+      "sha256": "24573ffc885e61b95d56ad168308e000ab84e20291f9d966c6f8c212a1816997"
+    },
+    {
+      "path": "assets/graphics/fonts/SC.png",
+      "bytes": 869,
+      "sha256": "50c70c082823334e3715a9de484f4ba091c448ef2a68843eb16b1a4719482e25"
+    },
+    {
+      "path": "assets/graphics/fonts/SCMMA.png",
+      "bytes": 864,
+      "sha256": "83fb7de80cca0bbe8dee0e655e56038d594b0362076580c7e827c18dcb6c7dd2"
+    },
+    {
+      "path": "assets/graphics/fonts/SD.png",
+      "bytes": 869,
+      "sha256": "290f83f7ff76e7d6978f7ef2df7d9231525a0498b40c5e251fdc97da2e370e69"
+    },
+    {
+      "path": "assets/graphics/fonts/SDSH.png",
+      "bytes": 865,
+      "sha256": "5c37114a5822efd2cdb91cc0106ee51693de6d080d15ea7839ecc1f4b5b83de8"
+    },
+    {
+      "path": "assets/graphics/fonts/SE.png",
+      "bytes": 872,
+      "sha256": "360e512cc906dfa83f03a9ddc3a575b61e6c33169953190419a2cbc28ea779bb"
+    },
+    {
+      "path": "assets/graphics/fonts/SEQU.png",
+      "bytes": 868,
+      "sha256": "120c65f748d1597579ac8cd282125e3ce90da2807f722546648e430cabc71b04"
+    },
+    {
+      "path": "assets/graphics/fonts/SEXC.png",
+      "bytes": 866,
+      "sha256": "7b1d4ab802b01307c47f9813b8f3fbdd74fe6baa16c1dc281342cfb6e26300d6"
+    },
+    {
+      "path": "assets/graphics/fonts/SF.png",
+      "bytes": 872,
+      "sha256": "8a87ba7fd3eb8c48ce5ecdd6f0ba1205a3586b0a0b410b0a70212f08c7461194"
+    },
+    {
+      "path": "assets/graphics/fonts/SG.png",
+      "bytes": 871,
+      "sha256": "5c004ca10955dfc0e5823a73dc5b94ba9be2fe3514f656d65edf3e7c7d6dcef9"
+    },
+    {
+      "path": "assets/graphics/fonts/SH.png",
+      "bytes": 870,
+      "sha256": "35a705195011cdf3f275b75bdaa7ea97db20fa98ee56ca17484940139d9f5b7f"
+    },
+    {
+      "path": "assets/graphics/fonts/SI.png",
+      "bytes": 870,
+      "sha256": "8044e062126e675a2d9f989ca78b603cb693b2cb969749db767dbb35259564f0"
+    },
+    {
+      "path": "assets/graphics/fonts/SJ.png",
+      "bytes": 871,
+      "sha256": "5e288c8b9acdd1b8606f98c129d397b6216d2975731fe2904087a3a0d38fa6e5"
+    },
+    {
+      "path": "assets/graphics/fonts/SK.png",
+      "bytes": 870,
+      "sha256": "a4c436e2e8462261ca0f34774a2c63de479873fd8cd55b264dc9389ac4c43b4a"
+    },
+    {
+      "path": "assets/graphics/fonts/SL.png",
+      "bytes": 867,
+      "sha256": "1b1dd0fa3e996d632726c110c3b69986cb71449e47e94d285bb7b7e8188aea03"
+    },
+    {
+      "path": "assets/graphics/fonts/SM.png",
+      "bytes": 870,
+      "sha256": "d6ba6dabfb8da837ff6d1f1ae52702b40662fc4c0435dc5d033356a4dc66b0d5"
+    },
+    {
+      "path": "assets/graphics/fonts/SN.png",
+      "bytes": 867,
+      "sha256": "3be5b0b6f757c596ded458346c0612162159af23c1d6ef3ad538af4195714ed5"
+    },
+    {
+      "path": "assets/graphics/fonts/SP.png",
+      "bytes": 872,
+      "sha256": "c6fb3245e49491e78e8ae8a877c199b74bf839599765edd313fcefc2b2eac48d"
+    },
+    {
+      "path": "assets/graphics/fonts/SPER.png",
+      "bytes": 863,
+      "sha256": "d82698173979d240dc35d8df2504bcec7dfb9f60af5595cb2f3e7d757ffd5607"
+    },
+    {
+      "path": "assets/graphics/fonts/SQ.png",
+      "bytes": 870,
+      "sha256": "90bf809a9f13535f04e6c8f83cf4dffe9c605b408f4d800ee2f632eea282be4a"
+    },
+    {
+      "path": "assets/graphics/fonts/SQUE.png",
+      "bytes": 869,
+      "sha256": "7028515367304776d6e79fb02b57c15ac5a701a752ac6e7e53496551b22c8022"
+    },
+    {
+      "path": "assets/graphics/fonts/SR.png",
+      "bytes": 872,
+      "sha256": "747c3c25cd63f4f84badc345a763a78faf490d705f72b634ad9d5e0d9bbe080f"
+    },
+    {
+      "path": "assets/graphics/fonts/SSPC.png",
+      "bytes": 861,
+      "sha256": "c93ad461bf8448038dfa6065564a2b654a34ede9e77078c680251d60469395ee"
+    },
+    {
+      "path": "assets/graphics/fonts/SSQOT.png",
+      "bytes": 864,
+      "sha256": "3a4b42671a898d13154c273d5ce806da9eca18470cd9bde99df8d7e28d0e406e"
+    },
+    {
+      "path": "assets/graphics/fonts/ST.png",
+      "bytes": 868,
+      "sha256": "0b0b0a01849f60462ed1a5af045c8ba4a3fc558df7aa0e2ca2c2a58b907af4e5"
+    },
+    {
+      "path": "assets/graphics/fonts/SU.png",
+      "bytes": 868,
+      "sha256": "dfbdfb9640577b9abc9d3842ab12626c0a1aab3725baceb2ac68d539a1cc0ebd"
+    },
+    {
+      "path": "assets/graphics/fonts/SV.png",
+      "bytes": 868,
+      "sha256": "cf479592e2d107102a9a2168d474e6860cf8bb9528fea614a5ddb11872995516"
+    },
+    {
+      "path": "assets/graphics/fonts/SW.png",
+      "bytes": 872,
+      "sha256": "c5292cb30cf7381bc0168cba08795c71aac8555f3e8efe5a737d6bb6db401c27"
+    },
+    {
+      "path": "assets/graphics/fonts/SX.png",
+      "bytes": 869,
+      "sha256": "cc790ce11f35823922c02ec5d9be6182b8d4e0ebb08582e24c115757c5f0aaad"
+    },
+    {
+      "path": "assets/graphics/fonts/SY.png",
+      "bytes": 871,
+      "sha256": "0e962219d4b6eddcccb0880046b16c45a8513bce28f0d85d1651bef40f66ac06"
+    },
+    {
+      "path": "assets/graphics/fonts/SZ.png",
+      "bytes": 870,
+      "sha256": "686b1857cc658fd17ca4169805e694535d0bce3666fc44f19e29c82c88b19be1"
+    },
+    {
+      "path": "assets/graphics/sound-events.json",
+      "bytes": 15602,
+      "sha256": "d42eddb078e90bd5d4a945636ff33d15875452eceffca76065ee72af8ba56637"
+    },
+    {
+      "path": "assets/graphics/special-effects-atlas.png",
+      "bytes": 12635,
+      "sha256": "36adf813400a48104151b0095d2a8788e8083812674a56ca36864e535badd8c3"
+    },
+    {
+      "path": "assets/graphics/special-effects.json",
+      "bytes": 15346,
+      "sha256": "31fc7a92eb248b4340c467ba0d84b9785fcd05850c080d6d688c3cb64d54d3df"
+    },
+    {
+      "path": "assets/graphics/sprite-atlas.png",
+      "bytes": 50606,
+      "sha256": "7a0f9346cf74380b06a9ef1762dcbe7d1296fb6792308880d6c361f89a46999d"
+    },
+    {
+      "path": "assets/graphics/sprites/ASH_1.png",
+      "bytes": 915,
+      "sha256": "184a290166fb951fef3487ba3882cc1c6b87f7cb36d0efb96ff8ce8782b40d46"
+    },
+    {
+      "path": "assets/graphics/sprites/ASH_2.png",
+      "bytes": 918,
+      "sha256": "a2a67f83ef935daaaf3d9e2ea3e9c9baa5e8d872b0eb21a9c64b1cf0603c6026"
+    },
+    {
+      "path": "assets/graphics/sprites/ASH_3.png",
+      "bytes": 912,
+      "sha256": "85e46cb4a7f0f1c3d849f4d3cb96e26b76bda8a96fafa7225679c89c60342613"
+    },
+    {
+      "path": "assets/graphics/sprites/BFLY1L.png",
+      "bytes": 925,
+      "sha256": "3b68620262790c1c6e0ea1bf382196e2c971de41e34112a3e240075b70e123ac"
+    },
+    {
+      "path": "assets/graphics/sprites/BFLY1R.png",
+      "bytes": 924,
+      "sha256": "0f179978e03c44c98645ac8f612258e10c8cf231510482992f5ba24c27a29ecc"
+    },
+    {
+      "path": "assets/graphics/sprites/BFLY3L.png",
+      "bytes": 947,
+      "sha256": "273fcd370f636f1910c018089b89278378db6a23f3276d339631bc9381b9a934"
+    },
+    {
+      "path": "assets/graphics/sprites/BFLY3R.png",
+      "bytes": 947,
+      "sha256": "5abd3003806afa95c5fc87c30e2937e5e17f2999be3356990a7335b3d2be267d"
+    },
+    {
+      "path": "assets/graphics/sprites/BRUN1L.png",
+      "bytes": 948,
+      "sha256": "84ecd4bbb75d7bc9af56dfc07118b52c608fbc7c576498eee4eebcf9cae77a20"
+    },
+    {
+      "path": "assets/graphics/sprites/BRUN1R.png",
+      "bytes": 947,
+      "sha256": "86b38bfb61b424fe9f5ac76d4afe8fe92c6db301a63888446f99070399147d77"
+    },
+    {
+      "path": "assets/graphics/sprites/BRUN2L.png",
+      "bytes": 949,
+      "sha256": "7e4ccd042a692b4ad4f522df9c33632f904acc95f54fd6ff0a7b8b39c119b40c"
+    },
+    {
+      "path": "assets/graphics/sprites/BRUN2R.png",
+      "bytes": 951,
+      "sha256": "7c36e95114d8ca4f90efe180548f5df80ecb944de4ce72abad56b3ac07b6c11c"
+    },
+    {
+      "path": "assets/graphics/sprites/BRUN3L.png",
+      "bytes": 954,
+      "sha256": "dedcaa041bf6ed29cb04b189ac267ccb5661b476446e52659522bb343bcdc124"
+    },
+    {
+      "path": "assets/graphics/sprites/BRUN3R.png",
+      "bytes": 957,
+      "sha256": "a6cf75b88f861dfd42a8109dac08515a07efec581bad86744e5f6984cfd7c236"
+    },
+    {
+      "path": "assets/graphics/sprites/BRUN4L.png",
+      "bytes": 958,
+      "sha256": "08b2dcc35429f6c5438aaea24ad4d0566bf0699ef6f91efed1c3d8e2ddca0e2a"
+    },
+    {
+      "path": "assets/graphics/sprites/BRUN4R.png",
+      "bytes": 960,
+      "sha256": "bb5101486fad523bdcaa20bb44088b24d264a93712316d82a1baa4f0b7108094"
+    },
+    {
+      "path": "assets/graphics/sprites/BRUNSL.png",
+      "bytes": 945,
+      "sha256": "714c69ec6483d6daf5b6035d8045cc18a73bc1343cf2e56929aa9c94722de745"
+    },
+    {
+      "path": "assets/graphics/sprites/BRUNSR.png",
+      "bytes": 949,
+      "sha256": "93ba65422bd701a9ab3dc2855bf52bcb1f0532dfa53ca1e0a858f172438c37bd"
+    },
+    {
+      "path": "assets/graphics/sprites/DEBRIS_1.png",
+      "bytes": 920,
+      "sha256": "9f30fda51d09692e27fefb5a898112a290efdf046be7bdf2616aa4b77ada7dea"
+    },
+    {
+      "path": "assets/graphics/sprites/DEBRIS_2.png",
+      "bytes": 922,
+      "sha256": "7523ebd8896f461871aed5c807a0a65b429e09c66dd75abc61033d911fd98613"
+    },
+    {
+      "path": "assets/graphics/sprites/DEBRIS_3.png",
+      "bytes": 936,
+      "sha256": "868de5b695ab060ec302c152c0facf4100abf37ffd2928680c9d23260134f442"
+    },
+    {
+      "path": "assets/graphics/sprites/DEBRIS_4.png",
+      "bytes": 938,
+      "sha256": "ad9198300865547671489afa15c9782dc806a2329f8dd83a197b50e663013181"
+    },
+    {
+      "path": "assets/graphics/sprites/DEBRIS_5.png",
+      "bytes": 933,
+      "sha256": "4ddb2ddda39bc8286b46aa2bef10490c6589991f3d7657e0078e6597bad04bbc"
+    },
+    {
+      "path": "assets/graphics/sprites/EGGB1.png",
+      "bytes": 901,
+      "sha256": "5448ba4a841f000064963565f21aa0ff84be0b65d49e9c7bc722f11d35ab58a9"
+    },
+    {
+      "path": "assets/graphics/sprites/EGGB2.png",
+      "bytes": 935,
+      "sha256": "99dc3988cca2d59c3455b5eeebf0c79e74c3b7e7a18c8a496f1d95f31d778729"
+    },
+    {
+      "path": "assets/graphics/sprites/EGGB3.png",
+      "bytes": 935,
+      "sha256": "35e922a744312ba12c191d3f4f5001900bf81fb9ab9f825aed302b222806eb2a"
+    },
+    {
+      "path": "assets/graphics/sprites/EGGLF.png",
+      "bytes": 892,
+      "sha256": "f37c66a8b558595b32f445d1deac4a634c77ed466d06e9fd70fbb7aeaab0d8fd"
+    },
+    {
+      "path": "assets/graphics/sprites/EGGRT.png",
+      "bytes": 891,
+      "sha256": "f29efd62ee67711c95bc24e4891b219a42686754f828619fefeb2ebad9b11723"
+    },
+    {
+      "path": "assets/graphics/sprites/EGGUP.png",
+      "bytes": 889,
+      "sha256": "84e1ba48ddc93a86270860c60cac1cccd9f88ca8967c65c1b38e6820b14a264d"
+    },
+    {
+      "path": "assets/graphics/sprites/FL1.png",
+      "bytes": 876,
+      "sha256": "726cf1139fc697c8eaaa8ffd25631f2fd5937f20feb0334ae9b86df8be19cbb5"
+    },
+    {
+      "path": "assets/graphics/sprites/FL2.png",
+      "bytes": 886,
+      "sha256": "e4bdef023d891a1a478dee52af7e203a0345863b73e032a2b006e4d82f5502b8"
+    },
+    {
+      "path": "assets/graphics/sprites/FL3.png",
+      "bytes": 892,
+      "sha256": "b2162767148426660de3fb77f535a87add462b26f1432fac84641f44e58c9de5"
+    },
+    {
+      "path": "assets/graphics/sprites/FLAME1.png",
+      "bytes": 909,
+      "sha256": "4b857d27da362dbe4b366d8497e44f37b1659536a23939ea3ac67a09e229c4fa"
+    },
+    {
+      "path": "assets/graphics/sprites/FLAME2.png",
+      "bytes": 912,
+      "sha256": "38033d744bcd6652e9937da9c30d808bbe656417f036f014914676071ad1fcba"
+    },
+    {
+      "path": "assets/graphics/sprites/FLAME3.png",
+      "bytes": 913,
+      "sha256": "c9b89abe39c5531cc4343b4a1fa2bd04fcd46be040f039ceeaf00b6712e40d00"
+    },
+    {
+      "path": "assets/graphics/sprites/FLAME4.png",
+      "bytes": 905,
+      "sha256": "7cc0c44a70a3b52b93b70fea4f502c60337d664a52b2e7e9284302e190e4d24e"
+    },
+    {
+      "path": "assets/graphics/sprites/GRAB1.png",
+      "bytes": 880,
+      "sha256": "a9598e7c745a1ccc517d137b7df96d6aa9aa7bd3795beab84535c6a7141e4dfa"
+    },
+    {
+      "path": "assets/graphics/sprites/GRAB2.png",
+      "bytes": 888,
+      "sha256": "7a697b5bad3dbd40a19bf07b4d3e00cd5d29c36a2c16d0cc11341d3aa628ddc0"
+    },
+    {
+      "path": "assets/graphics/sprites/GRAB3.png",
+      "bytes": 904,
+      "sha256": "1ba6568884cd9052bdce2be35a403f7f0a22b5e62c5b82db7ffc6245b9c37aa1"
+    },
+    {
+      "path": "assets/graphics/sprites/GRAB4.png",
+      "bytes": 929,
+      "sha256": "9408f143b39fc3121a02a9a1e0d0d9ee5c137f39072c01c8d3b5ca6a34a6ffd9"
+    },
+    {
+      "path": "assets/graphics/sprites/GRAB5.png",
+      "bytes": 951,
+      "sha256": "0b796006d13193e3e42812f66010decd11c711043c9bc0e73c5b2f8ec11dfc1e"
+    },
+    {
+      "path": "assets/graphics/sprites/GRAB6.png",
+      "bytes": 951,
+      "sha256": "180b64f110b3e585b2af072255f87aa15daee992692def07a41c4466413b35b6"
+    },
+    {
+      "path": "assets/graphics/sprites/OFLY1L.png",
+      "bytes": 930,
+      "sha256": "b0fa7e5740737435c475226eee87ba294879bb9b0cd8ccab558cae81d0232ab7"
+    },
+    {
+      "path": "assets/graphics/sprites/OFLY1R.png",
+      "bytes": 934,
+      "sha256": "23ffbcbfb28e6fa66fc0e8e2913ade334c0091ef21bfdc3bafc822f41bb6f131"
+    },
+    {
+      "path": "assets/graphics/sprites/OFLY3L.png",
+      "bytes": 940,
+      "sha256": "c897a143f4053663a092b013592c19d099a5c2425b3e7206a0fb8a4847fd3c42"
+    },
+    {
+      "path": "assets/graphics/sprites/OFLY3R.png",
+      "bytes": 942,
+      "sha256": "df30eace66b7671784833d54190d0cf011b07bebe8e2d5850b05278931fb6c7c"
+    },
+    {
+      "path": "assets/graphics/sprites/ORUN1L.png",
+      "bytes": 953,
+      "sha256": "ee54f9a4544c06e5a16358ce7cb2b045fc8d31e30638fc524b12bcac3dcdd49d"
+    },
+    {
+      "path": "assets/graphics/sprites/ORUN1R.png",
+      "bytes": 949,
+      "sha256": "a543c12e8aeb0ad6c94e90e95ab8eab8ffa3f1e0dd268042ba94a04c52e8b704"
+    },
+    {
+      "path": "assets/graphics/sprites/ORUN2L.png",
+      "bytes": 948,
+      "sha256": "1509681e60cdc393436802c4acb7a011760081833683e83b203ac309a009cfd5"
+    },
+    {
+      "path": "assets/graphics/sprites/ORUN2R.png",
+      "bytes": 949,
+      "sha256": "be6f249d324fc07bc9a176a88e786b6787a982c65d9c749dcd8ad5a2d4d0aba2"
+    },
+    {
+      "path": "assets/graphics/sprites/ORUN3L.png",
+      "bytes": 950,
+      "sha256": "53f0df72cddcf8ea34e3835ea21a8dc7182487797f9b6a54f0bbbf6a1443b343"
+    },
+    {
+      "path": "assets/graphics/sprites/ORUN3R.png",
+      "bytes": 955,
+      "sha256": "92eab9751f94e61929e8ae1424540c3e02e82f8707d9cba18a4d238a0a3af453"
+    },
+    {
+      "path": "assets/graphics/sprites/ORUN4L.png",
+      "bytes": 955,
+      "sha256": "4078971d42f6616b017d53c9b06cbc4d7c471e2fb4a5c0b0fe772798982d1501"
+    },
+    {
+      "path": "assets/graphics/sprites/ORUN4R.png",
+      "bytes": 953,
+      "sha256": "fd870f25ed8adc08f6c36d7bcce0cf3d223af878dad40615bbbf18f8751b7917"
+    },
+    {
+      "path": "assets/graphics/sprites/ORUNSL.png",
+      "bytes": 947,
+      "sha256": "5069c252009faca0b44d7caccdfd33782e6bdd28015b8ca38cc9f13041e6c860"
+    },
+    {
+      "path": "assets/graphics/sprites/ORUNSR.png",
+      "bytes": 948,
+      "sha256": "a702225c2fb332d4bfeff4b253ad58cb2cecf6662b2f389229436b699f63d066"
+    },
+    {
+      "path": "assets/graphics/sprites/PLY1L.png",
+      "bytes": 887,
+      "sha256": "739c8c9247e5e532d857fbb9567a4702c89ef2dee45f4bbf156c38f1f0d67c62"
+    },
+    {
+      "path": "assets/graphics/sprites/PLY1R.png",
+      "bytes": 886,
+      "sha256": "74c8406fecb897c48577b3aced293a45f55854157718230d730d39ff12aa9bf8"
+    },
+    {
+      "path": "assets/graphics/sprites/PLY2L.png",
+      "bytes": 887,
+      "sha256": "e83d6c1869e8f249bf1715a40294a47ec68ab336c8d0a714ad20db3419a8d999"
+    },
+    {
+      "path": "assets/graphics/sprites/PLY2R.png",
+      "bytes": 886,
+      "sha256": "af92870bf50b6fdfa36f179b379d73c23d25092394a10854693670ea9dbcaa07"
+    },
+    {
+      "path": "assets/graphics/sprites/PLY3L.png",
+      "bytes": 886,
+      "sha256": "359f186291181089337e9d3839399081acbe44e3f51f0dd7becede3922f9c93f"
+    },
+    {
+      "path": "assets/graphics/sprites/PLY3R.png",
+      "bytes": 885,
+      "sha256": "3ee75c65dbaf1121028575aa7f3c484bb9d9ccb8bb06d3d63ce9e9938bc6cc5a"
+    },
+    {
+      "path": "assets/graphics/sprites/PLY3S.png",
+      "bytes": 915,
+      "sha256": "2ce61259b420e7c6db4c11a5b23e89f745e30a5375bc27b71de2ec5ea7920753"
+    },
+    {
+      "path": "assets/graphics/sprites/PLY4L.png",
+      "bytes": 886,
+      "sha256": "e59f962ac72e6ab2deec3d488e309b81643902496beb4160bada6858adf7b241"
+    },
+    {
+      "path": "assets/graphics/sprites/PLY4R.png",
+      "bytes": 885,
+      "sha256": "5506044b5b0f7641ab7c5a38e155846d7159a3e413f7cd951dc743cff6058122"
+    },
+    {
+      "path": "assets/graphics/sprites/PLY4S.png",
+      "bytes": 915,
+      "sha256": "53168ff111ea46105f646ad1067efc38edbfc6b67fda8b23b2cc8c7019c3c673"
+    },
+    {
+      "path": "assets/graphics/sprites/PLY5L.png",
+      "bytes": 886,
+      "sha256": "363e2a304ead03990fddeaded9d7bac90620eb556b80c4fbc6b329780a525f17"
+    },
+    {
+      "path": "assets/graphics/sprites/PLY5R.png",
+      "bytes": 885,
+      "sha256": "a2ea7c83ce70afef0230a9facd83d2b012cead10d777b05cc4e25e05070a940f"
+    },
+    {
+      "path": "assets/graphics/sprites/PLY5S.png",
+      "bytes": 914,
+      "sha256": "712807f39d3d9fd4b0af9673702e011199b15e6719a8ccb5a595d8923e3cb12e"
+    },
+    {
+      "path": "assets/graphics/sprites/PT1L.png",
+      "bytes": 943,
+      "sha256": "1337fdaa721bb05eb70756efa3e05d47284b97f0637efdbed84172320c6b7cf0"
+    },
+    {
+      "path": "assets/graphics/sprites/PT1R.png",
+      "bytes": 941,
+      "sha256": "89a17ad8622968c7a44731879eff83369dc25fb6e0355ba84104c6ad6d65f171"
+    },
+    {
+      "path": "assets/graphics/sprites/PT2L.png",
+      "bytes": 937,
+      "sha256": "5e4e023bcb74a8c18e0a4e242a4daa19db1926ee70f67a0571cd35b7cbef829b"
+    },
+    {
+      "path": "assets/graphics/sprites/PT2R.png",
+      "bytes": 940,
+      "sha256": "e3928d3b1ceac091b9c1d50945e14ce5817c58399306494965a3021de79d5364"
+    },
+    {
+      "path": "assets/graphics/sprites/PT3L.png",
+      "bytes": 957,
+      "sha256": "3bd8adaf73b0a9cd7b2d5f9cb7ffb99fce173ac3857a20691742fb397985e4b5"
+    },
+    {
+      "path": "assets/graphics/sprites/PT3R.png",
+      "bytes": 954,
+      "sha256": "899b27ccec571d6cb410ab77e97e2965dfd7d6be917b83b010221613882a3ce8"
+    },
+    {
+      "path": "assets/graphics/sprites/SFLY1L.png",
+      "bytes": 946,
+      "sha256": "97cf558e52bbd226d572c9000b06721115544b71c223a40a29e7648bdab1a271"
+    },
+    {
+      "path": "assets/graphics/sprites/SFLY1R.png",
+      "bytes": 947,
+      "sha256": "5315272bc5288eb3fccb336a95aaa40eb932cddb48661110aa775bb3b1c421b4"
+    },
+    {
+      "path": "assets/graphics/sprites/SFLY3L.png",
+      "bytes": 953,
+      "sha256": "eb5c553c3aeacccbc5acd6df7e4b747b405faff168f945f77ab2daf86b94383b"
+    },
+    {
+      "path": "assets/graphics/sprites/SFLY3R.png",
+      "bytes": 955,
+      "sha256": "5f3ed45e0dcc8084c75aabb917f2be704e69de8c8140e814c71b0c0e1d3d1c42"
+    },
+    {
+      "path": "assets/graphics/sprites/SRUN1L.png",
+      "bytes": 956,
+      "sha256": "eb269f416d263d9a46fe5a7da48a4ed44a1cb6a54a13a42cf9c3a17d9ddb2c36"
+    },
+    {
+      "path": "assets/graphics/sprites/SRUN1R.png",
+      "bytes": 957,
+      "sha256": "351770bfc19fc0bff16192d67bf629adcf6dae8a2bac7f21d2a1171ffb29a033"
+    },
+    {
+      "path": "assets/graphics/sprites/SRUN2L.png",
+      "bytes": 959,
+      "sha256": "efdc3371aba7d7b82eb21ccbf4b5f65381f1e1b995c3cdd63dc2e6ea2f68254c"
+    },
+    {
+      "path": "assets/graphics/sprites/SRUN2R.png",
+      "bytes": 958,
+      "sha256": "e0a5dc19b51f9b9aad1ef739fb31191ed73f7d5f3da9c71af9ac11dfec6a7c8c"
+    },
+    {
+      "path": "assets/graphics/sprites/SRUN3L.png",
+      "bytes": 962,
+      "sha256": "0d6e8cb3857215896c93e7ad2ac6000ad0a7e834aa24aeb4a5622a0f8c008b92"
+    },
+    {
+      "path": "assets/graphics/sprites/SRUN3R.png",
+      "bytes": 963,
+      "sha256": "eb0359a5c50f88e3869fdf3b144c425707ea70ff514ae0e0c0d7a885056cd692"
+    },
+    {
+      "path": "assets/graphics/sprites/SRUN4L.png",
+      "bytes": 955,
+      "sha256": "bf28ddea143c7df74acfdee087a84ea066a90c2568f9a385718621b4b039b9f8"
+    },
+    {
+      "path": "assets/graphics/sprites/SRUN4R.png",
+      "bytes": 961,
+      "sha256": "2e437779e09eaceda93d2a95355f369ba24683531f1f5fa8343d961ba68015df"
+    },
+    {
+      "path": "assets/graphics/sprites/SRUNSL.png",
+      "bytes": 946,
+      "sha256": "c73df486d0159272bd84426562e526a784bb951871429a7e8db83c6435e15c31"
+    },
+    {
+      "path": "assets/graphics/sprites/SRUNSR.png",
+      "bytes": 952,
+      "sha256": "149e7fc0a067a1ba5f334095c3ebe7906f18fc493d342654ace09c01025ba4bd"
+    },
+    {
+      "path": "assets/graphics/sprites/_CLIF1L.png",
+      "bytes": 926,
+      "sha256": "5b6a160094ea3e241cf0d8d2fa4f51947780caa71fbb7d35a019aa69cf2df3d5"
+    },
+    {
+      "path": "assets/graphics/sprites/_CLIF1R.png",
+      "bytes": 938,
+      "sha256": "97c708000c4142101b82a0c8ec9d661f0c3f360cc785aa894b673cc402760d4e"
+    },
+    {
+      "path": "assets/graphics/sprites/_CLIF2.png",
+      "bytes": 1000,
+      "sha256": "76bcd1c95d5878d75cfdbb2f5c8ed011a3fe6b8461933fb3d1fc211dfd8cb278"
+    },
+    {
+      "path": "assets/graphics/sprites/_CLIF3L.png",
+      "bytes": 959,
+      "sha256": "c8bc63801d9b1785d02ea641a591b60e9fe9bfe03134174da244311599b89f70"
+    },
+    {
+      "path": "assets/graphics/sprites/_CLIF3R.png",
+      "bytes": 943,
+      "sha256": "d3d0ee255a5ac1d351c5a0cce2b95727c1c0b15b54f440bf92c0f2eea8c897ec"
+    },
+    {
+      "path": "assets/graphics/sprites/_CLIF3U.png",
+      "bytes": 971,
+      "sha256": "45a87c34fbf761f925b9f2327f10d7bf4cc7ec9020bfcfe7379476483860545f"
+    },
+    {
+      "path": "assets/graphics/sprites/_CLIF4.png",
+      "bytes": 963,
+      "sha256": "c5a4983b0da9f2794ed5bb3493bee00af2e52d0a219c54c465ba48602f3355eb"
+    },
+    {
+      "path": "assets/graphics/sprites/_CLIF5.png",
+      "bytes": 899,
+      "sha256": "c769b3bcb2e6d208ff27d4008be978d908bd006f715a2956f022f2e77d74260c"
+    },
+    {
+      "path": "assets/graphics/sprites/_COMCL5.png",
+      "bytes": 1712,
+      "sha256": "aa875c24f069a25972c990b27418c2914c21d8edb9ef268e15c09a16b45dacc8"
+    },
+    {
+      "path": "assets/graphics/sprites/_TRANS1.png",
+      "bytes": 871,
+      "sha256": "e7fb319e327885726e8b25469f1001f976c0f69a3f0898e64b52212fc5864aea"
+    },
+    {
+      "path": "assets/graphics/sprites/_TRANS2.png",
+      "bytes": 871,
+      "sha256": "e7fb319e327885726e8b25469f1001f976c0f69a3f0898e64b52212fc5864aea"
+    },
+    {
+      "path": "assets/graphics/sprites/_TRANS3.png",
+      "bytes": 871,
+      "sha256": "e7fb319e327885726e8b25469f1001f976c0f69a3f0898e64b52212fc5864aea"
+    },
+    {
+      "path": "assets/graphics/sprites/_TRANS4.png",
+      "bytes": 871,
+      "sha256": "e7fb319e327885726e8b25469f1001f976c0f69a3f0898e64b52212fc5864aea"
+    },
+    {
+      "path": "assets/graphics/title-line-data.json",
+      "bytes": 102841,
+      "sha256": "8e1499cf292d530a8b0faf75c1a8b2173d69e6057a5f5b26485031c7a66c086e"
+    },
+    {
+      "path": "assets/graphics/title-logo-4x.png",
+      "bytes": 8047,
+      "sha256": "64cd3022b39a2dbed19724684822886665c5dd46472fc9b0e6461a9f48e1de15"
+    },
+    {
+      "path": "assets/graphics/title-logo.png",
+      "bytes": 3032,
+      "sha256": "6a6af045e09834bd201887bc81820d6936d472525ca63e4404a993b3ad14099f"
+    },
+    {
+      "path": "assets/sound-events.json",
+      "bytes": 15602,
+      "sha256": "d42eddb078e90bd5d4a945636ff33d15875452eceffca76065ee72af8ba56637"
+    },
+    {
+      "path": "data/gameplay_tables.json",
+      "bytes": 118673,
+      "sha256": "5631408b4afccc731f36f39f868f981d336be4c9ac3c1c6dbd1ed30faa482966"
+    },
+    {
+      "path": "data/physics_tables.json",
+      "bytes": 21310,
+      "sha256": "3aa372ccb90c6c997f6492b4e73087f0d53cc72a0bdf6af273fa5bc7bbb86911"
+    },
+    {
+      "path": "data/text_catalog.json",
+      "bytes": 408773,
+      "sha256": "192dc62be9ec1952acf3ea3101117fff2aa31056b5357131136c7dc97b3b457e"
+    },
+    {
+      "path": "data/waves.csv",
+      "bytes": 5073,
+      "sha256": "66eeae1cda3b63a59320864de62c2cb0167b0d4ebc7c55583e580416a8b9dfee"
+    },
+    {
+      "path": "docs/JOUST_GAME_SPEC.html",
+      "bytes": 310364,
+      "sha256": "12e642898b1a983a79a6584e80e299ac345e82a884629b6a8ad48248a4fca43a"
+    },
+    {
+      "path": "docs/JOUST_GAME_SPEC.md",
+      "bytes": 211409,
+      "sha256": "2e78ae43d83d23d3ae018de432f92fde115cba8460bf62e83c13bf2bc4e2f66c"
+    },
+    {
+      "path": "docs/figures/arena-annotated.png",
+      "bytes": 126618,
+      "sha256": "2487d196bfe04f8964d70e44690e47edc791d6a138f70662aa2705200b182b3c"
+    },
+    {
+      "path": "docs/figures/arena-annotated.svg",
+      "bytes": 77582,
+      "sha256": "7e1f90fe5be174f1983fd5d5b471b1d49a1c6223390b21353f5c7e30d7b18ea0"
+    },
+    {
+      "path": "docs/figures/egg-lifecycle.dot",
+      "bytes": 1295,
+      "sha256": "0da9ab3a50f25bb149774de2612bf6756daff20b70e6e7c37010aaa7344d60e1"
+    },
+    {
+      "path": "docs/figures/egg-lifecycle.png",
+      "bytes": 102440,
+      "sha256": "dbfd8da6589da701a244e09f62fb10493179553cc5077dfc1ce0fd0a2342aa98"
+    },
+    {
+      "path": "docs/figures/egg-lifecycle.svg",
+      "bytes": 9882,
+      "sha256": "3624fc8bb247be3490fb2d7cca49e7d599cd08daeed66567bced6ed41ade3737"
+    },
+    {
+      "path": "docs/figures/movement-math.png",
+      "bytes": 107997,
+      "sha256": "5048ce2fa248e499d8eb9a69fc346551cea7918e8075b6124e14e2be01b3e3ae"
+    },
+    {
+      "path": "docs/figures/movement-math.svg",
+      "bytes": 69344,
+      "sha256": "100e563c4e4d5b2c0577ff19ca9ca7379e64d71133131ba98859c64e59110717"
+    },
+    {
+      "path": "docs/figures/wave-overview.png",
+      "bytes": 138728,
+      "sha256": "61add57389fc8fb23066d16985132758ca6a71e5e4c4b771af251391b8684e15"
+    },
+    {
+      "path": "docs/figures/wave-overview.svg",
+      "bytes": 162848,
+      "sha256": "e541c85ffb841597d0ba6ccd43ba2fab9d13e74bad7693add5e9727444a55274"
+    },
+    {
+      "path": "docs/sections/01_overview.md",
+      "bytes": 12480,
+      "sha256": "6d43c066388dec6584a96214da7058d49ebc3de5235716b9a3d31f73e303b7aa"
+    },
+    {
+      "path": "docs/sections/02_ordering_and_audit.md",
+      "bytes": 25697,
+      "sha256": "efb1211245955dfac651257c241f9021155c4dfe40f875caf5e0df4982b2407d"
+    },
+    {
+      "path": "docs/sections/03_movement_collision.md",
+      "bytes": 37556,
+      "sha256": "4e123c796e39c2acf991356e7994377cd9c1e4c85827fec8a2419d87da280cee"
+    },
+    {
+      "path": "docs/sections/04_enemies_waves.md",
+      "bytes": 53967,
+      "sha256": "29c58472a830ffd3f083a79c2f44c23f21b6222ed682a4b9ed20759bdec8fea8"
+    },
+    {
+      "path": "docs/sections/05_graphics_audio.md",
+      "bytes": 41822,
+      "sha256": "809e7e597b61ac48afe3208b0e7b6abea6dc1596ad6a822ca14ea15d120587cb"
+    },
+    {
+      "path": "docs/sections/06_android_completion.md",
+      "bytes": 14813,
+      "sha256": "355d2c59509ead628127894cf8159ae803057aa637f2f4a4a90f6fb6fdbe0983"
+    },
+    {
+      "path": "docs/style.css",
+      "bytes": 2582,
+      "sha256": "2e785dd94150e9b60451b0c5195d3e4db7185818690e37ef5ade57dc0b7a34ee"
+    },
+    {
+      "path": "reference/kotlin/ControllerState.kt",
+      "bytes": 1323,
+      "sha256": "76fbdfbb1d9f8743221b30eabfb9c9beab64c4b929ddfdec820e0c2cc033dc32"
+    },
+    {
+      "path": "reference/kotlin/GameMath.kt",
+      "bytes": 3644,
+      "sha256": "1924db1dd6b6575171a5156cf68d912f4622b6bee880a7a02169f7099baa2c68"
+    },
+    {
+      "path": "reference/kotlin/JoustRandom.kt",
+      "bytes": 1246,
+      "sha256": "517799d28da181798813088e6c1a11dcab0f4b27de46b449d624ffea720e9fb8"
+    },
+    {
+      "path": "reference/kotlin/README.md",
+      "bytes": 1730,
+      "sha256": "087de6aa5a2b717ef05f6e95cd0ed50335890f31dd017f8d1fc606b06e35dcfd"
+    },
+    {
+      "path": "reference/source/ATT.ASM",
+      "bytes": 18925,
+      "sha256": "66d718234f9b53da62e64f128a3eadb2bc1c4d056a46d80cddee4026a786f4be"
+    },
+    {
+      "path": "reference/source/BURN.BAT",
+      "bytes": 865,
+      "sha256": "831d6cea7fe0ddc976575da20d01d391bd6394ab8b0106fc23b7b79f7ad66952"
+    },
+    {
+      "path": "reference/source/EQU.ASM",
+      "bytes": 10335,
+      "sha256": "d1ab60ae4d8d40e815c5c46b4a8b16cab8f391d9996690fa47b6e9b394652900"
+    },
+    {
+      "path": "reference/source/JOUSTI.ASM",
+      "bytes": 136699,
+      "sha256": "2f69d129b38fa5388d5cf94047defa02145762adfd9dfa51967152f0fc1e26e8"
+    },
+    {
+      "path": "reference/source/JOUSTRV4.ASM",
+      "bytes": 312844,
+      "sha256": "bc8b177d44e5bba5e5f9f4687c32c007309d9f476ca0e7f1b67cc413fe409ec3"
+    },
+    {
+      "path": "reference/source/MESSAGE.ASM",
+      "bytes": 36180,
+      "sha256": "cc1b4079da1b73e5e8728c37e78f44fd9b33a08c0cf8c4f6ac9f59e951f989c0"
+    },
+    {
+      "path": "reference/source/MESSEQU.ASM",
+      "bytes": 6950,
+      "sha256": "b529fcd5ab6ca87cc8ab6a51b9abafdcf2567420618cba45249bae26209f93d1"
+    },
+    {
+      "path": "reference/source/MESSEQU2.ASM",
+      "bytes": 4201,
+      "sha256": "62ed429a2483d1c4103daf352d2823b8ab31d6e16019d6c69992c1685becdc88"
+    },
+    {
+      "path": "reference/source/PHRASE.ASM",
+      "bytes": 26772,
+      "sha256": "e0ad34ef621ebb583d1c37696f11563e14a9e968b9ab2a6c13b14540da5cb31a"
+    },
+    {
+      "path": "reference/source/RAMDEF.ASM",
+      "bytes": 23316,
+      "sha256": "b3a59650786eb3048da7eb75b76e935d55230bc7af1705122d3b0c1fefb40049"
+    },
+    {
+      "path": "reference/source/README.md",
+      "bytes": 12113,
+      "sha256": "c6fb1b6135a07fa90aa8f7ea356a03799ef6a2bd39aed21bbe2539823d849a89"
+    },
+    {
+      "path": "reference/source/SYSTEM.ASM",
+      "bytes": 42700,
+      "sha256": "8f00a4ab69abb83e9ef282daa5fe6f5f0de1d3079913fe68836512115ee91875"
+    },
+    {
+      "path": "reference/source/T12REV3.ASM",
+      "bytes": 57816,
+      "sha256": "e917f644cf8b18b9354ff857315e7d10967a0ba222c0dca34f535f8c03839609"
+    },
+    {
+      "path": "reference/source/TB12REV3.ASM",
+      "bytes": 81332,
+      "sha256": "269625a57c9e34fd763223ba888f56687cdb6f88679b1394cdb49d7de8c13ac2"
+    },
+    {
+      "path": "reference/source/VSNDRM4.ASM",
+      "bytes": 74277,
+      "sha256": "0d6c2c05029b68a285dafe490ec31de5acb96b83f6c786c30a0a84a523bb19a7"
+    },
+    {
+      "path": "reference/source/decoder_roms.asm",
+      "bytes": 5112,
+      "sha256": "44a9ce92226085f3fda42a731f73fc2ce570c303e01c2d7eff83b91a5843c826"
+    },
+    {
+      "path": "reference/source/joust_mods.ASM",
+      "bytes": 23111,
+      "sha256": "475ee1501579cd1f5bd0b9532d2aa85e5bedfa22e2258c5144a1c5630135311b"
+    },
+    {
+      "path": "reference/source/make.ASM",
+      "bytes": 2875,
+      "sha256": "36ba1e16a4424986bff5b66feb1e9bfe10b151b9243aee7a0a812d3b9a4f9476"
+    },
+    {
+      "path": "tools/build_docs.py",
+      "bytes": 7149,
+      "sha256": "00283a0ce98c0caf1113a28c52591abb5a2967c6e29a1c6bc407d4fd92ad3e1a"
+    },
+    {
+      "path": "tools/extract_assets.py",
+      "bytes": 14360,
+      "sha256": "83b788a99474bddcd86df44fd7b03119b3261656db65ae8e7c2c7fbd8de781a1"
+    },
+    {
+      "path": "tools/extract_effects_title.py",
+      "bytes": 6777,
+      "sha256": "943b098ba100c511e3bb13b3ae0d3bc102d05549f06770266a6c0aea32239deb"
+    },
+    {
+      "path": "tools/extract_gameplay_tables.py",
+      "bytes": 10347,
+      "sha256": "23371c2fc98054489f5877ae5668885c33fa23e9f4af82841005a0b784c961d1"
+    },
+    {
+      "path": "tools/extract_physics_tables.py",
+      "bytes": 7534,
+      "sha256": "a4392da2b292b2f96f8ec0ca9958aa28581f9213c9e172c39df387084afc5524"
+    },
+    {
+      "path": "tools/extract_text_catalog.py",
+      "bytes": 21686,
+      "sha256": "fc5edc0d5091cbc7edb5047d9d32d527235b19868030a316d58f377d44a7075b"
+    },
+    {
+      "path": "tools/make_catalog.py",
+      "bytes": 7662,
+      "sha256": "671ca4e89ddf0f743b4d28d9b070f431b7f67b7c9f188ff3d27734c71f85737a"
+    },
+    {
+      "path": "tools/make_figures.py",
+      "bytes": 6791,
+      "sha256": "b6b15cae79c1cdcca0f6170b813ef41262fc949c20fcd07af8a75042280728f5"
+    },
+    {
+      "path": "tools/verify_package.py",
+      "bytes": 4839,
+      "sha256": "ec49d7f3e913f727ba02ccfbbf65484d2260528ff0b505d342e1504609f2cecd"
+    },
+    {
+      "path": "verification/README.md",
+      "bytes": 2658,
+      "sha256": "d4a1927ee3d6e0c287893ffa7a5681c78495d5c2d7365f803a8b1b61b6b9b87a"
+    },
+    {
+      "path": "verification/gameplay-extraction.json",
+      "bytes": 588,
+      "sha256": "d2984ce0b141882e0ad0aaaa9a5b00d18ff97314ef885b4d192eb9d69eba7dfe"
+    },
+    {
+      "path": "verification/math-vectors.json",
+      "bytes": 21951,
+      "sha256": "1e3705644de25f1d46c874f81a90e30353581755e77942af1c67cd35395a69a0"
+    },
+    {
+      "path": "verification/package-checks.json",
+      "bytes": 602,
+      "sha256": "ebd5cbe0ced2ff3ed280f01a7945cdcf409cf4880a76442cda4280f318aa0b0b"
+    },
+    {
+      "path": "verification/physics-extraction.json",
+      "bytes": 479,
+      "sha256": "a65b1ba736b5f2a5f3ccbb54f523e2e634bd0f85dd9ae4ebff54d58a71d225cd"
+    },
+    {
+      "path": "verification/text-extraction.json",
+      "bytes": 499,
+      "sha256": "2a2c47abb03c5796639252f4c0c45317d10bcc918266903878b5f3b6c87c2593"
+    }
+  ]
+}

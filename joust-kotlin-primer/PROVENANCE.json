@@ -1,0 +1,132 @@
+{
+  "title": "Joust V4 native Kotlin build primer and decoded assets",
+  "prepared_date": "2026-11-14",
+  "game": "Joust (1982), final revision 4",
+  "primary_repository": "https://github.com/synamaxmusic/joust",
+  "primary_commit": "87e22aab945709fa107df609c0efcb839a17c1f9",
+  "reference_source_files": [
+    {
+      "file": "ATT.ASM",
+      "bytes": 18925,
+      "sha256": "66d718234f9b53da62e64f128a3eadb2bc1c4d056a46d80cddee4026a786f4be"
+    },
+    {
+      "file": "BURN.BAT",
+      "bytes": 865,
+      "sha256": "831d6cea7fe0ddc976575da20d01d391bd6394ab8b0106fc23b7b79f7ad66952"
+    },
+    {
+      "file": "EQU.ASM",
+      "bytes": 10335,
+      "sha256": "d1ab60ae4d8d40e815c5c46b4a8b16cab8f391d9996690fa47b6e9b394652900"
+    },
+    {
+      "file": "JOUSTI.ASM",
+      "bytes": 136699,
+      "sha256": "2f69d129b38fa5388d5cf94047defa02145762adfd9dfa51967152f0fc1e26e8"
+    },
+    {
+      "file": "JOUSTRV4.ASM",
+      "bytes": 312844,
+      "sha256": "bc8b177d44e5bba5e5f9f4687c32c007309d9f476ca0e7f1b67cc413fe409ec3"
+    },
+    {
+      "file": "MESSAGE.ASM",
+      "bytes": 36180,
+      "sha256": "cc1b4079da1b73e5e8728c37e78f44fd9b33a08c0cf8c4f6ac9f59e951f989c0"
+    },
+    {
+      "file": "MESSEQU.ASM",
+      "bytes": 6950,
+      "sha256": "b529fcd5ab6ca87cc8ab6a51b9abafdcf2567420618cba45249bae26209f93d1"
+    },
+    {
+      "file": "MESSEQU2.ASM",
+      "bytes": 4201,
+      "sha256": "62ed429a2483d1c4103daf352d2823b8ab31d6e16019d6c69992c1685becdc88"
+    },
+    {
+      "file": "PHRASE.ASM",
+      "bytes": 26772,
+      "sha256": "e0ad34ef621ebb583d1c37696f11563e14a9e968b9ab2a6c13b14540da5cb31a"
+    },
+    {
+      "file": "RAMDEF.ASM",
+      "bytes": 23316,
+      "sha256": "b3a59650786eb3048da7eb75b76e935d55230bc7af1705122d3b0c1fefb40049"
+    },
+    {
+      "file": "README.md",
+      "bytes": 12113,
+      "sha256": "c6fb1b6135a07fa90aa8f7ea356a03799ef6a2bd39aed21bbe2539823d849a89"
+    },
+    {
+      "file": "SYSTEM.ASM",
+      "bytes": 42700,
+      "sha256": "8f00a4ab69abb83e9ef282daa5fe6f5f0de1d3079913fe68836512115ee91875"
+    },
+    {
+      "file": "T12REV3.ASM",
+      "bytes": 57816,
+      "sha256": "e917f644cf8b18b9354ff857315e7d10967a0ba222c0dca34f535f8c03839609"
+    },
+    {
+      "file": "TB12REV3.ASM",
+      "bytes": 81332,
+      "sha256": "269625a57c9e34fd763223ba888f56687cdb6f88679b1394cdb49d7de8c13ac2"
+    },
+    {
+      "file": "VSNDRM4.ASM",
+      "bytes": 74277,
+      "sha256": "0d6c2c05029b68a285dafe490ec31de5acb96b83f6c786c30a0a84a523bb19a7"
+    },
+    {
+      "file": "decoder_roms.asm",
+      "bytes": 5112,
+      "sha256": "44a9ce92226085f3fda42a731f73fc2ce570c303e01c2d7eff83b91a5843c826"
+    },
+    {
+      "file": "joust_mods.ASM",
+      "bytes": 23111,
+      "sha256": "475ee1501579cd1f5bd0b9532d2aa85e5bedfa22e2258c5144a1c5630135311b"
+    },
+    {
+      "file": "make.ASM",
+      "bytes": 2875,
+      "sha256": "36ba1e16a4424986bff5b66feb1e9bfe10b151b9243aee7a0a812d3b9a4f9476"
+    }
+  ],
+  "reference_source_license_file_present": false,
+  "mame_reference": {
+    "repository": "https://github.com/mamedev/mame",
+    "commit": "b7163a8d5ef30a8f0e72e4808ada8f904367311f",
+    "uses": [
+      "display crop/cadence/color conversion",
+      "known original sound input checksum",
+      "BSD-licensed offline sound instruction helper"
+    ]
+  },
+  "sound_input": {
+    "file": "assets/audio/reference/video_sound_rom_4_std_780.ic12",
+    "origin": "Assembled locally from bundled VSNDRM4.ASM; no sound ROM download",
+    "crc32": "f1835bdd",
+    "sha1": "af7c066d2949d36b87ea8c425ca7d12f82b5c653",
+    "sha256": "16e6fe7d3f0bd84b2a23d97387ae1cca15bd8cb9ce0471a668cdbcca4619ce4f"
+  },
+  "extraction_tools": {
+    "graphics": "tools/extract_assets.py",
+    "effects_title": "tools/extract_effects_title.py",
+    "gameplay": "tools/extract_gameplay_tables.py",
+    "physics": "tools/extract_physics_tables.py",
+    "text": "tools/extract_text_catalog.py",
+    "audio": "assets/audio/tools/render_audio.py"
+  },
+  "verification_scope": [
+    "Source-derived table and pixel extraction",
+    "Reproducibility checks",
+    "Audio command execution and complete capture",
+    "Native math/helper source review",
+    "Images visually inspected; HTML structure/local links checked",
+    "Package integrity; no Android APK or full-game replay executed"
+  ]
+}

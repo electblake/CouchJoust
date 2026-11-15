@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "commit": "87e22aab945709fa107df609c0efcb839a17c1f9",
+  "source_sha256": "bc8b177d44e5bba5e5f9f4687c32c007309d9f476ca0e7f1b67cc413fe409ec3",
+  "output_sha256": "3aa372ccb90c6c997f6492b4e73087f0d53cc72a0bdf6af273fa5bc7bbb86911",
+  "mask_sizes": {
+    "background_y": 256,
+    "background_x": 352,
+    "landing_y": 256,
+    "landing_x_template": 352
+  },
+  "ground_state_count": 13,
+  "flight_velocity_count": 9,
+  "compared_to_existing_artifact": true
+}

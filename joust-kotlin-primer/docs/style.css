@@ -1,0 +1,32 @@
+:root { color-scheme: light; --ink:#182736; --muted:#506171; --line:#d5dce3; --accent:#8c5c13; }
+* { box-sizing:border-box; }
+html { background:#edf1f4; scroll-behavior:smooth; }
+body { max-width:1120px; margin:0 auto; padding:48px 64px 80px; background:white; color:var(--ink); font:16px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif; }
+header { border-bottom:5px solid #b77e25; margin-bottom:2rem; }
+h1 { font-size:2.55rem; line-height:1.15; letter-spacing:-.035em; margin:1rem 0 2rem; }
+h2 { margin-top:3rem; padding-top:1.1rem; border-top:2px solid var(--line); font-size:1.75rem; line-height:1.3; }
+h3 { margin-top:2rem; font-size:1.3rem; }
+h4 { margin-top:1.4rem; }
+p { margin:.8rem 0; }
+a { color:#17698e; text-decoration-thickness:1px; text-underline-offset:2px; overflow-wrap:anywhere; }
+code { background:#f0f3f6; border-radius:3px; padding:.12em .25em; font:.88em/1.5 ui-monospace,"DejaVu Sans Mono",monospace; overflow-wrap:anywhere; }
+pre { background:#f1f4f7; border:1px solid #dae1e8; padding:16px; overflow:auto; line-height:1.5; }
+pre code { background:none; padding:0; overflow-wrap:normal; }
+table { display:table; width:100%; border-collapse:collapse; margin:1.3rem 0; font-size:.88rem; }
+th,td { text-align:left; vertical-align:top; padding:9px 10px; border:1px solid var(--line); overflow-wrap:anywhere; }
+th { background:#1f3448; color:white; font-weight:650; }
+tr:nth-child(even) { background:#f4f6f8; }
+img { max-width:100%; height:auto; display:block; margin:1.7rem auto .7rem; }
+figure { margin:1.5rem 0; }
+figcaption { color:var(--muted); font-size:.88rem; text-align:center; margin:.8rem 0; }
+blockquote { border-left:4px solid #c99a49; margin:1.5rem 0; padding:0 1.2rem; color:var(--muted); }
+li { margin:.45rem 0; }
+#TOC { background:#f4f6f8; padding:20px 30px; border:1px solid var(--line); font-size:.9rem; }
+#TOC ul { margin:.5rem 0; padding-left:1.3rem; }
+#TOC>ul>li { font-weight:600; }
+#TOC ul ul { font-weight:400; }
+details { margin:1.5rem 0; }
+summary { cursor:pointer; color:#17698e; padding:10px 14px; background:#edf3f7; font-weight:650; }
+.document-nav { font-size:.85rem; color:var(--muted); }
+@media(max-width:760px) { body { padding:24px 18px; } h1 { font-size:2rem; } table { display:block; overflow-x:auto; } }
+@media print { html,body { background:white; } body { padding:0; max-width:none; font-size:10pt; } h1 { font-size:25pt; } h2 { break-before:page; } h2,h3,h4 { break-after:avoid; } tr,figure,img { break-inside:avoid; } a { color:inherit; text-decoration:none; } pre { white-space:pre-wrap; } #TOC { font-size:9pt; } }

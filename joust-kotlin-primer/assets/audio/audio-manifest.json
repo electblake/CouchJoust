@@ -1,0 +1,2958 @@
+{
+  "source_commit": "87e22aab945709fa107df609c0efcb839a17c1f9",
+  "rom_crc32": "f1835bdd",
+  "rom_sha1": "af7c066d2949d36b87ea8c425ca7d12f82b5c653",
+  "rom_sha256": "16e6fe7d3f0bd84b2a23d97387ae1cca15bd8cb9ce0471a668cdbcca4619ce4f",
+  "clock_hz": 894886.25,
+  "event_tick_hz": 60.09615384615385,
+  "wav_sample_rate_hz": 48000,
+  "dac_gain": 0.25,
+  "commands": {
+    "01": {
+      "file": "commands/command_01.wav",
+      "trace": "dac-traces/command_01.json.gz",
+      "duration_seconds": 0.16852083333333334,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 1080,
+      "first_dac_write_seconds": 0.02603347632171128,
+      "first_dac_change_seconds": 0.02603347632171128,
+      "last_dac_write_seconds": 0.16822920231481933,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "8ab6f14d98ad0f3b7cdf14bf468aed6815df34b8bffd6c83e5349749d06c497a",
+      "commands": [
+        {
+          "command": 1,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 8128,
+      "signal_variation": 16320,
+      "capture_limit_seconds": 60,
+      "truncated": false,
+      "event_uses": [],
+      "control_only": false
+    },
+    "02": {
+      "file": "commands/command_02.wav",
+      "trace": "dac-traces/command_02.json.gz",
+      "duration_seconds": 1.0857708333333334,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 10080,
+      "first_dac_write_seconds": 0.025986542982418155,
+      "first_dac_change_seconds": 0.025986542982418155,
+      "last_dac_write_seconds": 1.0766843271980098,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "0c16bfa1de5fc6a6a39f10fea0c9bbe26c96ed9e6eb1a363bf5610f54ede2703",
+      "commands": [
+        {
+          "command": 2,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 8128,
+      "signal_variation": 16320,
+      "capture_limit_seconds": 60,
+      "truncated": false,
+      "event_uses": [
+        "SNEGGH"
+      ],
+      "control_only": false
+    },
+    "03": {
+      "file": "commands/command_03.wav",
+      "trace": "dac-traces/command_03.json.gz",
+      "duration_seconds": 0.228,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 880,
+      "first_dac_write_seconds": 0.0013722414440941516,
+      "first_dac_change_seconds": 0.0013722414440941516,
+      "last_dac_write_seconds": 0.2273071018802669,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "5a09886e34071ff0c351966379f567cc955ae468b9871b2fc0325449ee67e2d7",
+      "commands": [
+        {
+          "command": 3,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 8128,
+      "signal_variation": 16320,
+      "capture_limit_seconds": 60,
+      "truncated": false,
+      "event_uses": [
+        "SNEGG"
+      ],
+      "control_only": false
+    },
+    "04": {
+      "file": "commands/command_04.wav",
+      "trace": "dac-traces/command_04.json.gz",
+      "duration_seconds": 17.1195625,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 17832,
+      "first_dac_write_seconds": 0.001111873157063258,
+      "first_dac_change_seconds": 0.0012470858726458252,
+      "last_dac_write_seconds": 17.117538681592215,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "b5e164240b63b9afe3da137230f8ee37397361157ccbb2a1d97da9380e9a412b",
+      "commands": [
+        {
+          "command": 4,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 8128,
+      "signal_variation": 16320,
+      "capture_limit_seconds": 60,
+      "truncated": false,
+      "event_uses": [],
+      "control_only": false
+    },
+    "05": {
+      "file": "commands/command_05.wav",
+      "trace": "dac-traces/command_05.json.gz",
+      "duration_seconds": 0.8306666666666667,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 8640,
+      "first_dac_write_seconds": 0.0033825528104828965,
+      "first_dac_change_seconds": 0.0033825528104828965,
+      "last_dac_write_seconds": 0.8277130193921295,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "543945515671fc586a5d3027198311f93ffaf44d5f3371d43d1d0180846b35a9",
+      "commands": [
+        {
+          "command": 5,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 8064,
+      "signal_variation": 16256,
+      "capture_limit_seconds": 60,
+      "truncated": false,
+      "event_uses": [],
+      "control_only": false
+    },
+    "06": {
+      "file": "commands/command_06.wav",
+      "trace": "dac-traces/command_06.json.gz",
+      "duration_seconds": 0.15135416666666668,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 448,
+      "first_dac_write_seconds": 0.0013733589045535116,
+      "first_dac_change_seconds": 0.0013733589045535116,
+      "last_dac_write_seconds": 0.15025932066785025,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "1d79c7461ae8af7efa9e056aff6e4b4debb5b9ca59440bd6633c401506b476b5",
+      "commands": [
+        {
+          "command": 6,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 8128,
+      "signal_variation": 16320,
+      "capture_limit_seconds": 60,
+      "truncated": false,
+      "event_uses": [
+        "SNCTHD"
+      ],
+      "control_only": false
+    },
+    "07": {
+      "file": "commands/command_07.wav",
+      "trace": "dac-traces/command_07.json.gz",
+      "duration_seconds": 2.7221041666666665,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 5952,
+      "first_dac_write_seconds": 0.000996774729749172,
+      "first_dac_change_seconds": 0.000996774729749172,
+      "last_dac_write_seconds": 2.7204429613260905,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "a29a93d5409af07024947a83b771e499bdeebc4da1af6612b63e147f55005e64",
+      "commands": [
+        {
+          "command": 7,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 8128,
+      "signal_variation": 16320,
+      "capture_limit_seconds": 60,
+      "truncated": false,
+      "event_uses": [
+        "SNECRE"
+      ],
+      "control_only": false
+    },
+    "08": {
+      "file": "commands/command_08.wav",
+      "trace": "dac-traces/command_08.json.gz",
+      "duration_seconds": 3.0417916666666667,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 10560,
+      "first_dac_write_seconds": 0.0018873907158591385,
+      "first_dac_change_seconds": 0.0019220319900993003,
+      "last_dac_write_seconds": 3.039285719274377,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "bb39e5c999ba56968deeb0cee2de32a64de2d29562cf4f27bf099a3a26be1ca0",
+      "commands": [
+        {
+          "command": 8,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 7424,
+      "signal_variation": 15616,
+      "capture_limit_seconds": 60,
+      "truncated": false,
+      "event_uses": [
+        "SNETHD",
+        "SNPTHD"
+      ],
+      "control_only": false
+    },
+    "09": {
+      "file": "commands/command_09.wav",
+      "trace": "dac-traces/command_09.json.gz",
+      "duration_seconds": 0.3700625,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 2496,
+      "first_dac_write_seconds": 0.047264107589093024,
+      "first_dac_change_seconds": 0.047264107589093024,
+      "last_dac_write_seconds": 0.36913183100086744,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "0e06501c8e71c6766033a7f479d72db6f0f6c2bf6d2ed4e130243c7655bec33c",
+      "commands": [
+        {
+          "command": 9,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 5056,
+      "signal_variation": 13248,
+      "capture_limit_seconds": 60,
+      "truncated": false,
+      "event_uses": [
+        "SNTROL"
+      ],
+      "control_only": false
+    },
+    "0a": {
+      "file": "commands/command_0a.wav",
+      "trace": "dac-traces/command_0a.json.gz",
+      "duration_seconds": 0.5613958333333333,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 2560,
+      "first_dac_write_seconds": 0.0016963049773085685,
+      "first_dac_change_seconds": 0.0016963049773085685,
+      "last_dac_write_seconds": 0.558987245585682,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "52a0bde356ee5936792d5ef7508096e54a61f12df48b2a88bc2612fadf226f7a",
+      "commands": [
+        {
+          "command": 10,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 3264,
+      "signal_variation": 11456,
+      "capture_limit_seconds": 60,
+      "truncated": false,
+      "event_uses": [
+        "SNCRED"
+      ],
+      "control_only": false
+    },
+    "0b": {
+      "file": "commands/command_0b.wav",
+      "trace": "dac-traces/command_0b.json.gz",
+      "duration_seconds": 1.2569166666666667,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 5376,
+      "first_dac_write_seconds": 0.0038384766779018,
+      "first_dac_change_seconds": 0.0040005084445090084,
+      "last_dac_write_seconds": 1.254133695763009,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "79d7da93a6afa6389b03b9b0ad31c48f7edcf69ec45aa9c14b25bfc9762af749",
+      "commands": [
+        {
+          "command": 11,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 4544,
+      "signal_variation": 12736,
+      "capture_limit_seconds": 60,
+      "truncated": false,
+      "event_uses": [
+        "SNREPL"
+      ],
+      "control_only": false
+    },
+    "0c": {
+      "file": "commands/command_0c.wav",
+      "trace": "dac-traces/command_0c.json.gz",
+      "duration_seconds": 0.2520625,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 464,
+      "first_dac_write_seconds": 0.0027154289162449417,
+      "first_dac_change_seconds": 0.0027154289162449417,
+      "last_dac_write_seconds": 0.24986639363382776,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "c1932bacad06f45a3f3b54c9d806f277a2d383dfd4aba8149cd29d5ecbfbb329",
+      "commands": [
+        {
+          "command": 12,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 5248,
+      "signal_variation": 13440,
+      "capture_limit_seconds": 60,
+      "truncated": false,
+      "event_uses": [
+        "SNMOUN"
+      ],
+      "control_only": false
+    },
+    "0d": {
+      "file": "commands/command_0d.wav",
+      "trace": "dac-traces/command_0d.json.gz",
+      "duration_seconds": 0.6071875,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 1344,
+      "first_dac_write_seconds": 0.003354616298998895,
+      "first_dac_change_seconds": 0.003354616298998895,
+      "last_dac_write_seconds": 0.6039739687585992,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "0c397dc97d09c4b3042685ebed8b4fd8f6c2588d48418a7ab81218c22add417a",
+      "commands": [
+        {
+          "command": 13,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 5248,
+      "signal_variation": 13440,
+      "capture_limit_seconds": 60,
+      "truncated": false,
+      "event_uses": [
+        "SNELAV",
+        "SNPLAV",
+        "SNBUB"
+      ],
+      "control_only": false
+    },
+    "0e": {
+      "file": "commands/command_0e.wav",
+      "trace": "dac-traces/command_0e.json.gz",
+      "duration_seconds": 0.3165,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 320,
+      "first_dac_write_seconds": 0.0032484575553596894,
+      "first_dac_change_seconds": 0.004644165669100402,
+      "last_dac_write_seconds": 0.31412148750749047,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "c15c043d72849f18a48fcfa85092aacb94490ba6dc4f805828cdcfb8a7e4754c",
+      "commands": [
+        {
+          "command": 14,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 7424,
+      "signal_variation": 15616,
+      "capture_limit_seconds": 60,
+      "truncated": false,
+      "event_uses": [],
+      "control_only": false
+    },
+    "0f": {
+      "file": "commands/command_0f.wav",
+      "trace": "dac-traces/command_0f.json.gz",
+      "duration_seconds": 1.0782083333333334,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 4608,
+      "first_dac_write_seconds": 0.004297752926698785,
+      "first_dac_change_seconds": 0.004297752926698785,
+      "last_dac_write_seconds": 1.0757087842169886,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "5ec15c2b2f6bf8574cccc9d044259650cd40955b7a92f41ab1914c3e0b3c578d",
+      "commands": [
+        {
+          "command": 15,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": -960,
+      "signal_variation": 7232,
+      "capture_limit_seconds": 60,
+      "truncated": false,
+      "event_uses": [
+        "SNHIGH"
+      ],
+      "control_only": false
+    },
+    "10": {
+      "file": "commands/command_10.wav",
+      "trace": "dac-traces/command_10.json.gz",
+      "duration_seconds": 0.9395208333333334,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 4320,
+      "first_dac_write_seconds": 0.004432965642281351,
+      "first_dac_change_seconds": 0.004432965642281351,
+      "last_dac_write_seconds": 0.9321497564634611,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "2645dbf9546b57dac6652a3b75a3eb0d09222420ad442b2adb21879969fde078",
+      "commands": [
+        {
+          "command": 16,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 8128,
+      "signal_variation": 16320,
+      "capture_limit_seconds": 60,
+      "truncated": false,
+      "event_uses": [
+        "SNHIGH"
+      ],
+      "control_only": false
+    },
+    "11": {
+      "file": "commands/command_11.wav",
+      "trace": "dac-traces/command_11.json.gz",
+      "duration_seconds": 0.8915208333333333,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 11232,
+      "first_dac_write_seconds": 0.002909867036173592,
+      "first_dac_change_seconds": 0.002909867036173592,
+      "last_dac_write_seconds": 0.8905712876915921,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "c93b0a5940f1fb58fc8e1c0cab98f073c7bc7620c12bf6f3562962f8362b5130",
+      "commands": [
+        {
+          "command": 17,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 6656,
+      "signal_variation": 14848,
+      "capture_limit_seconds": 60,
+      "truncated": false,
+      "event_uses": [
+        "SNHIGH"
+      ],
+      "control_only": false
+    },
+    "12": {
+      "file": "commands/command_12.wav",
+      "trace": "dac-traces/command_12.json.gz",
+      "duration_seconds": 2.083270833333333,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 9840,
+      "first_dac_write_seconds": 0.001879568492643618,
+      "first_dac_change_seconds": 0.001879568492643618,
+      "last_dac_write_seconds": 2.0808387658207956,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "19afe2d72ac0853c1c734e8a00f86ada2732d3fae68f95e2ce977093ac49fa50",
+      "commands": [
+        {
+          "command": 18,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 8128,
+      "signal_variation": 16320,
+      "capture_limit_seconds": 60,
+      "truncated": false,
+      "event_uses": [
+        "SNPCR1",
+        "SNPCR2"
+      ],
+      "control_only": false
+    },
+    "13": {
+      "file": "commands/command_13.wav",
+      "trace": "dac-traces/command_13.json.gz",
+      "duration_seconds": 0.21439583333333334,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 200,
+      "first_dac_write_seconds": 0.000996774729749172,
+      "first_dac_change_seconds": 0.000996774729749172,
+      "last_dac_write_seconds": 0.21263372858840998,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "d152daf1bc7dd55145bcf1f621bad9175111a861fa7c4e9f3766e61fa5005a45",
+      "commands": [
+        {
+          "command": 19,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 8128,
+      "signal_variation": 16320,
+      "capture_limit_seconds": 60,
+      "truncated": false,
+      "event_uses": [],
+      "control_only": false
+    },
+    "14": {
+      "file": "commands/command_14.wav",
+      "trace": "dac-traces/command_14.json.gz",
+      "duration_seconds": 6.3138125,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 10160,
+      "first_dac_write_seconds": 0.0009431366276998893,
+      "first_dac_change_seconds": 0.0009431366276998893,
+      "last_dac_write_seconds": 6.3117418554592835,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "564aa18068849c3f115f4afa35f29c6b51aa752aa9f9c361dc8096978eee012c",
+      "commands": [
+        {
+          "command": 20,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 8128,
+      "signal_variation": 16320,
+      "capture_limit_seconds": 60,
+      "truncated": false,
+      "event_uses": [
+        "SNPCR1"
+      ],
+      "control_only": false
+    },
+    "15": {
+      "file": "commands/command_15.wav",
+      "trace": "dac-traces/command_15.json.gz",
+      "duration_seconds": 6.040791666666666,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 10400,
+      "first_dac_write_seconds": 0.0010045969529646924,
+      "first_dac_change_seconds": 0.0010392382272048542,
+      "last_dac_write_seconds": 6.039645820907406,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "f81937816355f12237b9c6dcc140f7ebf3b6c63e322b4c276231a4748ded134f",
+      "commands": [
+        {
+          "command": 21,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 8128,
+      "signal_variation": 16320,
+      "capture_limit_seconds": 60,
+      "truncated": false,
+      "event_uses": [
+        "SNPCR2"
+      ],
+      "control_only": false
+    },
+    "16": {
+      "file": "commands/command_16.wav",
+      "trace": "dac-traces/command_16.json.gz",
+      "duration_seconds": 0.6978333333333333,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 386,
+      "first_dac_write_seconds": 0.00016203176660720847,
+      "first_dac_change_seconds": 0.00016203176660720847,
+      "last_dac_write_seconds": 0.6957264121557348,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "cbd29214a84627eeefafb169ebfc4fec4745ce76c6a1fa89d307fe00f4663ec0",
+      "commands": [
+        {
+          "command": 22,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 8128,
+      "signal_variation": 16320,
+      "capture_limit_seconds": 60,
+      "truncated": false,
+      "event_uses": [
+        "SNPTED",
+        "SNEDIE",
+        "SNPDIE"
+      ],
+      "control_only": false
+    },
+    "17": {
+      "file": "commands/command_17.wav",
+      "trace": "dac-traces/command_17.json.gz",
+      "duration_seconds": 0.22452083333333334,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 75,
+      "first_dac_write_seconds": 0.004150248146063257,
+      "first_dac_change_seconds": 0.004150248146063257,
+      "last_dac_write_seconds": 0.21698288469623933,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "3fbc4f4c19c1c24b3bb8bfb075cc7e06c6a18acc61aefb4877d78fadf7347388",
+      "commands": [
+        {
+          "command": 23,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 8128,
+      "signal_variation": 16320,
+      "capture_limit_seconds": 60,
+      "truncated": false,
+      "event_uses": [],
+      "control_only": false
+    },
+    "18": {
+      "file": "commands/command_18.wav",
+      "trace": "dac-traces/command_18.json.gz",
+      "duration_seconds": 0.5330625,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 2657,
+      "first_dac_write_seconds": 0.001799111339569694,
+      "first_dac_change_seconds": 0.001799111339569694,
+      "last_dac_write_seconds": 0.5325391914335481,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "afe7c7aaa76ebc926bcfcbb6db3328869b558105cbeee7ece8b87772054480e6",
+      "commands": [
+        {
+          "command": 24,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 8128,
+      "signal_variation": 16320,
+      "capture_limit_seconds": 60,
+      "truncated": false,
+      "event_uses": [
+        "SNHIGH"
+      ],
+      "control_only": false
+    },
+    "19": {
+      "file": "commands/command_19.wav",
+      "trace": "dac-traces/command_19.json.gz",
+      "duration_seconds": 5.294270833333333,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 2124,
+      "first_dac_write_seconds": 0.011928890403668622,
+      "first_dac_change_seconds": 0.011928890403668622,
+      "last_dac_write_seconds": 5.293919757958064,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "3f0805446149082092364900c1f99da2182de74c7a748adf645a4004f73ca4f8",
+      "commands": [
+        {
+          "command": 25,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 8128,
+      "signal_variation": 16320,
+      "capture_limit_seconds": 60,
+      "truncated": false,
+      "event_uses": [
+        "SNCLIF"
+      ],
+      "control_only": false
+    },
+    "1a": {
+      "file": "commands/command_1a.wav",
+      "trace": "dac-traces/command_1a.json.gz",
+      "duration_seconds": 0.36,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 763,
+      "first_dac_write_seconds": 0.0002648381288683338,
+      "first_dac_change_seconds": 0.0002648381288683338,
+      "last_dac_write_seconds": 0.3596535313845754,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "0ba139eeaa841656829ef7cc5b220afc00be40cd527ae6c6700d3070654e83d6",
+      "commands": [
+        {
+          "command": 26,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 3008,
+      "signal_variation": 11200,
+      "capture_limit_seconds": 60,
+      "truncated": false,
+      "event_uses": [
+        "SNHIGH"
+      ],
+      "control_only": false
+    },
+    "1b": {
+      "file": "commands/command_1b.wav",
+      "trace": "dac-traces/command_1b.json.gz",
+      "duration_seconds": 1.8386666666666667,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 5776,
+      "first_dac_write_seconds": 0.00028048257529937463,
+      "first_dac_change_seconds": 0.0007967493075237216,
+      "last_dac_write_seconds": 1.8377207159010434,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "4e41c7e551041206f5c0e519c0d55d44311bcb049216e689022515a5b33c2ff0",
+      "commands": [
+        {
+          "command": 27,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 8128,
+      "signal_variation": 16320,
+      "capture_limit_seconds": 60,
+      "truncated": false,
+      "event_uses": [
+        "SNGS"
+      ],
+      "control_only": false
+    },
+    "1c": {
+      "file": "commands/command_1c.wav",
+      "trace": "dac-traces/command_1c.json.gz",
+      "duration_seconds": 3.1258958333333333,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 9264,
+      "first_dac_write_seconds": 0.000287187338055535,
+      "first_dac_change_seconds": 0.000287187338055535,
+      "last_dac_write_seconds": 3.1255693111834044,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "c224473918b0b2fc4e44c1654f8090ef287f8bf0ddde5a234aec701e4211c4d1",
+      "commands": [
+        {
+          "command": 28,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 3008,
+      "signal_variation": 11200,
+      "capture_limit_seconds": 60,
+      "truncated": false,
+      "event_uses": [
+        "SNHI2",
+        "SNBOUN"
+      ],
+      "control_only": false
+    },
+    "1d": {
+      "file": "commands/command_1d.wav",
+      "trace": "dac-traces/command_1d.json.gz",
+      "duration_seconds": 0.11116666666666666,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 134,
+      "first_dac_write_seconds": 0.0002145524081971312,
+      "first_dac_change_seconds": 0.0002145524081971312,
+      "last_dac_write_seconds": 0.1005814984865395,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "15c920ef9a6c74299e890706277a8c39277d15552ee44246b7a224ff0d95652e",
+      "commands": [
+        {
+          "command": 29,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 7168,
+      "signal_variation": 15360,
+      "capture_limit_seconds": 60,
+      "truncated": false,
+      "event_uses": [],
+      "control_only": false
+    },
+    "1e": {
+      "file": "commands/command_1e.wav",
+      "trace": "dac-traces/command_1e.json.gz",
+      "duration_seconds": 2.1455,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 12288,
+      "first_dac_write_seconds": 0.0003195936913769767,
+      "first_dac_change_seconds": 0.0003195936913769767,
+      "last_dac_write_seconds": 2.144465846916298,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "359608edd52de7a85c415a079e9f4dbf3654025354e78452e3b87308552b9ad5",
+      "commands": [
+        {
+          "command": 30,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 8128,
+      "signal_variation": 16320,
+      "capture_limit_seconds": 60,
+      "truncated": false,
+      "event_uses": [],
+      "control_only": false
+    },
+    "1f": {
+      "file": "commands/command_1f.wav",
+      "trace": "dac-traces/command_1f.json.gz",
+      "duration_seconds": 0.0011458333333333333,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 1,
+      "first_dac_write_seconds": 0.00016985398982272886,
+      "first_dac_change_seconds": null,
+      "last_dac_write_seconds": 0.00016985398982272886,
+      "ending_pc": "f01d",
+      "returned_to_idle": true,
+      "sha256": "0d5aa7b7fc39e7ef7481b4f770ad1b2a5ab5ba34e070f8d41999ddeb279f2b2c",
+      "commands": [
+        {
+          "command": 31,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": -8192,
+      "signal_variation": 0,
+      "capture_limit_seconds": 60,
+      "truncated": false,
+      "event_uses": [],
+      "control_only": true
+    },
+    "20": {
+      "file": "commands/command_20.wav",
+      "trace": "dac-traces/command_20.json.gz",
+      "duration_seconds": 0.27166666666666667,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 352,
+      "first_dac_write_seconds": 0.0020382478778727463,
+      "first_dac_change_seconds": 0.003914463989138284,
+      "last_dac_write_seconds": 0.27085453598152837,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "f4d89a70da6fb59b07a82c282840d8eaf8b7b5420ac67eec7dcb5c0079f53dde",
+      "commands": [
+        {
+          "command": 32,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 7680,
+      "signal_variation": 15872,
+      "capture_limit_seconds": 60,
+      "truncated": false,
+      "event_uses": [
+        "SNELWD",
+        "SNPLWD"
+      ],
+      "control_only": false
+    },
+    "21": {
+      "file": "commands/command_21.wav",
+      "trace": "dac-traces/command_21.json.gz",
+      "duration_seconds": 0.1306875,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 156,
+      "first_dac_write_seconds": 0.0012336763471335044,
+      "first_dac_change_seconds": 0.002358959029709083,
+      "last_dac_write_seconds": 0.1297975021965082,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "75efd34545936860055b8d369e8f326d9695528a320e3b2ea2ac8c3bc8919a8b",
+      "commands": [
+        {
+          "command": 33,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 7168,
+      "signal_variation": 15360,
+      "capture_limit_seconds": 60,
+      "truncated": false,
+      "event_uses": [
+        "SNELWU",
+        "SNPLWU"
+      ],
+      "control_only": false
+    },
+    "22": {
+      "file": "commands/command_22.wav",
+      "trace": "dac-traces/command_22.json.gz",
+      "duration_seconds": 0.042458333333333334,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 56,
+      "first_dac_write_seconds": 0.0006972953266406764,
+      "first_dac_change_seconds": 0.0012861969887234272,
+      "last_dac_write_seconds": 0.041863421189005864,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "a599715484cfef6cef53270c17d63a47c5a80f0a35e75c102c4d4c505ae63375",
+      "commands": [
+        {
+          "command": 34,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 2560,
+      "signal_variation": 10752,
+      "capture_limit_seconds": 60,
+      "truncated": false,
+      "event_uses": [
+        "SNERU1",
+        "SNPRU1"
+      ],
+      "control_only": false
+    },
+    "23": {
+      "file": "commands/command_23.wav",
+      "trace": "dac-traces/command_23.json.gz",
+      "duration_seconds": 0.03327083333333333,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 28,
+      "first_dac_write_seconds": 0.0011264001430349388,
+      "first_dac_change_seconds": 0.002144406621511952,
+      "last_dac_write_seconds": 0.0329404994210158,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "b24bd530ab163f0432cd9c544cfbee9e341a214985065be9097cf696540114b5",
+      "commands": [
+        {
+          "command": 35,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 2560,
+      "signal_variation": 10752,
+      "capture_limit_seconds": 60,
+      "truncated": false,
+      "event_uses": [
+        "SNERU2",
+        "SNPRU2"
+      ],
+      "control_only": false
+    },
+    "24": {
+      "file": "commands/command_24.wav",
+      "trace": "dac-traces/command_24.json.gz",
+      "duration_seconds": 0.7497083333333333,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 3330,
+      "first_dac_write_seconds": 0.0023511368064935627,
+      "first_dac_change_seconds": 0.007983137521668257,
+      "last_dac_write_seconds": 0.749353339600424,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "faaceb0b99309a18e07f95febf5a482bc04ac2befc4a4af61fef86d696e298c8",
+      "commands": [
+        {
+          "command": 36,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 8128,
+      "signal_variation": 16320,
+      "capture_limit_seconds": 60,
+      "truncated": false,
+      "event_uses": [
+        "SNPTEI",
+        "SNPTE"
+      ],
+      "control_only": false
+    },
+    "25": {
+      "file": "commands/command_25.wav",
+      "trace": "dac-traces/command_25.json.gz",
+      "duration_seconds": 0.4069375,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 1458,
+      "first_dac_write_seconds": 0.0021365843982964314,
+      "first_dac_change_seconds": 0.007963023233399775,
+      "last_dac_write_seconds": 0.40593092138805353,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "27f98adab9f7c148d21a198fa653da564e984ea3e4bec88cf87b1c3d1efacafa",
+      "commands": [
+        {
+          "command": 37,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 8128,
+      "signal_variation": 16320,
+      "capture_limit_seconds": 60,
+      "truncated": false,
+      "event_uses": [
+        "SNPTEI"
+      ],
+      "control_only": false
+    },
+    "26": {
+      "file": "commands/command_26.wav",
+      "trace": "dac-traces/command_26.json.gz",
+      "duration_seconds": 0.9227708333333333,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 2818,
+      "first_dac_write_seconds": 0.0022706796534196385,
+      "first_dac_change_seconds": 0.00420165132719382,
+      "last_dac_write_seconds": 0.9220847901060051,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "7fdd10ed4358c46009294b8def08eae12c47c3ba05406af0d78127489ba68904",
+      "commands": [
+        {
+          "command": 38,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 7168,
+      "signal_variation": 15360,
+      "capture_limit_seconds": 60,
+      "truncated": false,
+      "event_uses": [
+        "SNEMSK",
+        "SNPLSK"
+      ],
+      "control_only": false
+    },
+    "27": {
+      "file": "commands/command_27.wav",
+      "trace": "dac-traces/command_27.json.gz",
+      "duration_seconds": 0.44825,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 1362,
+      "first_dac_write_seconds": 0.002277384416175799,
+      "first_dac_change_seconds": 0.0033032131178683324,
+      "last_dac_write_seconds": 0.447765288605116,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "036dfe9c42d459e0f090d1bca987f31d2db6be5dd89743a5d7075c1073e2ec24",
+      "commands": [
+        {
+          "command": 39,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 7168,
+      "signal_variation": 15360,
+      "capture_limit_seconds": 60,
+      "truncated": false,
+      "event_uses": [
+        "SNEMS2",
+        "SNPLS2"
+      ],
+      "control_only": false
+    }
+  },
+  "events": {
+    "SNCRED": {
+      "file": "events/SNCRED.wav",
+      "trace": "dac-traces/SNCRED.json.gz",
+      "duration_seconds": 0.6656041666666667,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 2560,
+      "first_dac_write_seconds": 0.0016963049773085685,
+      "first_dac_change_seconds": 0.0016963049773085685,
+      "last_dac_write_seconds": 0.558987245585682,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "e249cc4c74df94ea56009f7709aeaf29b3a8e5d4fee75d823b9278e80e23473f",
+      "commands": [
+        {
+          "command": 10,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 3264,
+      "signal_variation": 11456,
+      "priority": 200,
+      "scheduler_hold_ticks": 40,
+      "truncated": false,
+      "sequence": [
+        {
+          "command": 10,
+          "continue": false,
+          "hold_ticks": 40,
+          "encoded": 117
+        }
+      ]
+    },
+    "SNGS": {
+      "file": "events/SNGS.wav",
+      "trace": "dac-traces/SNGS.json.gz",
+      "duration_seconds": 1.8381875,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 5776,
+      "first_dac_write_seconds": 0.00028048257529937463,
+      "first_dac_change_seconds": 0.0007967493075237216,
+      "last_dac_write_seconds": 1.8377207159010434,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "64ca4834dda0a72a3e828c9696693baa97b09ddf3f64ccc9035e51deef1c3e84",
+      "commands": [
+        {
+          "command": 27,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 8128,
+      "signal_variation": 16320,
+      "priority": 200,
+      "scheduler_hold_ticks": 1,
+      "truncated": false,
+      "sequence": [
+        {
+          "command": 27,
+          "continue": false,
+          "hold_ticks": 1,
+          "encoded": 100
+        }
+      ]
+    },
+    "SNHI2": {
+      "file": "events/SNHI2.wav",
+      "trace": "dac-traces/SNHI2.json.gz",
+      "duration_seconds": 3.1258958333333333,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 9264,
+      "first_dac_write_seconds": 0.000287187338055535,
+      "first_dac_change_seconds": 0.000287187338055535,
+      "last_dac_write_seconds": 3.1255693111834044,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "c224473918b0b2fc4e44c1654f8090ef287f8bf0ddde5a234aec701e4211c4d1",
+      "commands": [
+        {
+          "command": 28,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 3008,
+      "signal_variation": 11200,
+      "priority": 190,
+      "scheduler_hold_ticks": 6,
+      "truncated": false,
+      "sequence": [
+        {
+          "command": 28,
+          "continue": false,
+          "hold_ticks": 6,
+          "encoded": 99
+        }
+      ]
+    },
+    "SNHIGH": {
+      "file": "events/SNHIGH.wav",
+      "trace": "dac-traces/SNHIGH.json.gz",
+      "duration_seconds": 49.92002083333333,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 123696,
+      "first_dac_write_seconds": 0.002909867036173592,
+      "first_dac_change_seconds": 0.002909867036173592,
+      "last_dac_write_seconds": 47.002108927251925,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "a0c4ed8e43482abf864e9648c696068b7dcb7514819204031176d520884adb7f",
+      "commands": [
+        {
+          "command": 17,
+          "cycle": 0
+        },
+        {
+          "command": 16,
+          "cycle": 893456
+        },
+        {
+          "command": 16,
+          "cycle": 1191275
+        },
+        {
+          "command": 15,
+          "cycle": 1638001
+        },
+        {
+          "command": 16,
+          "cycle": 3424912
+        },
+        {
+          "command": 16,
+          "cycle": 4318364
+        },
+        {
+          "command": 15,
+          "cycle": 5807456
+        },
+        {
+          "command": 26,
+          "cycle": 9381275
+        },
+        {
+          "command": 26,
+          "cycle": 9679090
+        },
+        {
+          "command": 16,
+          "cycle": 11168181
+        },
+        {
+          "command": 15,
+          "cycle": 12061637
+        },
+        {
+          "command": 26,
+          "cycle": 15635456
+        },
+        {
+          "command": 24,
+          "cycle": 16082183
+        },
+        {
+          "command": 16,
+          "cycle": 19656000
+        },
+        {
+          "command": 16,
+          "cycle": 20847272
+        },
+        {
+          "command": 16,
+          "cycle": 21740728
+        },
+        {
+          "command": 15,
+          "cycle": 22038543
+        },
+        {
+          "command": 16,
+          "cycle": 25612362
+        },
+        {
+          "command": 16,
+          "cycle": 25910181
+        },
+        {
+          "command": 16,
+          "cycle": 26803633
+        },
+        {
+          "command": 16,
+          "cycle": 27994909
+        },
+        {
+          "command": 16,
+          "cycle": 28888361
+        },
+        {
+          "command": 16,
+          "cycle": 29186180
+        },
+        {
+          "command": 15,
+          "cycle": 30079636
+        },
+        {
+          "command": 16,
+          "cycle": 33653451
+        },
+        {
+          "command": 16,
+          "cycle": 33951270
+        },
+        {
+          "command": 16,
+          "cycle": 34844726
+        },
+        {
+          "command": 16,
+          "cycle": 36035998
+        },
+        {
+          "command": 16,
+          "cycle": 36929450
+        },
+        {
+          "command": 16,
+          "cycle": 37227269
+        },
+        {
+          "command": 16,
+          "cycle": 38120725
+        },
+        {
+          "command": 15,
+          "cycle": 39311997
+        },
+        {
+          "command": 15,
+          "cycle": 41098904
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 8128,
+      "signal_variation": 16320,
+      "priority": 190,
+      "scheduler_hold_ticks": 3000,
+      "truncated": false,
+      "sequence": [
+        {
+          "command": 17,
+          "continue": true,
+          "hold_ticks": 60,
+          "encoded": 238
+        },
+        {
+          "command": 16,
+          "continue": true,
+          "hold_ticks": 20,
+          "encoded": 239
+        },
+        {
+          "command": 16,
+          "continue": true,
+          "hold_ticks": 30,
+          "encoded": 239
+        },
+        {
+          "command": 15,
+          "continue": true,
+          "hold_ticks": 120,
+          "encoded": 240
+        },
+        {
+          "command": 16,
+          "continue": true,
+          "hold_ticks": 60,
+          "encoded": 239
+        },
+        {
+          "command": 16,
+          "continue": true,
+          "hold_ticks": 100,
+          "encoded": 239
+        },
+        {
+          "command": 15,
+          "continue": true,
+          "hold_ticks": 240,
+          "encoded": 240
+        },
+        {
+          "command": 26,
+          "continue": true,
+          "hold_ticks": 20,
+          "encoded": 229
+        },
+        {
+          "command": 26,
+          "continue": true,
+          "hold_ticks": 100,
+          "encoded": 229
+        },
+        {
+          "command": 16,
+          "continue": true,
+          "hold_ticks": 60,
+          "encoded": 239
+        },
+        {
+          "command": 15,
+          "continue": true,
+          "hold_ticks": 240,
+          "encoded": 240
+        },
+        {
+          "command": 26,
+          "continue": true,
+          "hold_ticks": 30,
+          "encoded": 229
+        },
+        {
+          "command": 24,
+          "continue": true,
+          "hold_ticks": 240,
+          "encoded": 231
+        },
+        {
+          "command": 16,
+          "continue": true,
+          "hold_ticks": 80,
+          "encoded": 239
+        },
+        {
+          "command": 16,
+          "continue": true,
+          "hold_ticks": 60,
+          "encoded": 239
+        },
+        {
+          "command": 16,
+          "continue": true,
+          "hold_ticks": 20,
+          "encoded": 239
+        },
+        {
+          "command": 15,
+          "continue": true,
+          "hold_ticks": 240,
+          "encoded": 240
+        },
+        {
+          "command": 16,
+          "continue": true,
+          "hold_ticks": 20,
+          "encoded": 239
+        },
+        {
+          "command": 16,
+          "continue": true,
+          "hold_ticks": 60,
+          "encoded": 239
+        },
+        {
+          "command": 16,
+          "continue": true,
+          "hold_ticks": 80,
+          "encoded": 239
+        },
+        {
+          "command": 16,
+          "continue": true,
+          "hold_ticks": 60,
+          "encoded": 239
+        },
+        {
+          "command": 16,
+          "continue": true,
+          "hold_ticks": 20,
+          "encoded": 239
+        },
+        {
+          "command": 16,
+          "continue": true,
+          "hold_ticks": 60,
+          "encoded": 239
+        },
+        {
+          "command": 15,
+          "continue": true,
+          "hold_ticks": 240,
+          "encoded": 240
+        },
+        {
+          "command": 16,
+          "continue": true,
+          "hold_ticks": 20,
+          "encoded": 239
+        },
+        {
+          "command": 16,
+          "continue": true,
+          "hold_ticks": 60,
+          "encoded": 239
+        },
+        {
+          "command": 16,
+          "continue": true,
+          "hold_ticks": 80,
+          "encoded": 239
+        },
+        {
+          "command": 16,
+          "continue": true,
+          "hold_ticks": 60,
+          "encoded": 239
+        },
+        {
+          "command": 16,
+          "continue": true,
+          "hold_ticks": 20,
+          "encoded": 239
+        },
+        {
+          "command": 16,
+          "continue": true,
+          "hold_ticks": 60,
+          "encoded": 239
+        },
+        {
+          "command": 16,
+          "continue": true,
+          "hold_ticks": 80,
+          "encoded": 239
+        },
+        {
+          "command": 15,
+          "continue": true,
+          "hold_ticks": 120,
+          "encoded": 240
+        },
+        {
+          "command": 15,
+          "continue": false,
+          "hold_ticks": 240,
+          "encoded": 112
+        }
+      ]
+    },
+    "SNREPL": {
+      "file": "events/SNREPL.wav",
+      "trace": "dac-traces/SNREPL.json.gz",
+      "duration_seconds": 1.4976041666666666,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 5376,
+      "first_dac_write_seconds": 0.0038384766779018,
+      "first_dac_change_seconds": 0.0040005084445090084,
+      "last_dac_write_seconds": 1.254133695763009,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "ab06ca3be3248df4a3c5698c645d65fa92d5f767aec69077cad6825058d7a5c1",
+      "commands": [
+        {
+          "command": 11,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 4544,
+      "signal_variation": 12736,
+      "priority": 100,
+      "scheduler_hold_ticks": 90,
+      "truncated": false,
+      "sequence": [
+        {
+          "command": 11,
+          "continue": false,
+          "hold_ticks": 90,
+          "encoded": 116
+        }
+      ]
+    },
+    "SNCLIF": {
+      "file": "events/SNCLIF.wav",
+      "trace": "dac-traces/SNCLIF.json.gz",
+      "duration_seconds": 5.294458333333333,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 2124,
+      "first_dac_write_seconds": 0.011928890403668622,
+      "first_dac_change_seconds": 0.011928890403668622,
+      "last_dac_write_seconds": 5.293919757958064,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "885b1d326e5b2208771e9a6fc1ec005b18898a3235cd028f9fba0cac66a6d30f",
+      "commands": [
+        {
+          "command": 25,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 8128,
+      "signal_variation": 16320,
+      "priority": 67,
+      "scheduler_hold_ticks": 90,
+      "truncated": false,
+      "sequence": [
+        {
+          "command": 25,
+          "continue": false,
+          "hold_ticks": 90,
+          "encoded": 102
+        }
+      ]
+    },
+    "SNPTED": {
+      "file": "events/SNPTED.wav",
+      "trace": "dac-traces/SNPTED.json.gz",
+      "duration_seconds": 2.2297708333333333,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 1150,
+      "first_dac_write_seconds": 0.00016203176660720847,
+      "first_dac_change_seconds": 0.00016203176660720847,
+      "last_dac_write_seconds": 1.4192217167265673,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "1fb12d9cf4d09fb2d51e13a94222142a0534a282dc21cf677a88e6e9735d321c",
+      "commands": [
+        {
+          "command": 22,
+          "cycle": 0
+        },
+        {
+          "command": 22,
+          "cycle": 223365
+        },
+        {
+          "command": 22,
+          "cycle": 446730
+        },
+        {
+          "command": 22,
+          "cycle": 550964
+        },
+        {
+          "command": 22,
+          "cycle": 655200
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 8128,
+      "signal_variation": 16320,
+      "priority": 66,
+      "scheduler_hold_ticks": 134,
+      "truncated": false,
+      "sequence": [
+        {
+          "command": 22,
+          "continue": true,
+          "hold_ticks": 15,
+          "encoded": 233
+        },
+        {
+          "command": 22,
+          "continue": true,
+          "hold_ticks": 15,
+          "encoded": 233
+        },
+        {
+          "command": 22,
+          "continue": true,
+          "hold_ticks": 7,
+          "encoded": 233
+        },
+        {
+          "command": 22,
+          "continue": true,
+          "hold_ticks": 7,
+          "encoded": 233
+        },
+        {
+          "command": 22,
+          "continue": false,
+          "hold_ticks": 90,
+          "encoded": 105
+        }
+      ]
+    },
+    "SNPTEI": {
+      "file": "events/SNPTEI.wav",
+      "trace": "dac-traces/SNPTEI.json.gz",
+      "duration_seconds": 0.9984166666666666,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 3965,
+      "first_dac_write_seconds": 0.0023511368064935627,
+      "first_dac_change_seconds": 0.007983137521668257,
+      "last_dac_write_seconds": 0.9051340323979724,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "4ddd630d922714c017ef68267ec1e86c614afe41a6c1db1a7ce7df699318c7ed",
+      "commands": [
+        {
+          "command": 36,
+          "cycle": 0
+        },
+        {
+          "command": 37,
+          "cycle": 446730
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 8128,
+      "signal_variation": 16320,
+      "priority": 65,
+      "scheduler_hold_ticks": 60,
+      "truncated": false,
+      "sequence": [
+        {
+          "command": 36,
+          "continue": true,
+          "hold_ticks": 30,
+          "encoded": 219
+        },
+        {
+          "command": 37,
+          "continue": false,
+          "hold_ticks": 30,
+          "encoded": 90
+        }
+      ]
+    },
+    "SNPTE": {
+      "file": "events/SNPTE.wav",
+      "trace": "dac-traces/SNPTE.json.gz",
+      "duration_seconds": 1.9968125,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 3330,
+      "first_dac_write_seconds": 0.0023511368064935627,
+      "first_dac_change_seconds": 0.007983137521668257,
+      "last_dac_write_seconds": 0.749353339600424,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "ddc2f6861da20bbddfbf11214f7d751a17efde3e5709e68525c023c9e902bc6b",
+      "commands": [
+        {
+          "command": 36,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 8128,
+      "signal_variation": 16320,
+      "priority": 65,
+      "scheduler_hold_ticks": 120,
+      "truncated": false,
+      "sequence": [
+        {
+          "command": 36,
+          "continue": false,
+          "hold_ticks": 120,
+          "encoded": 91
+        }
+      ]
+    },
+    "SNBOUN": {
+      "file": "events/SNBOUN.wav",
+      "trace": "dac-traces/SNBOUN.json.gz",
+      "duration_seconds": 3.1258958333333333,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 9264,
+      "first_dac_write_seconds": 0.000287187338055535,
+      "first_dac_change_seconds": 0.000287187338055535,
+      "last_dac_write_seconds": 3.1255693111834044,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "c224473918b0b2fc4e44c1654f8090ef287f8bf0ddde5a234aec701e4211c4d1",
+      "commands": [
+        {
+          "command": 28,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 3008,
+      "signal_variation": 11200,
+      "priority": 50,
+      "scheduler_hold_ticks": 60,
+      "truncated": false,
+      "sequence": [
+        {
+          "command": 28,
+          "continue": false,
+          "hold_ticks": 60,
+          "encoded": 99
+        }
+      ]
+    },
+    "SNTROL": {
+      "file": "events/SNTROL.wav",
+      "trace": "dac-traces/SNTROL.json.gz",
+      "duration_seconds": 0.4992083333333333,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 2496,
+      "first_dac_write_seconds": 0.047264107589093024,
+      "first_dac_change_seconds": 0.047264107589093024,
+      "last_dac_write_seconds": 0.36913183100086744,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "47dcc68b1cb243ba507cd0690e75e9162543026b786453f6ead7bae34c7bf742",
+      "commands": [
+        {
+          "command": 9,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 5056,
+      "signal_variation": 13248,
+      "priority": 50,
+      "scheduler_hold_ticks": 30,
+      "truncated": false,
+      "sequence": [
+        {
+          "command": 9,
+          "continue": false,
+          "hold_ticks": 30,
+          "encoded": 118
+        }
+      ]
+    },
+    "SNEGG": {
+      "file": "events/SNEGG.wav",
+      "trace": "dac-traces/SNEGG.json.gz",
+      "duration_seconds": 0.4992083333333333,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 880,
+      "first_dac_write_seconds": 0.0013722414440941516,
+      "first_dac_change_seconds": 0.0013722414440941516,
+      "last_dac_write_seconds": 0.2273071018802669,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "5ff6b05ebf73a82dd30eb594b1753727a49fa3a004697d075552f4c19083e409",
+      "commands": [
+        {
+          "command": 3,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 8128,
+      "signal_variation": 16320,
+      "priority": 45,
+      "scheduler_hold_ticks": 30,
+      "truncated": false,
+      "sequence": [
+        {
+          "command": 3,
+          "continue": false,
+          "hold_ticks": 30,
+          "encoded": 124
+        }
+      ]
+    },
+    "SNEGGH": {
+      "file": "events/SNEGGH.wav",
+      "trace": "dac-traces/SNEGGH.json.gz",
+      "duration_seconds": 1.0851875,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 10080,
+      "first_dac_write_seconds": 0.025986542982418155,
+      "first_dac_change_seconds": 0.025986542982418155,
+      "last_dac_write_seconds": 1.0766843271980098,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "3717d77537e4bb09acb18be972cc7cd628621b0faaa31067fad8dc50cbbffeaa",
+      "commands": [
+        {
+          "command": 2,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 8128,
+      "signal_variation": 16320,
+      "priority": 45,
+      "scheduler_hold_ticks": 30,
+      "truncated": false,
+      "sequence": [
+        {
+          "command": 2,
+          "continue": false,
+          "hold_ticks": 30,
+          "encoded": 125
+        }
+      ]
+    },
+    "SNMOUN": {
+      "file": "events/SNMOUN.wav",
+      "trace": "dac-traces/SNMOUN.json.gz",
+      "duration_seconds": 0.4992083333333333,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 464,
+      "first_dac_write_seconds": 0.0027154289162449417,
+      "first_dac_change_seconds": 0.0027154289162449417,
+      "last_dac_write_seconds": 0.24986639363382776,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "69e2737e2fe65b7bb3a7fbbd22e09ed4fbea31462360f402a896bd0c8892cf9e",
+      "commands": [
+        {
+          "command": 12,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 5248,
+      "signal_variation": 13440,
+      "priority": 45,
+      "scheduler_hold_ticks": 30,
+      "truncated": false,
+      "sequence": [
+        {
+          "command": 12,
+          "continue": false,
+          "hold_ticks": 30,
+          "encoded": 115
+        }
+      ]
+    },
+    "SNCTHD": {
+      "file": "events/SNCTHD.wav",
+      "trace": "dac-traces/SNCTHD.json.gz",
+      "duration_seconds": 0.16641666666666666,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 448,
+      "first_dac_write_seconds": 0.0013733589045535116,
+      "first_dac_change_seconds": 0.0013733589045535116,
+      "last_dac_write_seconds": 0.15025932066785025,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "b015cc91eb5810da7cb1435d144b7f84c7cc1f6ee9dc29db253156b2dfb5c29c",
+      "commands": [
+        {
+          "command": 6,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 8128,
+      "signal_variation": 16320,
+      "priority": 10,
+      "scheduler_hold_ticks": 10,
+      "truncated": false,
+      "sequence": [
+        {
+          "command": 6,
+          "continue": false,
+          "hold_ticks": 10,
+          "encoded": 121
+        }
+      ]
+    },
+    "SNECRE": {
+      "file": "events/SNECRE.wav",
+      "trace": "dac-traces/SNECRE.json.gz",
+      "duration_seconds": 1.51425,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 3314,
+      "first_dac_write_seconds": 0.000996774729749172,
+      "first_dac_change_seconds": 0.000996774729749172,
+      "last_dac_write_seconds": 1.497154526622797,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "593bfe5d472d2bb3872321445de56e6e388e181f7eb6d8223efa0e9370f214e5",
+      "commands": [
+        {
+          "command": 7,
+          "cycle": 0
+        },
+        {
+          "command": 63,
+          "cycle": 1340182
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 8128,
+      "signal_variation": 16320,
+      "priority": 40,
+      "scheduler_hold_ticks": 91,
+      "truncated": false,
+      "sequence": [
+        {
+          "command": 7,
+          "continue": true,
+          "hold_ticks": 90,
+          "encoded": 248
+        },
+        {
+          "command": 63,
+          "continue": false,
+          "hold_ticks": 1,
+          "encoded": 0
+        }
+      ]
+    },
+    "SNEDIE": {
+      "file": "events/SNEDIE.wav",
+      "trace": "dac-traces/SNEDIE.json.gz",
+      "duration_seconds": 0.698375,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 386,
+      "first_dac_write_seconds": 0.00016203176660720847,
+      "first_dac_change_seconds": 0.00016203176660720847,
+      "last_dac_write_seconds": 0.6957264121557348,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "ff9e5e40f145940f74f79c950e056e8f07e6ef3aa00568b83e0bfc9f5e8c0de8",
+      "commands": [
+        {
+          "command": 22,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 8128,
+      "signal_variation": 16320,
+      "priority": 40,
+      "scheduler_hold_ticks": 20,
+      "truncated": false,
+      "sequence": [
+        {
+          "command": 22,
+          "continue": false,
+          "hold_ticks": 20,
+          "encoded": 105
+        }
+      ]
+    },
+    "SNELAV": {
+      "file": "events/SNELAV.wav",
+      "trace": "dac-traces/SNELAV.json.gz",
+      "duration_seconds": 0.6080625,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 1344,
+      "first_dac_write_seconds": 0.003354616298998895,
+      "first_dac_change_seconds": 0.003354616298998895,
+      "last_dac_write_seconds": 0.6039739687585992,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "cc27ef98012f4b43eba574683f1bd647a966f3339713d48fd2cb8b5081682b4c",
+      "commands": [
+        {
+          "command": 13,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 5248,
+      "signal_variation": 13440,
+      "priority": 40,
+      "scheduler_hold_ticks": 30,
+      "truncated": false,
+      "sequence": [
+        {
+          "command": 13,
+          "continue": false,
+          "hold_ticks": 30,
+          "encoded": 114
+        }
+      ]
+    },
+    "SNETHD": {
+      "file": "events/SNETHD.wav",
+      "trace": "dac-traces/SNETHD.json.gz",
+      "duration_seconds": 0.5158541666666666,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 1770,
+      "first_dac_write_seconds": 0.0018873907158591385,
+      "first_dac_change_seconds": 0.0019220319900993003,
+      "last_dac_write_seconds": 0.4991740570379755,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "8d73bbbfe0a965a04a76ec5f6db6ce84c1ea7fd209e803051a9b3bf8ba0b3b6e",
+      "commands": [
+        {
+          "command": 8,
+          "cycle": 0
+        },
+        {
+          "command": 63,
+          "cycle": 446727
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 7424,
+      "signal_variation": 15616,
+      "priority": 9,
+      "scheduler_hold_ticks": 31,
+      "truncated": false,
+      "sequence": [
+        {
+          "command": 8,
+          "continue": true,
+          "hold_ticks": 30,
+          "encoded": 247
+        },
+        {
+          "command": 63,
+          "continue": false,
+          "hold_ticks": 1,
+          "encoded": 0
+        }
+      ]
+    },
+    "SNELWU": {
+      "file": "events/SNELWU.wav",
+      "trace": "dac-traces/SNELWU.json.gz",
+      "duration_seconds": 0.9984166666666666,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 156,
+      "first_dac_write_seconds": 0.0012336763471335044,
+      "first_dac_change_seconds": 0.002358959029709083,
+      "last_dac_write_seconds": 0.1297975021965082,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "32144cb1935807ebda79e4d97e01cc107050adfa8d7e3183fd46fb7e0c24364c",
+      "commands": [
+        {
+          "command": 33,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 7168,
+      "signal_variation": 15360,
+      "priority": 6,
+      "scheduler_hold_ticks": 60,
+      "truncated": false,
+      "sequence": [
+        {
+          "command": 33,
+          "continue": false,
+          "hold_ticks": 60,
+          "encoded": 94
+        }
+      ]
+    },
+    "SNELWD": {
+      "file": "events/SNELWD.wav",
+      "trace": "dac-traces/SNELWD.json.gz",
+      "duration_seconds": 0.9984166666666666,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 352,
+      "first_dac_write_seconds": 0.0020382478778727463,
+      "first_dac_change_seconds": 0.003914463989138284,
+      "last_dac_write_seconds": 0.27085453598152837,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "a03ed42168274518e0c5af61db5e0cd35cee43b0117ce76822f7308ef7b1d75e",
+      "commands": [
+        {
+          "command": 32,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 7680,
+      "signal_variation": 15872,
+      "priority": 6,
+      "scheduler_hold_ticks": 60,
+      "truncated": false,
+      "sequence": [
+        {
+          "command": 32,
+          "continue": false,
+          "hold_ticks": 60,
+          "encoded": 95
+        }
+      ]
+    },
+    "SNERU1": {
+      "file": "events/SNERU1.wav",
+      "trace": "dac-traces/SNERU1.json.gz",
+      "duration_seconds": 0.9984166666666666,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 56,
+      "first_dac_write_seconds": 0.0006972953266406764,
+      "first_dac_change_seconds": 0.0012861969887234272,
+      "last_dac_write_seconds": 0.041863421189005864,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "841b370ebde7051ab4c285fe7f7653485db623680b40d8abe9dac73d2900a2eb",
+      "commands": [
+        {
+          "command": 34,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 2560,
+      "signal_variation": 10752,
+      "priority": 6,
+      "scheduler_hold_ticks": 60,
+      "truncated": false,
+      "sequence": [
+        {
+          "command": 34,
+          "continue": false,
+          "hold_ticks": 60,
+          "encoded": 93
+        }
+      ]
+    },
+    "SNERU2": {
+      "file": "events/SNERU2.wav",
+      "trace": "dac-traces/SNERU2.json.gz",
+      "duration_seconds": 0.9984166666666666,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 28,
+      "first_dac_write_seconds": 0.0011264001430349388,
+      "first_dac_change_seconds": 0.002144406621511952,
+      "last_dac_write_seconds": 0.0329404994210158,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "c9271c8696679974f48b05e4ee9022ac94d67e2fa070d4cb82f79bdf9f1bf534",
+      "commands": [
+        {
+          "command": 35,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 2560,
+      "signal_variation": 10752,
+      "priority": 6,
+      "scheduler_hold_ticks": 60,
+      "truncated": false,
+      "sequence": [
+        {
+          "command": 35,
+          "continue": false,
+          "hold_ticks": 60,
+          "encoded": 92
+        }
+      ]
+    },
+    "SNEMSK": {
+      "file": "events/SNEMSK.wav",
+      "trace": "dac-traces/SNEMSK.json.gz",
+      "duration_seconds": 0.9984166666666666,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 2818,
+      "first_dac_write_seconds": 0.0022706796534196385,
+      "first_dac_change_seconds": 0.00420165132719382,
+      "last_dac_write_seconds": 0.9220847901060051,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "4449fa04387202f39a7c8cfc343882039dc8ac5d63d7017d0d4055c3cd7a8c1e",
+      "commands": [
+        {
+          "command": 38,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 7168,
+      "signal_variation": 15360,
+      "priority": 6,
+      "scheduler_hold_ticks": 60,
+      "truncated": false,
+      "sequence": [
+        {
+          "command": 38,
+          "continue": false,
+          "hold_ticks": 60,
+          "encoded": 89
+        }
+      ]
+    },
+    "SNEMS2": {
+      "file": "events/SNEMS2.wav",
+      "trace": "dac-traces/SNEMS2.json.gz",
+      "duration_seconds": 0.4992083333333333,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 1362,
+      "first_dac_write_seconds": 0.002277384416175799,
+      "first_dac_change_seconds": 0.0033032131178683324,
+      "last_dac_write_seconds": 0.447765288605116,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "37ab4e76db42fd02d75bfa77f40d3e6f74f5be064e918ea91aef9e95a6f5d73d",
+      "commands": [
+        {
+          "command": 39,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 7168,
+      "signal_variation": 15360,
+      "priority": 6,
+      "scheduler_hold_ticks": 30,
+      "truncated": false,
+      "sequence": [
+        {
+          "command": 39,
+          "continue": false,
+          "hold_ticks": 30,
+          "encoded": 88
+        }
+      ]
+    },
+    "SNEFAL": {
+      "control_only": true,
+      "priority": 6,
+      "sequence": [
+        {
+          "command": 63,
+          "continue": false,
+          "hold_ticks": 1,
+          "encoded": 0
+        }
+      ]
+    },
+    "SNPDIE": {
+      "file": "events/SNPDIE.wav",
+      "trace": "dac-traces/SNPDIE.json.gz",
+      "duration_seconds": 0.698375,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 386,
+      "first_dac_write_seconds": 0.00016203176660720847,
+      "first_dac_change_seconds": 0.00016203176660720847,
+      "last_dac_write_seconds": 0.6957264121557348,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "ff9e5e40f145940f74f79c950e056e8f07e6ef3aa00568b83e0bfc9f5e8c0de8",
+      "commands": [
+        {
+          "command": 22,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 8128,
+      "signal_variation": 16320,
+      "priority": 80,
+      "scheduler_hold_ticks": 20,
+      "truncated": false,
+      "sequence": [
+        {
+          "command": 22,
+          "continue": false,
+          "hold_ticks": 20,
+          "encoded": 105
+        }
+      ]
+    },
+    "SNPCR1": {
+      "file": "events/SNPCR1.wav",
+      "trace": "dac-traces/SNPCR1.json.gz",
+      "duration_seconds": 7.488020833333334,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 12566,
+      "first_dac_write_seconds": 0.001879568492643618,
+      "first_dac_change_seconds": 0.001879568492643618,
+      "last_dac_write_seconds": 6.810943849008742,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "53f20b6392ecdda410b56515f335d4c272b45fd9e0949d45a55d2d45803ce201",
+      "commands": [
+        {
+          "command": 18,
+          "cycle": 0
+        },
+        {
+          "command": 20,
+          "cycle": 446729
+        },
+        {
+          "command": 0,
+          "cycle": 4243909
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 8128,
+      "signal_variation": 16320,
+      "priority": 70,
+      "scheduler_hold_ticks": 450,
+      "truncated": false,
+      "sequence": [
+        {
+          "command": 18,
+          "continue": true,
+          "hold_ticks": 30,
+          "encoded": 237
+        },
+        {
+          "command": 20,
+          "continue": true,
+          "hold_ticks": 255,
+          "encoded": 235
+        },
+        {
+          "command": 0,
+          "continue": false,
+          "hold_ticks": 165,
+          "encoded": 127
+        }
+      ]
+    },
+    "SNPCR2": {
+      "file": "events/SNPCR2.wav",
+      "trace": "dac-traces/SNPCR2.json.gz",
+      "duration_seconds": 7.488020833333334,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 13674,
+      "first_dac_write_seconds": 0.001879568492643618,
+      "first_dac_change_seconds": 0.001879568492643618,
+      "last_dac_write_seconds": 6.755166927640245,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "a2bee73bf493e54df343ac2aa664752ce6bbccc6ec26885c3a67c911bdcfa8c1",
+      "commands": [
+        {
+          "command": 18,
+          "cycle": 0
+        },
+        {
+          "command": 21,
+          "cycle": 640310
+        },
+        {
+          "command": 0,
+          "cycle": 4437492
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 8128,
+      "signal_variation": 16320,
+      "priority": 70,
+      "scheduler_hold_ticks": 450,
+      "truncated": false,
+      "sequence": [
+        {
+          "command": 18,
+          "continue": true,
+          "hold_ticks": 43,
+          "encoded": 237
+        },
+        {
+          "command": 21,
+          "continue": true,
+          "hold_ticks": 255,
+          "encoded": 234
+        },
+        {
+          "command": 0,
+          "continue": false,
+          "hold_ticks": 152,
+          "encoded": 127
+        }
+      ]
+    },
+    "SNPTREF": {
+      "control_only": true,
+      "priority": 70,
+      "sequence": [
+        {
+          "command": 63,
+          "continue": false,
+          "hold_ticks": 1,
+          "encoded": 0
+        }
+      ]
+    },
+    "SNPLAV": {
+      "file": "events/SNPLAV.wav",
+      "trace": "dac-traces/SNPLAV.json.gz",
+      "duration_seconds": 0.6080625,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 1344,
+      "first_dac_write_seconds": 0.003354616298998895,
+      "first_dac_change_seconds": 0.003354616298998895,
+      "last_dac_write_seconds": 0.6039739687585992,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "cc27ef98012f4b43eba574683f1bd647a966f3339713d48fd2cb8b5081682b4c",
+      "commands": [
+        {
+          "command": 13,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 5248,
+      "signal_variation": 13440,
+      "priority": 60,
+      "scheduler_hold_ticks": 30,
+      "truncated": false,
+      "sequence": [
+        {
+          "command": 13,
+          "continue": false,
+          "hold_ticks": 30,
+          "encoded": 114
+        }
+      ]
+    },
+    "SNPTHD": {
+      "file": "events/SNPTHD.wav",
+      "trace": "dac-traces/SNPTHD.json.gz",
+      "duration_seconds": 0.5158541666666666,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 1770,
+      "first_dac_write_seconds": 0.0018873907158591385,
+      "first_dac_change_seconds": 0.0019220319900993003,
+      "last_dac_write_seconds": 0.4991740570379755,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "8d73bbbfe0a965a04a76ec5f6db6ce84c1ea7fd209e803051a9b3bf8ba0b3b6e",
+      "commands": [
+        {
+          "command": 8,
+          "cycle": 0
+        },
+        {
+          "command": 63,
+          "cycle": 446727
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 7424,
+      "signal_variation": 15616,
+      "priority": 20,
+      "scheduler_hold_ticks": 31,
+      "truncated": false,
+      "sequence": [
+        {
+          "command": 8,
+          "continue": true,
+          "hold_ticks": 30,
+          "encoded": 247
+        },
+        {
+          "command": 63,
+          "continue": false,
+          "hold_ticks": 1,
+          "encoded": 0
+        }
+      ]
+    },
+    "SNPLWU": {
+      "file": "events/SNPLWU.wav",
+      "trace": "dac-traces/SNPLWU.json.gz",
+      "duration_seconds": 1.4976041666666666,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 156,
+      "first_dac_write_seconds": 0.0012336763471335044,
+      "first_dac_change_seconds": 0.002358959029709083,
+      "last_dac_write_seconds": 0.1297975021965082,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "c66d750afa072ce6c44147543cf1d1bb12abc8f38e9f5cf67e62991e3edf6497",
+      "commands": [
+        {
+          "command": 33,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 7168,
+      "signal_variation": 15360,
+      "priority": 10,
+      "scheduler_hold_ticks": 90,
+      "truncated": false,
+      "sequence": [
+        {
+          "command": 33,
+          "continue": false,
+          "hold_ticks": 90,
+          "encoded": 94
+        }
+      ]
+    },
+    "SNPLWD": {
+      "file": "events/SNPLWD.wav",
+      "trace": "dac-traces/SNPLWD.json.gz",
+      "duration_seconds": 1.4976041666666666,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 352,
+      "first_dac_write_seconds": 0.0020382478778727463,
+      "first_dac_change_seconds": 0.003914463989138284,
+      "last_dac_write_seconds": 0.27085453598152837,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "cb0cdfd6b9e1960362eb32df654ed07a3fb739a35acd8836de6d104ce7e0caeb",
+      "commands": [
+        {
+          "command": 32,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 7680,
+      "signal_variation": 15872,
+      "priority": 10,
+      "scheduler_hold_ticks": 90,
+      "truncated": false,
+      "sequence": [
+        {
+          "command": 32,
+          "continue": false,
+          "hold_ticks": 90,
+          "encoded": 95
+        }
+      ]
+    },
+    "SNPRU1": {
+      "file": "events/SNPRU1.wav",
+      "trace": "dac-traces/SNPRU1.json.gz",
+      "duration_seconds": 1.1648125,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 56,
+      "first_dac_write_seconds": 0.0006972953266406764,
+      "first_dac_change_seconds": 0.0012861969887234272,
+      "last_dac_write_seconds": 0.041863421189005864,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "fbb8e747587007c23ccefe6ad2fc115dbf5214e0e1d09b97eceb884e9ac72247",
+      "commands": [
+        {
+          "command": 34,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 2560,
+      "signal_variation": 10752,
+      "priority": 10,
+      "scheduler_hold_ticks": 70,
+      "truncated": false,
+      "sequence": [
+        {
+          "command": 34,
+          "continue": false,
+          "hold_ticks": 70,
+          "encoded": 93
+        }
+      ]
+    },
+    "SNPRU2": {
+      "file": "events/SNPRU2.wav",
+      "trace": "dac-traces/SNPRU2.json.gz",
+      "duration_seconds": 1.1648125,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 28,
+      "first_dac_write_seconds": 0.0011264001430349388,
+      "first_dac_change_seconds": 0.002144406621511952,
+      "last_dac_write_seconds": 0.0329404994210158,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "0ea0bbbb2c172fdbb909806e0678ca55d27aac8505ecd5e25f5b6cd87e54910b",
+      "commands": [
+        {
+          "command": 35,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 2560,
+      "signal_variation": 10752,
+      "priority": 10,
+      "scheduler_hold_ticks": 70,
+      "truncated": false,
+      "sequence": [
+        {
+          "command": 35,
+          "continue": false,
+          "hold_ticks": 70,
+          "encoded": 92
+        }
+      ]
+    },
+    "SNPLSK": {
+      "file": "events/SNPLSK.wav",
+      "trace": "dac-traces/SNPLSK.json.gz",
+      "duration_seconds": 1.1648125,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 2818,
+      "first_dac_write_seconds": 0.0022706796534196385,
+      "first_dac_change_seconds": 0.00420165132719382,
+      "last_dac_write_seconds": 0.9220847901060051,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "f39c9f8e7e08f60377f8096377f9effed3e35a3a4e61b9fe4f329f70f022408b",
+      "commands": [
+        {
+          "command": 38,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 7168,
+      "signal_variation": 15360,
+      "priority": 10,
+      "scheduler_hold_ticks": 70,
+      "truncated": false,
+      "sequence": [
+        {
+          "command": 38,
+          "continue": false,
+          "hold_ticks": 70,
+          "encoded": 89
+        }
+      ]
+    },
+    "SNPLS2": {
+      "file": "events/SNPLS2.wav",
+      "trace": "dac-traces/SNPLS2.json.gz",
+      "duration_seconds": 0.6656041666666667,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 1362,
+      "first_dac_write_seconds": 0.002277384416175799,
+      "first_dac_change_seconds": 0.0033032131178683324,
+      "last_dac_write_seconds": 0.447765288605116,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "5c04360c8a67ca350b4caddf533ad10b7cf6e307b3d6bea8095a7a3d03013299",
+      "commands": [
+        {
+          "command": 39,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 7168,
+      "signal_variation": 15360,
+      "priority": 10,
+      "scheduler_hold_ticks": 40,
+      "truncated": false,
+      "sequence": [
+        {
+          "command": 39,
+          "continue": false,
+          "hold_ticks": 40,
+          "encoded": 88
+        }
+      ]
+    },
+    "SNPFAL": {
+      "control_only": true,
+      "priority": 10,
+      "sequence": [
+        {
+          "command": 63,
+          "continue": false,
+          "hold_ticks": 60,
+          "encoded": 0
+        }
+      ]
+    },
+    "SNBUB": {
+      "file": "events/SNBUB.wav",
+      "trace": "dac-traces/SNBUB.json.gz",
+      "duration_seconds": 0.6077708333333334,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "dac_write_count": 1344,
+      "first_dac_write_seconds": 0.003354616298998895,
+      "first_dac_change_seconds": 0.003354616298998895,
+      "last_dac_write_seconds": 0.6039739687585992,
+      "ending_pc": "f7f8",
+      "returned_to_idle": true,
+      "sha256": "2eb36099f3ca05bf0c6ef01e3bda3ca39d962f9b85582a7d7f7c4ab71a4bc2e7",
+      "commands": [
+        {
+          "command": 13,
+          "cycle": 0
+        }
+      ],
+      "amplitude_min": -8192,
+      "amplitude_max": 5248,
+      "signal_variation": 13440,
+      "priority": 1,
+      "scheduler_hold_ticks": 1,
+      "truncated": false,
+      "sequence": [
+        {
+          "command": 13,
+          "continue": false,
+          "hold_ticks": 1,
+          "encoded": 114
+        }
+      ]
+    }
+  },
+  "limitations": [
+    "Offline original-program rendering with MAME-derived 6800 instruction semantics and total cycles. Individual DAC writes are timestamped at instruction completion, not individual bus phase.",
+    "Raw held DAC output uses the reference renderer 0.25 gain and per-sample box integration. No cabinet speaker response, analogue amplifier response, added EQ, fade, per-clip normalization or invented sounds.",
+    "Each isolated command/event starts from reset with initially zero RAM. Some generator history/noise may vary in live sequences; event WAVs preserve state within their scheduled sequence.",
+    "A capture cutoff is not a loop point. Any command still active at cutoff must not be blindly looped. Raw traces and renderer permit longer captures.",
+    "Command 00 is no new trigger; command3f interrupts synthesis without changing the last DAC level. Neither is an audible asset."
+  ]
+}
