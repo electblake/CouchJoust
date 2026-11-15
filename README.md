@@ -4,7 +4,19 @@ A native Kotlin recreation of Joust for Android TV. The game uses the original d
 
 ## Install and play
 
-Download `CouchJoust-1.0.0.apk` from [Releases](https://github.com/electblake/CouchJoust/releases), install it on your Android TV, and open **Couch Joust** from the TV launcher. Android 6.0 / API 23 or newer is required. The APK contains no native architecture-specific code and requires no network permissions.
+### Install with Downloader by AFTVnews
+
+**Downloader code: `9369099`**  
+**Install link: [aftv.news/9369099](http://aftv.news/9369099)**
+
+1. Install **[Downloader by AFTVnews](https://play.google.com/store/apps/details?id=com.esaba.downloader)** from your TV's app store and open it.
+2. Enter **`9369099`** in Downloader's URL / short-code field and select **Go**. You can also enter **`http://aftv.news/9369099`**.
+3. Download the Couch Joust APK. When Android requests permission, open **Settings** and allow **Downloader** to **install unknown apps**.
+4. Return to the APK installer, select **Install**, then open **Couch Joust** from the TV launcher.
+
+You can also download `CouchJoust-1.0.0.apk` directly from [Releases](https://github.com/electblake/CouchJoust/releases). Android 6.0 / API 23 or newer is required. The APK contains no native architecture-specific code and requires no network permissions.
+
+### Remote controls
 
 | Control | Action |
 |---|---|
