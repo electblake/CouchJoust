@@ -6,8 +6,8 @@ android {
         applicationId = "com.couchjoust"
         minSdk = 25
         targetSdk = 37
-        versionCode = 3
-        versionName = "2.0.0-alpha.2"
+        versionCode = 5
+        versionName = "2.0.0"
         ndk { abiFilters += setOf("armeabi-v7a", "arm64-v8a", "x86", "x86_64") }
         testInstrumentationRunner = "com.couchjoust.GameplayInstrumentation"
     }

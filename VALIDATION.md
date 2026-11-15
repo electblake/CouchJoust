@@ -1,5 +1,9 @@
 # Verification and fidelity
 
+## 2.0.0 release
+
+The stable release uses version `2.0.0`, Android build 5, and the existing signing key. It contains the updater implementation tested below; the final release build reran all 28 JVM tests and Android lint. Stable installations check stable GitHub releases. Build 5 also supersedes the build-4 installer test fixture.
+
 ## In-app updater (2.0.0-alpha.2)
 
 - All 28 JVM tests passed, including semantic version precedence and stable/prerelease update selection. Android lint completed with zero errors and 26 warnings; release and instrumentation APKs built successfully.
