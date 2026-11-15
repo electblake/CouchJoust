@@ -1,0 +1,2 @@
+PASS live guest: received=314, paths=* Relay: 68 ms, echo=73ms
+PASS connection prototype

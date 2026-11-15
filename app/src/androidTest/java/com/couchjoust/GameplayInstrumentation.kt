@@ -13,10 +13,15 @@ import java.io.File
 
 /** Runs on a real Android TV image, exercising the Activity, input and renderer. */
 class GameplayInstrumentation:Instrumentation() {
+    private var probeArguments: Bundle? = null
     private lateinit var activity:MainActivity
     private val results=mutableListOf<String>()
-    override fun onCreate(arguments:Bundle?) { super.onCreate(arguments);start() }
+    override fun onCreate(arguments:Bundle?) { probeArguments=arguments;super.onCreate(arguments);start() }
     override fun onStart() {
+        if(probeArguments!!.containsKey("connectionRole")) {
+            ConnectionScenario(this).run(probeArguments!!)
+            return
+        }
         val monitor=addMonitor(MainActivity::class.java.name,null,false)
         targetContext.startActivity(Intent(targetContext,MainActivity::class.java).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK))
         activity=waitForMonitorWithTimeout(monitor,10_000) as MainActivity
@@ -199,6 +204,14 @@ class GameplayInstrumentation:Instrumentation() {
             check(v.highScores.champion==ScoreEntry(score,"ABC"))
             screenshot("new-champion")
         }
+        val connectionMonitor=addMonitor(ConnectionActivity::class.java.name,null,false)
+        scenario("connection prototype is reachable from TV title menu") {
+            val v=activity.gameView;v.screen="TITLE";v.menu=5
+            key(KeyEvent.KEYCODE_DPAD_CENTER)
+        }
+        val connectionActivity=waitForMonitorWithTimeout(connectionMonitor,10_000) as ConnectionActivity
+        removeMonitor(connectionMonitor)
+        runOnMainSync { connectionActivity.finish() }
         val result=Bundle()
         result.putString("stream",results.joinToString("\n",postfix="\n${results.size} virtual-device scenarios passed\n"))
         finish(Activity.RESULT_OK,result)

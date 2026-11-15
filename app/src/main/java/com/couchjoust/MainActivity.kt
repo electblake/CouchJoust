@@ -2,6 +2,7 @@ package com.couchjoust
 
 import android.app.Activity
 import android.content.Context
+import android.content.Intent
 import android.graphics.Canvas
 import android.graphics.Color
 import android.hardware.input.InputManager
@@ -115,7 +116,7 @@ class GameView(context:Context):View(context),Choreographer.FrameCallback {
                 "TITLE" -> {
                     marquee.draw(art.canvas,art.paint,titleTicks)
                     art.canvas.drawBitmap(art.title,0f,0f,art.paint)
-                    listOf("ONE PLAYER","TWO PLAYERS","HIGH SCORES","CONTROLS","SETTINGS").forEachIndexed { i,s -> art.centered((if(menu==i) "- " else "  ")+s,136+i*12,if(menu==i) 5 else 1) }
+                    listOf("ONE PLAYER","TWO PLAYERS","HIGH SCORES","CONTROLS","SETTINGS","TWO TV CONNECTION TEST").forEachIndexed { i,s -> art.centered((if(menu==i) "- " else "  ")+s,124+i*12,if(menu==i) 5 else 1) }
                     art.centered(if(audio.ready) "CENTER TO SELECT" else "LOADING ORIGINAL SOUNDS",196,7)
                     art.centered(if(freePlay) "FREE PLAY" else "CREDITS $credits",208,1)
                     art.centered("1982 WILLIAMS ELECTRONICS",220,1)
@@ -185,8 +186,8 @@ class GameView(context:Context):View(context),Choreographer.FrameCallback {
         if(screen=="DEMO") { screen="TITLE";titleTicks=0;game.active=false;menu=0;return true }
         when(screen) {
             "TITLE" -> {
-                if(up) menu=(menu+4)%5
-                if(down) menu=(menu+1)%5
+                if(up) menu=(menu+5)%6
+                if(down) menu=(menu+1)%6
                 if(two) { screen="JOIN";firstJoin=null;joining=true }
                 if(flap || start) {
                     if(!audio.ready) return true
@@ -196,6 +197,7 @@ class GameView(context:Context):View(context),Choreographer.FrameCallback {
                         2 -> { screen="SCORES";titleTicks=0 }
                         3 -> screen="CONTROLS"
                         4 -> { screen="SETTINGS";menu=0 }
+                        5 -> context.startActivity(Intent(context,ConnectionActivity::class.java))
                     }
                 }
                 if(back) (context as Activity).finish()

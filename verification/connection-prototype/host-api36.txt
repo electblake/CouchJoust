@@ -1,0 +1,3 @@
+INSTRUMENTATION_STATUS_CODE: 0
+PASS live host: received=314, paths=* Relay: 65 ms, echo=75ms
+PASS connection prototype

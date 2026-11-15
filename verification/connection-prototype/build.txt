@@ -1,0 +1,14 @@
+Release: 2.0.0-alpha.1 (versionCode 2)
+Client date: 2026-11-14
+Compile SDK / target SDK: 37 / 37
+Minimum SDK: 25
+Build: Gradle 9.6.1, AGP 9.2.1, Kotlin Gradle Plugin 2.4.20, JDK 21.0.2
+Dependencies: magic-wormhole 1.0.1, iroh-android 1.2.0, JNA 5.19.1 AAR, coroutines-android 1.11.0
+Checks: testDebugUnitTest (25 passed); lintDebug (0 errors, 23 warnings); assembleRelease; assembleDebugAndroidTest
+Android: TV API 25 x86, TV API 36 x86_64; AOSP API 37 x86_64 at 1920x1080
+Native ABI set: armeabi-v7a, arm64-v8a, x86, x86_64
+Native 64-bit ELF LOAD alignment: 16384 bytes for both iroh and JNA
+APK alignment: zipalign -c -P 16 4 passed
+Existing release signing certificate preserved; see apk-signature.txt
+Real public Wormhole/iroh relay services used; no fake pairing or mock transport
+Release limitations: no networked Joust simulation; physical TVs, ARM runtime and direct path unverified

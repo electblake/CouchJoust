@@ -8,10 +8,11 @@ p = argparse.ArgumentParser()
 p.add_argument('--build-tools', required=True, type=Path)
 p.add_argument('--keystore', required=True, type=Path)
 p.add_argument('--password-file', required=True, type=Path)
+p.add_argument('--version', required=True)
 args = p.parse_args()
 root = Path(__file__).resolve().parents[1]
 source = root / 'app/build/outputs/apk/release/app-release-unsigned.apk'
-output = root / 'artifacts/releases/CouchJoust-1.0.0.apk'
+output = root / f'artifacts/releases/CouchJoust-{args.version}.apk'
 output.parent.mkdir(parents=True, exist_ok=True)
 subprocess.run([str(args.build_tools/'zipalign.exe'), '-c', '-P', '16', '4', str(source)], check=True)
 signer = ['java', '-jar', str(args.build_tools/'lib/apksigner.jar')]

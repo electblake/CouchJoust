@@ -1,0 +1,33 @@
+RUN source marquee stripes and palette render around TV menu
+RUN title renders and center starts one player
+RUN remote direction and fresh flap; repeats do not flap
+RUN OS Back pauses without finishing and resume returns to gameplay
+RUN all ninety waves render and run with original tables
+RUN all fourteen source demonstration lessons render
+RUN eggs hatch reserve and remount or remain collectible
+RUN troll strict escape boundary and range double integration
+RUN two-player kill and survivor continues
+RUN lifecycle pause and audio sequencing
+RUN focus restoration keeps the game paused and can resume
+RUN remote menus settings and original score pages
+RUN high scores preserve ties and persist new records
+RUN two device identities join move independently and reconnect
+RUN game over enters initials and remote submits a new champion
+RUN connection prototype is reachable from TV title menu
+PASS source marquee stripes and palette render around TV menu
+PASS title renders and center starts one player
+PASS remote direction and fresh flap; repeats do not flap
+PASS OS Back pauses without finishing and resume returns to gameplay
+PASS all ninety waves render and run with original tables
+PASS all fourteen source demonstration lessons render
+PASS eggs hatch reserve and remount or remain collectible
+PASS troll strict escape boundary and range double integration
+PASS two-player kill and survivor continues
+PASS lifecycle pause and audio sequencing
+PASS focus restoration keeps the game paused and can resume
+PASS remote menus settings and original score pages
+PASS high scores preserve ties and persist new records
+PASS two device identities join move independently and reconnect
+PASS game over enters initials and remote submits a new champion
+PASS connection prototype is reachable from TV title menu
+16 virtual-device scenarios passed

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.couchjoust.ProbeFrameTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-11-15T01:17:23.769Z" hostname="SHOJITOWER" time="0.048">
+  <properties/>
+  <testcase name="datagramPreservesSequenceCoordinatesAndFlapCount" classname="com.couchjoust.ProbeFrameTest" time="0.004"/>
+  <testcase name="invitationSecretAuthenticatesGuest" classname="com.couchjoust.ProbeFrameTest" time="0.035"/>
+  <testcase name="anotherInvitationCannotAuthenticate" classname="com.couchjoust.ProbeFrameTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

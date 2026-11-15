@@ -1,0 +1,4 @@
+PASS Android 17 local-network permission prompt
+INSTRUMENTATION_STATUS_CODE: 0
+PASS live host: received=311, paths=* Relay: 65 ms, echo=73ms
+PASS connection prototype

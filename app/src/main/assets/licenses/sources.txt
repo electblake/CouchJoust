@@ -1,0 +1,3 @@
+magic-wormhole-kotlin 1.0.1: https://github.com/lux-uno/magic-wormhole-kotlin/tree/v1.0.1
+iroh-ffi 1.2.0 (MIT license selected): https://github.com/n0-computer/iroh-ffi/tree/v1.2.0
+JNA 5.19.1 (Apache-2.0 license selected): https://github.com/java-native-access/jna/tree/5.19.1
